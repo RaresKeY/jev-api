@@ -1,0 +1,10 @@
+{
+  "jevbench_same_bytes_as_previous": {
+    "easy": true,
+    "original": true,
+    "hard": true
+  },
+  "kev_v9_test_mmlu_questions_matching_full_mmlu_test": 200,
+  "kev_v9_mmlu_questions": 200,
+  "scope": "Exact question-text match, not complete semantic decontamination"
+}

@@ -1,0 +1,191 @@
+{
+  "status": "verified",
+  "bundles": {
+    "snli": {
+      "repository": "stanfordnlp/snli",
+      "revision": "cdb5c3d5eed6ead6e5a341c8e56e669bb666725b",
+      "declared_license": [
+        "cc-by-sa-4.0"
+      ],
+      "files": [
+        {
+          "path": "benchmarks/upstream/snli/README.md",
+          "url": "https://huggingface.co/datasets/stanfordnlp/snli/resolve/cdb5c3d5eed6ead6e5a341c8e56e669bb666725b/README.md",
+          "bytes": 15970,
+          "expected_sha256": null,
+          "git_blob_sha1": "34ac486dbb34af82d54e681d813c934be4b0314f",
+          "sha256": "f5182390b149b02e045286a586b7f4d4d626e1e47eade1bc1feabc01ee549578",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/snli/plain_text/test-00000-of-00001.parquet",
+          "url": "https://huggingface.co/datasets/stanfordnlp/snli/resolve/cdb5c3d5eed6ead6e5a341c8e56e669bb666725b/plain_text/test-00000-of-00001.parquet",
+          "bytes": 411531,
+          "expected_sha256": "4696deda851c4d2385f26b58f2e13f9ed9f08ea7b42a3f4c2b97a9d08448878c",
+          "git_blob_sha1": null,
+          "sha256": "4696deda851c4d2385f26b58f2e13f9ed9f08ea7b42a3f4c2b97a9d08448878c",
+          "verified": true
+        }
+      ]
+    },
+    "mnli": {
+      "repository": "nyu-mll/multi_nli",
+      "revision": "da70db2af9d09693783c3320c4249840212ee221",
+      "declared_license": [
+        "cc-by-3.0",
+        "cc-by-sa-3.0",
+        "mit",
+        "other"
+      ],
+      "files": [
+        {
+          "path": "benchmarks/upstream/mnli/README.md",
+          "url": "https://huggingface.co/datasets/nyu-mll/multi_nli/resolve/da70db2af9d09693783c3320c4249840212ee221/README.md",
+          "bytes": 8895,
+          "expected_sha256": null,
+          "git_blob_sha1": "e300c98b2a3819c7b222dc103724c3368104d2d8",
+          "sha256": "e9bafc4de652caab3fb991ef3f1eded3b2385b7e1b2d1df2fd70523c376566fe",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/mnli/data/validation_matched-00000-of-00001.parquet",
+          "url": "https://huggingface.co/datasets/nyu-mll/multi_nli/resolve/da70db2af9d09693783c3320c4249840212ee221/data/validation_matched-00000-of-00001.parquet",
+          "bytes": 4938568,
+          "expected_sha256": "350c26950b55f460b50d36c76aef87d64b49c78812d7abf7bf97e5fede10f186",
+          "git_blob_sha1": null,
+          "sha256": "350c26950b55f460b50d36c76aef87d64b49c78812d7abf7bf97e5fede10f186",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/mnli/data/validation_mismatched-00000-of-00001.parquet",
+          "url": "https://huggingface.co/datasets/nyu-mll/multi_nli/resolve/da70db2af9d09693783c3320c4249840212ee221/data/validation_mismatched-00000-of-00001.parquet",
+          "bytes": 5104992,
+          "expected_sha256": "6b0e1231cebedd255000a7d1732af37ad0500902239db625e231ed77c0c8f2f8",
+          "git_blob_sha1": null,
+          "sha256": "6b0e1231cebedd255000a7d1732af37ad0500902239db625e231ed77c0c8f2f8",
+          "verified": true
+        }
+      ]
+    },
+    "arc": {
+      "repository": "allenai/ai2_arc",
+      "revision": "210d026faf9955653af8916fad021475a3f00453",
+      "declared_license": [
+        "cc-by-sa-4.0"
+      ],
+      "files": [
+        {
+          "path": "benchmarks/upstream/arc/ARC-Challenge/test-00000-of-00001.parquet",
+          "url": "https://huggingface.co/datasets/allenai/ai2_arc/resolve/210d026faf9955653af8916fad021475a3f00453/ARC-Challenge/test-00000-of-00001.parquet",
+          "bytes": 203808,
+          "expected_sha256": "62f03257e737aed263f55c6abf87c7bb0028a44a6bdd2a26eb1279eb42c1d1e9",
+          "git_blob_sha1": null,
+          "sha256": "62f03257e737aed263f55c6abf87c7bb0028a44a6bdd2a26eb1279eb42c1d1e9",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/arc/ARC-Easy/test-00000-of-00001.parquet",
+          "url": "https://huggingface.co/datasets/allenai/ai2_arc/resolve/210d026faf9955653af8916fad021475a3f00453/ARC-Easy/test-00000-of-00001.parquet",
+          "bytes": 346257,
+          "expected_sha256": "4160597d618ae851c7eb04e281574f3f654776216ac6b6641588d64527b47177",
+          "git_blob_sha1": null,
+          "sha256": "4160597d618ae851c7eb04e281574f3f654776216ac6b6641588d64527b47177",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/arc/README.md",
+          "url": "https://huggingface.co/datasets/allenai/ai2_arc/resolve/210d026faf9955653af8916fad021475a3f00453/README.md",
+          "bytes": 9001,
+          "expected_sha256": null,
+          "git_blob_sha1": "d50d3b885a6d04fe8cb16cc9947f64dff0ba941a",
+          "sha256": "4a293e352253d771604725c978adcea71ee6504e89ed40e1cb0024ecafa9b37e",
+          "verified": true
+        }
+      ]
+    },
+    "gsm8k": {
+      "repository": "openai/gsm8k",
+      "revision": "740312add88f781978c0658806c59bc2815b9866",
+      "declared_license": [
+        "mit"
+      ],
+      "files": [
+        {
+          "path": "benchmarks/upstream/gsm8k/README.md",
+          "url": "https://huggingface.co/datasets/openai/gsm8k/resolve/740312add88f781978c0658806c59bc2815b9866/README.md",
+          "bytes": 7935,
+          "expected_sha256": null,
+          "git_blob_sha1": "ad25b2c451d0fcd2793678b2baa917c962acf281",
+          "sha256": "a17e882503578c9e324560630e31017617714ee025c87cf4fea6fd916895f3c1",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/gsm8k/main/test-00000-of-00001.parquet",
+          "url": "https://huggingface.co/datasets/openai/gsm8k/resolve/740312add88f781978c0658806c59bc2815b9866/main/test-00000-of-00001.parquet",
+          "bytes": 419088,
+          "expected_sha256": "ee7b8da9e381df27b9e3f7758a159ab2bdaa4dbaa910546cbbc47e0cb44e4f59",
+          "git_blob_sha1": null,
+          "sha256": "ee7b8da9e381df27b9e3f7758a159ab2bdaa4dbaa910546cbbc47e0cb44e4f59",
+          "verified": true
+        }
+      ]
+    },
+    "qwen-card": {
+      "repository": "Qwen/Qwen2.5-0.5B-Instruct",
+      "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+      "declared_license": "apache-2.0",
+      "files": [
+        {
+          "path": "benchmarks/upstream/qwen-card/LICENSE",
+          "url": "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct/resolve/7ae557604adf67be50417f59c2c2f167def9a775/LICENSE",
+          "bytes": 11343,
+          "expected_sha256": null,
+          "git_blob_sha1": "6634c8cc3133b3848ec74b9f275acaaa1ea618ab",
+          "sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/qwen-card/README.md",
+          "url": "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct/resolve/7ae557604adf67be50417f59c2c2f167def9a775/README.md",
+          "bytes": 4917,
+          "expected_sha256": null,
+          "git_blob_sha1": "4b8373851d093eb9f3017443f27781c6971eff24",
+          "sha256": "b19c806a904db6dc878a0462e70b551f6b7ac78dfbb88c2eb966ca2b9109ae15",
+          "verified": true
+        }
+      ]
+    },
+    "smol-card": {
+      "repository": "HuggingFaceTB/SmolLM2-135M-Instruct",
+      "revision": "12fd25f77366fa6b3b4b768ec3050bf629380bac",
+      "declared_license": "apache-2.0",
+      "files": [
+        {
+          "path": "benchmarks/upstream/smol-card/README.md",
+          "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct/resolve/12fd25f77366fa6b3b4b768ec3050bf629380bac/README.md",
+          "bytes": 6772,
+          "expected_sha256": null,
+          "git_blob_sha1": "d168166639f4dec33a0d0bb5f8e7d4e20d9d52ac",
+          "sha256": "4f97533ad95b1b2fea15fbc075c01b94578ebdd7c8138888fa43fa3abd530dc4",
+          "verified": true
+        }
+      ]
+    },
+    "nli-card": {
+      "repository": "cross-encoder/nli-distilroberta-base",
+      "revision": "b14d131f9d32668a5e6a982729b57ff6ed5dfcbd",
+      "declared_license": "apache-2.0",
+      "files": [
+        {
+          "path": "benchmarks/upstream/nli-card/README.md",
+          "url": "https://huggingface.co/cross-encoder/nli-distilroberta-base/resolve/b14d131f9d32668a5e6a982729b57ff6ed5dfcbd/README.md",
+          "bytes": 2682,
+          "expected_sha256": null,
+          "git_blob_sha1": "88f449e4fc67a288dc379be69342d3c95f252baa",
+          "sha256": "77cad8991998f7e704926f4825536b56b3c6e5d4cd0046e410db74b2fdee3332",
+          "verified": true
+        }
+      ]
+    }
+  }
+}

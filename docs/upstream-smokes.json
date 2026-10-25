@@ -1,0 +1,13 @@
+{
+  "source": "https://raw.githubusercontent.com/ggml-org/llama.cpp/c4a278d68efa17811006f2123a84081dac03fac7/tools/server/tests/unit/test_chat_completion.py",
+  "tests": [
+    "test_apply_chat_template",
+    "test_completion_with_response_format"
+  ],
+  "adaptations": [
+    "Compare served template output with official model Jinja template.",
+    "Constrain a capital answer to a small enum and validate parsed JSON.",
+    "Check Unicode tokenization and health/models/props."
+  ],
+  "tokenize_source": "https://raw.githubusercontent.com/ggml-org/llama.cpp/c4a278d68efa17811006f2123a84081dac03fac7/tools/server/tests/unit/test_tokenize.py"
+}

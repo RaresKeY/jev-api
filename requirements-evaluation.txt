@@ -1,0 +1,5 @@
+# Runtime HTTP adapters use only the Python standard library.
+# Optional packages used by the full evaluation; install an appropriate CUDA PyTorch wheel.
+jinja2==3.1.6
+torch==2.14.1
+transformers==5.18.0

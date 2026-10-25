@@ -1,0 +1,45 @@
+{
+  "status": "verified",
+  "bundle": {
+    "repository": "ggml-org/Kev-4B-GGUF",
+    "revision": "d924f2e2c3872da8b8aaf3eb4453b4126deceb79",
+    "declared_license": "apache-2.0",
+    "files": [
+      {
+        "path": "models/kev-4b-gguf/Kev-4B-Q4_K_M.gguf",
+        "url": "https://huggingface.co/ggml-org/Kev-4B-GGUF/resolve/d924f2e2c3872da8b8aaf3eb4453b4126deceb79/Kev-4B-Q4_K_M.gguf",
+        "bytes": 3033489824,
+        "expected_sha256": "33ae6b18926502b2209a1bf7d3b61a350d65938441515c686bb87d226a19eff9",
+        "git_blob_sha1": null
+      },
+      {
+        "path": "models/kev-4b-gguf/README.md",
+        "url": "https://huggingface.co/ggml-org/Kev-4B-GGUF/resolve/d924f2e2c3872da8b8aaf3eb4453b4126deceb79/README.md",
+        "bytes": 548,
+        "expected_sha256": null,
+        "git_blob_sha1": "43995eb3793ad6a2c2c5a3042aa393738ddfe68e"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "models/kev-4b-gguf/Kev-4B-Q4_K_M.gguf",
+      "url": "https://huggingface.co/ggml-org/Kev-4B-GGUF/resolve/d924f2e2c3872da8b8aaf3eb4453b4126deceb79/Kev-4B-Q4_K_M.gguf",
+      "bytes": 3033489824,
+      "expected_sha256": "33ae6b18926502b2209a1bf7d3b61a350d65938441515c686bb87d226a19eff9",
+      "git_blob_sha1": null,
+      "sha256": "33ae6b18926502b2209a1bf7d3b61a350d65938441515c686bb87d226a19eff9",
+      "verified": true
+    },
+    {
+      "path": "models/kev-4b-gguf/README.md",
+      "url": "https://huggingface.co/ggml-org/Kev-4B-GGUF/resolve/d924f2e2c3872da8b8aaf3eb4453b4126deceb79/README.md",
+      "bytes": 548,
+      "expected_sha256": null,
+      "git_blob_sha1": "43995eb3793ad6a2c2c5a3042aa393738ddfe68e",
+      "sha256": "452e4aabc446031cf822862b8e4a5c94e89261308192ab4e1cf396634748d9fd",
+      "verified": true
+    }
+  ],
+  "runtime_requirement": "llama.cpp with merged PR 29818; /v1/systemone; existing pinned container predates this support"
+}

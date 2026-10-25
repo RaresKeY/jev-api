@@ -1,0 +1,335 @@
+{
+  "_id": "621ffdc136468d709f17a21c",
+  "id": "cross-encoder/nli-distilroberta-base",
+  "private": false,
+  "pipeline_tag": "zero-shot-classification",
+  "library_name": "sentence-transformers",
+  "tags": [
+    "sentence-transformers",
+    "pytorch",
+    "jax",
+    "onnx",
+    "safetensors",
+    "openvino",
+    "roberta",
+    "text-classification",
+    "transformers",
+    "zero-shot-classification",
+    "en",
+    "dataset:nyu-mll/multi_nli",
+    "dataset:stanfordnlp/snli",
+    "base_model:distilbert/distilroberta-base",
+    "base_model:quantized:distilbert/distilroberta-base",
+    "license:apache-2.0",
+    "deploy:sagemaker",
+    "deploy:azure",
+    "region:us"
+  ],
+  "downloads": 38029,
+  "likes": 27,
+  "modelId": "cross-encoder/nli-distilroberta-base",
+  "author": "cross-encoder",
+  "sha": "b14d131f9d32668a5e6a982729b57ff6ed5dfcbd",
+  "lastModified": "2025-04-11T09:02:20.000Z",
+  "gated": false,
+  "disabled": false,
+  "mask_token": "<mask>",
+  "widgetData": [
+    {
+      "text": "I have a problem with my iphone that needs to be resolved asap!",
+      "candidate_labels": "urgent, not urgent, phone, tablet, computer",
+      "multi_class": true
+    },
+    {
+      "text": "Last week I upgraded my iOS version and ever since then my phone has been overheating whenever I use your app.",
+      "candidate_labels": "mobile, website, billing, account access",
+      "multi_class": false
+    },
+    {
+      "text": "A new model offers an explanation for how the Galilean satellites formed around the solar system’s largest world. Konstantin Batygin did not set out to solve one of the solar system’s most puzzling mysteries when he went for a run up a hill in Nice, France. Dr. Batygin, a Caltech researcher, best known for his contributions to the search for the solar system’s missing “Planet Nine,” spotted a beer bottle. At a steep, 20 degree grade, he wondered why it wasn’t rolling down the hill. He realized there was a breeze at his back holding the bottle in place. Then he had a thought that would only pop into the mind of a theoretical astrophysicist: “Oh! This is how Europa formed.” Europa is one of Jupiter’s four large Galilean moons. And in a paper published Monday in the Astrophysical Journal, Dr. Batygin and a co-author, Alessandro Morbidelli, a planetary scientist at the Côte d’Azur Observatory in France, present a theory explaining how some moons form around gas giants like Jupiter and Saturn, suggesting that millimeter-sized grains of hail produced during the solar system’s formation became trapped around these massive worlds, taking shape one at a time into the potentially habitable moons we know today.",
+      "candidate_labels": "space & cosmos, scientific discovery, microbiology, robots, archeology",
+      "multi_class": true
+    }
+  ],
+  "model-index": null,
+  "config": {
+    "architectures": [
+      "RobertaForSequenceClassification"
+    ],
+    "model_type": "roberta",
+    "tokenizer_config": {
+      "bos_token": "<s>",
+      "cls_token": "<s>",
+      "eos_token": "</s>",
+      "mask_token": "<mask>",
+      "pad_token": "<pad>",
+      "sep_token": "</s>",
+      "unk_token": "<unk>"
+    }
+  },
+  "cardData": {
+    "language": "en",
+    "pipeline_tag": "zero-shot-classification",
+    "tags": [
+      "transformers"
+    ],
+    "datasets": [
+      "nyu-mll/multi_nli",
+      "stanfordnlp/snli"
+    ],
+    "metrics": [
+      "accuracy"
+    ],
+    "license": "apache-2.0",
+    "base_model": [
+      "distilbert/distilroberta-base"
+    ],
+    "library_name": "sentence-transformers"
+  },
+  "transformersInfo": {
+    "auto_model": "AutoModelForSequenceClassification",
+    "pipeline_tag": "text-classification",
+    "processor": "AutoTokenizer"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "602b71f15d40ed68c5f96330e3f3175a76a32126",
+      "size": 445
+    },
+    {
+      "rfilename": "CESoftmaxAccuracyEvaluator_AllNLI-dev_results.csv",
+      "blobId": "54a702e9aa66cf09e39aea0550dcbdcc247b73cc",
+      "size": 337
+    },
+    {
+      "rfilename": "README.md",
+      "blobId": "88f449e4fc67a288dc379be69342d3c95f252baa",
+      "size": 2682
+    },
+    {
+      "rfilename": "config.json",
+      "blobId": "cacef203b756efc8f876c247453fe39dbe9af52a",
+      "size": 701
+    },
+    {
+      "rfilename": "flax_model.msgpack",
+      "blobId": "716f39f9c0bb93f431a35b2da61585789b9e9676",
+      "size": 328486639,
+      "lfs": {
+        "sha256": "f1d007c150a23b7099e74fbfe564ca1c55146d2f4d9e87651716ef6176dd2570",
+        "size": 328486639,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "merges.txt",
+      "blobId": "226b0752cac7789c48f0cb3ec53eda48b7be36cc",
+      "size": 456318
+    },
+    {
+      "rfilename": "model.safetensors",
+      "blobId": "c57aaa5e6b0041bfee7e1f2df6eb97ce3ef442a5",
+      "size": 328499560,
+      "lfs": {
+        "sha256": "9df3eb5d37118f952f4ba4fb46fde6889e3a9ccedeee0bad09b0110fc64c5c29",
+        "size": 328499560,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "onnx/model.onnx",
+      "blobId": "2e82647060a0dbc39873c5a39ce1ab3533a8103d",
+      "size": 328649957,
+      "lfs": {
+        "sha256": "3ace438d5b0ad73d1dd68d4e031e2438659993cc2b6b9cdb145cb209ab6fce8f",
+        "size": 328649957,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "onnx/model_O1.onnx",
+      "blobId": "fd19c699b90a393f2bf587cc47f490b58551e060",
+      "size": 328598421,
+      "lfs": {
+        "sha256": "a62134fe4bba8f2d037ca5a79f2e9254ca779880b7b704f01f1c82bd591ba866",
+        "size": 328598421,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "onnx/model_O2.onnx",
+      "blobId": "295b7cc1728396fa4cd304c8dec2d030ba176d7e",
+      "size": 328507853,
+      "lfs": {
+        "sha256": "4a35e10df48657c58c7c1f45071562528c95992efba1f2421ee289a9ba3af338",
+        "size": 328507853,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "onnx/model_O3.onnx",
+      "blobId": "7df6273210af56cdb98285f75ac83a886c17773c",
+      "size": 328507784,
+      "lfs": {
+        "sha256": "adf3cf5cbdd716c6cb4df4cf9c2badfc2050d802862aa0ab7518ac0e76a6de11",
+        "size": 328507784,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "onnx/model_O4.onnx",
+      "blobId": "33e57dacadc5d3127dee3f02d04c3699efd803b2",
+      "size": 164336758,
+      "lfs": {
+        "sha256": "64e07a6eeeb5b7b821c632dfb97a3cf8b187523b5230500f01544296d45fb4c2",
+        "size": 164336758,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "onnx/model_qint8_arm64.onnx",
+      "blobId": "a47e441d33f57a7f753d5cb370916320976a4076",
+      "size": 82823065,
+      "lfs": {
+        "sha256": "a3aec44a4d2a49b6c9ab821ab2f985abcc2a0af79e8215c7091a0b5e1bc84576",
+        "size": 82823065,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "onnx/model_qint8_avx512.onnx",
+      "blobId": "a47e441d33f57a7f753d5cb370916320976a4076",
+      "size": 82823065,
+      "lfs": {
+        "sha256": "a3aec44a4d2a49b6c9ab821ab2f985abcc2a0af79e8215c7091a0b5e1bc84576",
+        "size": 82823065,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "onnx/model_qint8_avx512_vnni.onnx",
+      "blobId": "a47e441d33f57a7f753d5cb370916320976a4076",
+      "size": 82823065,
+      "lfs": {
+        "sha256": "a3aec44a4d2a49b6c9ab821ab2f985abcc2a0af79e8215c7091a0b5e1bc84576",
+        "size": 82823065,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "onnx/model_quint8_avx2.onnx",
+      "blobId": "aad086f42cbbc12382a9f6860e26f9178859a412",
+      "size": 82823063,
+      "lfs": {
+        "sha256": "cd21e27865fdf2dcc63407e32bdb334a83e6713f160e64d09de720670c0281cb",
+        "size": 82823063,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "openvino/openvino_model.bin",
+      "blobId": "e574c7a17caf48fbbe389a26a42f76ff4e7383d0",
+      "size": 328487100,
+      "lfs": {
+        "sha256": "f65f6143f284ce6a33c3d6fa3194d665c3a975078fb2ffaf652dee82586f2bf7",
+        "size": 328487100,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "openvino/openvino_model.xml",
+      "blobId": "feb0b63f4566686f4e09a53ba2ef195e3f570bf3",
+      "size": 212066
+    },
+    {
+      "rfilename": "openvino/openvino_model_qint8_quantized.bin",
+      "blobId": "3e02a9a4905f88f3f82bb098c7cab44c33ee8cad",
+      "size": 82819176,
+      "lfs": {
+        "sha256": "709915885467b15b9f6c91a2356434d56f2477a9b7bfc04c4dcacc585702ce44",
+        "size": 82819176,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "openvino/openvino_model_qint8_quantized.xml",
+      "blobId": "3cd3db695215440e59ec4bc59ba7a53f70eedd49",
+      "size": 378791
+    },
+    {
+      "rfilename": "pytorch_model.bin",
+      "blobId": "b4e36405ccb943a86665db27ec81806e3b9d4290",
+      "size": 328532073,
+      "lfs": {
+        "sha256": "d272bba7769a509cd328dbda062279926d00550a635f4428998c1869a25f83b2",
+        "size": 328532073,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "special_tokens_map.json",
+      "blobId": "a7816a407990c2e8d254b10d36beeb972016086e",
+      "size": 1008
+    },
+    {
+      "rfilename": "tokenizer.json",
+      "blobId": "d8059234da10f3ae6513891308e25f256dc1db6d",
+      "size": 3558642
+    },
+    {
+      "rfilename": "tokenizer_config.json",
+      "blobId": "45af26cf13c9666e90a0891616e8cf48b0404aed",
+      "size": 1303
+    },
+    {
+      "rfilename": "vocab.json",
+      "blobId": "4ebe4bb3f3114daf2e4cc349f24873a1175a35d7",
+      "size": 798293
+    }
+  ],
+  "spaces": [
+    "vinitsingare/ai-news-api",
+    "EnzoBustos/IC-2022-Classificacao-de-Dados-Financeiros",
+    "awacke1/HEDIS.Dash.Component.Top.Clinical.Terminology.Vocabulary",
+    "CjangCjengh/Prompt-Compression-Toolbox",
+    "Deepakraj2006/News_Scraper_TTS",
+    "Alperen1234567890/Self-Referance-Quantum-Rag",
+    "IntelliDeep/NLProxy",
+    "Sudheer/Pandavas3.0",
+    "kennethisme/cross-encoder-nli-distilroberta-base",
+    "JerryLiJinyi/Prompt-Compression-Toolbox",
+    "Mohzen321/AboutKeywords",
+    "Mohzen321/KEYWORD",
+    "Mohzen321/JustKeys",
+    "Mohzen321/Keywords_Parameters",
+    "JAYASREESS/semantic_main",
+    "surajkumarramagiri/doc-contradiction-checker-api",
+    "hijab888/PromptInjectionDetector",
+    "pavanbadempet/movie-rec-api",
+    "disha555/event-pulse-api",
+    "JAYASREESS/final_year",
+    "Shreya5473/Geo-Trade",
+    "Vidhita/confidence-answer-verifier",
+    "lelo121/SafeClick-AI",
+    "nancyattri/TruthCheck",
+    "bankai-007/Multi-Label_News_Classifier",
+    "Shrot102/llmopt-server",
+    "Anumta/catchnet-ai-live",
+    "ar12345678/zkp-backend",
+    "abhisheky01/delhi-safe-route-api",
+    "Mobii23/docusort-api",
+    "sm3oeldm/kuraGuard",
+    "pavanbadempet/movie-rec-ui",
+    "Vedansh-Gupta/PsycheTrace-Live"
+  ],
+  "createdAt": "2022-03-02T23:29:05.000Z",
+  "safetensors": {
+    "parameters": {
+      "I64": 514,
+      "F32": 82120707
+    },
+    "total": 82121221
+  },
+  "usedStorage": 3041071449
+}

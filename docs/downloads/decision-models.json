@@ -1,0 +1,500 @@
+{
+  "status": "complete",
+  "total_bytes": 3294529391,
+  "unavailable_checkpoints": [
+    "specialized Verdict 2.0"
+  ],
+  "verdict_selection": "heman10x/rlcd-modernbert-151m (general-purpose; distinct from unavailable Verdict 2.0)",
+  "scope": "Downloaded available assets only; no upstream code executed, dependencies installed, inference or Jev API calls.",
+  "bundles": {
+    "kev-0.8b": {
+      "repository": "jaredpalmer/kev-0.8b",
+      "revision": "bf75a6a8848ea6960ff2ed108d9ed44c2941174f",
+      "declared_license": "apache-2.0",
+      "files": [
+        {
+          "path": "models/kev-0.8b/README.md",
+          "url": "https://huggingface.co/jaredpalmer/kev-0.8b/resolve/bf75a6a8848ea6960ff2ed108d9ed44c2941174f/README.md",
+          "bytes": 24767,
+          "expected_sha256": null,
+          "git_blob_sha1": "fe70d102ac32ad5867059d932f6314696aa8ac80",
+          "sha256": "96df0121af5e6097916920c1c3a119600cddfe0af8cd0d90b2f16de7d1f2e185",
+          "verified": true
+        },
+        {
+          "path": "models/kev-0.8b/adapter_config.json",
+          "url": "https://huggingface.co/jaredpalmer/kev-0.8b/resolve/bf75a6a8848ea6960ff2ed108d9ed44c2941174f/adapter_config.json",
+          "bytes": 1273,
+          "expected_sha256": null,
+          "git_blob_sha1": "3ac292566c8fde0555aaab8ba38823ec40bca355",
+          "sha256": "748acb2cda88454cb1ba69d745ba336f3fcb5486eac349e90960c8b8d8d3e854",
+          "verified": true
+        },
+        {
+          "path": "models/kev-0.8b/adapter_model.safetensors",
+          "url": "https://huggingface.co/jaredpalmer/kev-0.8b/resolve/bf75a6a8848ea6960ff2ed108d9ed44c2941174f/adapter_model.safetensors",
+          "bytes": 43338624,
+          "expected_sha256": "9b908623acb162118575f4e7a94524f9c139c335be4bfb74d6cfceca01e1885a",
+          "git_blob_sha1": null,
+          "sha256": "9b908623acb162118575f4e7a94524f9c139c335be4bfb74d6cfceca01e1885a",
+          "verified": true
+        },
+        {
+          "path": "models/kev-0.8b/head.pt",
+          "url": "https://huggingface.co/jaredpalmer/kev-0.8b/resolve/bf75a6a8848ea6960ff2ed108d9ed44c2941174f/head.pt",
+          "bytes": 2103999,
+          "expected_sha256": "f400bd12802b2b105ae45d6b03774a158a3db4fccff42413734ddca2e5c920b6",
+          "git_blob_sha1": null,
+          "sha256": "f400bd12802b2b105ae45d6b03774a158a3db4fccff42413734ddca2e5c920b6",
+          "verified": true
+        },
+        {
+          "path": "models/kev-0.8b/provenance.json",
+          "url": "https://huggingface.co/jaredpalmer/kev-0.8b/resolve/bf75a6a8848ea6960ff2ed108d9ed44c2941174f/provenance.json",
+          "bytes": 4221,
+          "expected_sha256": null,
+          "git_blob_sha1": "04f136272c9d32646ada2ab24a5c04992247127b",
+          "sha256": "fce039fbda7de19451c9b5d3065aee2c5e063e1562a8bc18c72e297fbd15e9d8",
+          "verified": true
+        },
+        {
+          "path": "models/kev-0.8b/result.json",
+          "url": "https://huggingface.co/jaredpalmer/kev-0.8b/resolve/bf75a6a8848ea6960ff2ed108d9ed44c2941174f/result.json",
+          "bytes": 80760,
+          "expected_sha256": null,
+          "git_blob_sha1": "8ef90227db7de4444454ab07fb88afb45e992620",
+          "sha256": "523770dbe04ad23bfdadd627d253273220fe8969a74b213e0fafb1e65093bc8c",
+          "verified": true
+        },
+        {
+          "path": "models/kev-0.8b/tokenizer.json",
+          "url": "https://huggingface.co/jaredpalmer/kev-0.8b/resolve/bf75a6a8848ea6960ff2ed108d9ed44c2941174f/tokenizer.json",
+          "bytes": 19989325,
+          "expected_sha256": "06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523",
+          "git_blob_sha1": null,
+          "sha256": "06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523",
+          "verified": true
+        },
+        {
+          "path": "models/kev-0.8b/tokenizer_config.json",
+          "url": "https://huggingface.co/jaredpalmer/kev-0.8b/resolve/bf75a6a8848ea6960ff2ed108d9ed44c2941174f/tokenizer_config.json",
+          "bytes": 1128,
+          "expected_sha256": null,
+          "git_blob_sha1": "fa833096a2f03c2ff89094eb1ba7716fbd98b102",
+          "sha256": "8671bed7c852ce9e661be94f179a7b4ffd091c2a65aea0363e5501c20318ee45",
+          "verified": true
+        },
+        {
+          "path": "models/kev-0.8b/training_config.json",
+          "url": "https://huggingface.co/jaredpalmer/kev-0.8b/resolve/bf75a6a8848ea6960ff2ed108d9ed44c2941174f/training_config.json",
+          "bytes": 1767,
+          "expected_sha256": null,
+          "git_blob_sha1": "1b638d8212ebe6e278d2f65b6586109f7293b30e",
+          "sha256": "3ec3d92146248265652d4387f8eb65ee8defaed4dd9173b049e7b5193045ece6",
+          "verified": true
+        },
+        {
+          "path": "models/kev-0.8b/training_metrics.json",
+          "url": "https://huggingface.co/jaredpalmer/kev-0.8b/resolve/bf75a6a8848ea6960ff2ed108d9ed44c2941174f/training_metrics.json",
+          "bytes": 326,
+          "expected_sha256": null,
+          "git_blob_sha1": "124879b74bf9062e6f4f70d86575c1ea0d0a0561",
+          "sha256": "5f94d869c3707c0efff9f2e893e288014bc88515ae04fe5f75c9d793c453cfc1",
+          "verified": true
+        }
+      ]
+    },
+    "kev-base": {
+      "repository": "Qwen/Qwen3.5-0.8B-Base",
+      "revision": "dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68",
+      "declared_license": "apache-2.0",
+      "files": [
+        {
+          "path": "models/qwen3.5-0.8b-base/LICENSE",
+          "url": "https://huggingface.co/Qwen/Qwen3.5-0.8B-Base/resolve/dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68/LICENSE",
+          "bytes": 11343,
+          "expected_sha256": null,
+          "git_blob_sha1": "1d5180a42f1c3383ba7c7bd0a50f0837ef0168df",
+          "sha256": "50cbab8a892c5f2993b8c7351a99182507472def3b1374558308605d99b86b32",
+          "verified": true
+        },
+        {
+          "path": "models/qwen3.5-0.8b-base/README.md",
+          "url": "https://huggingface.co/Qwen/Qwen3.5-0.8B-Base/resolve/dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68/README.md",
+          "bytes": 3727,
+          "expected_sha256": null,
+          "git_blob_sha1": "ab7a3ee4374f56bf96f351fa086bcc3c5b67dfde",
+          "sha256": "3cff39d2674e28b95e2df75cdb2d7a687ec391931065b05df83dbae12b447b11",
+          "verified": true
+        },
+        {
+          "path": "models/qwen3.5-0.8b-base/config.json",
+          "url": "https://huggingface.co/Qwen/Qwen3.5-0.8B-Base/resolve/dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68/config.json",
+          "bytes": 2907,
+          "expected_sha256": null,
+          "git_blob_sha1": "715f0448b9d38103211f0ad88bbb4d6e4f4be8c9",
+          "sha256": "b90b86f35c8e6925ef74ee04d0e758f0a845c83a42089ad82bbaa948de9b4204",
+          "verified": true
+        },
+        {
+          "path": "models/qwen3.5-0.8b-base/merges.txt",
+          "url": "https://huggingface.co/Qwen/Qwen3.5-0.8B-Base/resolve/dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68/merges.txt",
+          "bytes": 3353259,
+          "expected_sha256": null,
+          "git_blob_sha1": "a494e019ca1502219fd0128658b979e5f05ae8e8",
+          "sha256": "a9d356d7bdf1ef4949e3e748e95b8e10ad9d4e2e838eddc38a0a7b6b94d1db8d",
+          "verified": true
+        },
+        {
+          "path": "models/qwen3.5-0.8b-base/model.safetensors-00001-of-00001.safetensors",
+          "url": "https://huggingface.co/Qwen/Qwen3.5-0.8B-Base/resolve/dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68/model.safetensors-00001-of-00001.safetensors",
+          "bytes": 1746942600,
+          "expected_sha256": "c2b1e5a17d9c1e27685d92ed9b382911ebb99955ecd89052d1721241adfbab6c",
+          "git_blob_sha1": null,
+          "sha256": "c2b1e5a17d9c1e27685d92ed9b382911ebb99955ecd89052d1721241adfbab6c",
+          "verified": true
+        },
+        {
+          "path": "models/qwen3.5-0.8b-base/model.safetensors.index.json",
+          "url": "https://huggingface.co/Qwen/Qwen3.5-0.8B-Base/resolve/dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68/model.safetensors.index.json",
+          "bytes": 50900,
+          "expected_sha256": null,
+          "git_blob_sha1": "1ca6a83e1a122cd074f12a1258d480de42e2e19b",
+          "sha256": "ce9a885efdf27d3664fdef5d512ad365216f1074051ef840c7cd8e5431495d0a",
+          "verified": true
+        },
+        {
+          "path": "models/qwen3.5-0.8b-base/preprocessor_config.json",
+          "url": "https://huggingface.co/Qwen/Qwen3.5-0.8B-Base/resolve/dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68/preprocessor_config.json",
+          "bytes": 390,
+          "expected_sha256": null,
+          "git_blob_sha1": "2ea84a437d448ff71b08df68fdd949d5cc4ebb64",
+          "sha256": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516",
+          "verified": true
+        },
+        {
+          "path": "models/qwen3.5-0.8b-base/tokenizer.json",
+          "url": "https://huggingface.co/Qwen/Qwen3.5-0.8B-Base/resolve/dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68/tokenizer.json",
+          "bytes": 12807196,
+          "expected_sha256": "fe000e3ed39ed12b8d2481d527d44f93c65d37e87645d2dcc80d1bf9d50d2927",
+          "git_blob_sha1": null,
+          "sha256": "fe000e3ed39ed12b8d2481d527d44f93c65d37e87645d2dcc80d1bf9d50d2927",
+          "verified": true
+        },
+        {
+          "path": "models/qwen3.5-0.8b-base/tokenizer_config.json",
+          "url": "https://huggingface.co/Qwen/Qwen3.5-0.8B-Base/resolve/dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68/tokenizer_config.json",
+          "bytes": 16712,
+          "expected_sha256": null,
+          "git_blob_sha1": "34e1f7a59c40a7a4197ce3dbb242b94dc5bef1dd",
+          "sha256": "e611fbccc7c29ef3b1cafb1cb7ea548d189968632901d678fd62be68c47885de",
+          "verified": true
+        },
+        {
+          "path": "models/qwen3.5-0.8b-base/video_preprocessor_config.json",
+          "url": "https://huggingface.co/Qwen/Qwen3.5-0.8B-Base/resolve/dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68/video_preprocessor_config.json",
+          "bytes": 386,
+          "expected_sha256": null,
+          "git_blob_sha1": "37900b3ff9295e1aa7e211378466356b52e64e55",
+          "sha256": "d039cd7d88b3502a99edd455496b75b44ecf7dd3b3669748bafac37e6cecc085",
+          "verified": true
+        },
+        {
+          "path": "models/qwen3.5-0.8b-base/vocab.json",
+          "url": "https://huggingface.co/Qwen/Qwen3.5-0.8B-Base/resolve/dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68/vocab.json",
+          "bytes": 6722759,
+          "expected_sha256": null,
+          "git_blob_sha1": "0aa0ce0658d60ac4a5d609f4eadb0e8e43514176",
+          "sha256": "ce99b4cb2983d118806ce0a8b777a35b093e2000a503ebde25853284c9dfa003",
+          "verified": true
+        }
+      ]
+    },
+    "laya-typed-decisions": {
+      "repository": "convaiinnovations/laya-typed-decisions",
+      "revision": "1a793eb568e6718f15941d08f85432581df534e3",
+      "declared_license": "apache-2.0",
+      "files": [
+        {
+          "path": "models/laya-typed-decisions/README.md",
+          "url": "https://huggingface.co/convaiinnovations/laya-typed-decisions/resolve/1a793eb568e6718f15941d08f85432581df534e3/README.md",
+          "bytes": 6343,
+          "expected_sha256": null,
+          "git_blob_sha1": "2b451c266604ff847868a34e06ebfdfcdd2aa50f",
+          "sha256": "83e67a995a70a9a9ef6cc1f8c68da654f11eee081c9bb14de07c37b08fcc3113",
+          "verified": true
+        },
+        {
+          "path": "models/laya-typed-decisions/encoder/config.json",
+          "url": "https://huggingface.co/convaiinnovations/laya-typed-decisions/resolve/1a793eb568e6718f15941d08f85432581df534e3/encoder/config.json",
+          "bytes": 2084,
+          "expected_sha256": null,
+          "git_blob_sha1": "d4be4829750fb04c0aa8b9897c3ea827f76c0109",
+          "sha256": "5268d24ad3b77c8151de5dcb0762ba4391619aad9ab0bda33e36fb083cfeae6d",
+          "verified": true
+        },
+        {
+          "path": "models/laya-typed-decisions/model.safetensors",
+          "url": "https://huggingface.co/convaiinnovations/laya-typed-decisions/resolve/1a793eb568e6718f15941d08f85432581df534e3/model.safetensors",
+          "bytes": 842609220,
+          "expected_sha256": "4fa56de72383a9d3efa9cfa78955733c81b9fc8067a587ca4beb82c78107a24e",
+          "git_blob_sha1": null,
+          "sha256": "4fa56de72383a9d3efa9cfa78955733c81b9fc8067a587ca4beb82c78107a24e",
+          "verified": true
+        },
+        {
+          "path": "models/laya-typed-decisions/rl_agent_config.json",
+          "url": "https://huggingface.co/convaiinnovations/laya-typed-decisions/resolve/1a793eb568e6718f15941d08f85432581df534e3/rl_agent_config.json",
+          "bytes": 847,
+          "expected_sha256": null,
+          "git_blob_sha1": "5f0e1d5f2366fe8ba2ff330dffaeed53b469e97e",
+          "sha256": "ebf0cd524d92342a6be5e48e9fca3d7c2babfb5a56ccd79d2171ef5d8c7f7be8",
+          "verified": true
+        },
+        {
+          "path": "models/laya-typed-decisions/tokenizer/tokenizer.json",
+          "url": "https://huggingface.co/convaiinnovations/laya-typed-decisions/resolve/1a793eb568e6718f15941d08f85432581df534e3/tokenizer/tokenizer.json",
+          "bytes": 3583228,
+          "expected_sha256": null,
+          "git_blob_sha1": "2f4d8583e507b7466d2490e2d6c045647a822698",
+          "sha256": "6c8aaa9a542084f2457eab775d4eeb51f92a70c0fd9de28d5edb0ddec3c08d30",
+          "verified": true
+        },
+        {
+          "path": "models/laya-typed-decisions/tokenizer/tokenizer_config.json",
+          "url": "https://huggingface.co/convaiinnovations/laya-typed-decisions/resolve/1a793eb568e6718f15941d08f85432581df534e3/tokenizer/tokenizer_config.json",
+          "bytes": 337,
+          "expected_sha256": null,
+          "git_blob_sha1": "ed1ffabc2ce11120754705709569e365e46da71a",
+          "sha256": "08d4cf3ac4dca381759441b85b91a6d40e688471dcd33d15d6649eb0a9a854d1",
+          "verified": true
+        }
+      ]
+    },
+    "verdict-encoder-config": {
+      "repository": "answerdotai/ModernBERT-base",
+      "revision": "8949b909ec900327062f0ebf497f51aef5e6f0c8",
+      "declared_license": "apache-2.0",
+      "files": [
+        {
+          "path": "models/openjev-verdict2/encoder/config.json",
+          "url": "https://huggingface.co/answerdotai/ModernBERT-base/resolve/8949b909ec900327062f0ebf497f51aef5e6f0c8/config.json",
+          "bytes": 1193,
+          "expected_sha256": null,
+          "git_blob_sha1": "42dbe7f4826f9479e2f2965806dd206d07a57495",
+          "sha256": "1609d59e627c33eaed524b4f01e546d42e84190a079a5a5ded84b212c41c324f",
+          "verified": true
+        }
+      ]
+    },
+    "openjev-verdict2-reference": {
+      "repository": "Heman10x-NGU/openJev-verdict-2.0",
+      "revision": "bff28567cff463b833bf044f351a8b7945d53e07",
+      "declared_license": "Apache-2.0 (repository declaration)",
+      "files": [
+        {
+          "path": "models/openjev-verdict2/model.pt.lfs-pointer",
+          "url": "https://raw.githubusercontent.com/Heman10x-NGU/openJev-verdict-2.0/bff28567cff463b833bf044f351a8b7945d53e07/artifacts/verdict2-base/model.pt",
+          "bytes": 134,
+          "sha256": "5d739da8718800b1a7fa98597dfb83a888c19a9b8f6b771cd174a3e46bad2519",
+          "verified": true
+        },
+        {
+          "path": "models/openjev-verdict2/LICENSE",
+          "url": "https://raw.githubusercontent.com/Heman10x-NGU/openJev-verdict-2.0/bff28567cff463b833bf044f351a8b7945d53e07/LICENSE",
+          "bytes": 3027,
+          "sha256": "936dfcf776d91682f02528cde6f5ff440104a689aa19448fa33aa2f4dd4b19a4",
+          "verified": true
+        },
+        {
+          "path": "models/openjev-verdict2/README.md",
+          "url": "https://raw.githubusercontent.com/Heman10x-NGU/openJev-verdict-2.0/bff28567cff463b833bf044f351a8b7945d53e07/README.md",
+          "bytes": 10936,
+          "sha256": "4f75677f7f18cc7983e46ed15094b31fd531538ba2e014fee7fcda4907e1ab46",
+          "verified": true
+        },
+        {
+          "path": "models/openjev-verdict2/tokenizer.json",
+          "url": "https://raw.githubusercontent.com/Heman10x-NGU/openJev-verdict-2.0/bff28567cff463b833bf044f351a8b7945d53e07/artifacts/verdict2-base/tokenizer.json",
+          "bytes": 3583228,
+          "sha256": "6c8aaa9a542084f2457eab775d4eeb51f92a70c0fd9de28d5edb0ddec3c08d30",
+          "verified": true
+        },
+        {
+          "path": "models/openjev-verdict2/tokenizer_config.json",
+          "url": "https://raw.githubusercontent.com/Heman10x-NGU/openJev-verdict-2.0/bff28567cff463b833bf044f351a8b7945d53e07/artifacts/verdict2-base/tokenizer_config.json",
+          "bytes": 380,
+          "sha256": "fb54f027372062b2ca52282efb04d178a8b57167a00cd8f4e816515823a2c016",
+          "verified": true
+        },
+        {
+          "path": "models/openjev-verdict2/dev_metrics.json",
+          "url": "https://raw.githubusercontent.com/Heman10x-NGU/openJev-verdict-2.0/bff28567cff463b833bf044f351a8b7945d53e07/artifacts/verdict2-base/dev_metrics.json",
+          "bytes": 357,
+          "sha256": "7f96d123ce8930523432887ba0d8e47b0d19bea1da7817013f3593c808550b3e",
+          "verified": true
+        },
+        {
+          "path": "models/openjev-verdict2/upstream/model.py",
+          "url": "https://raw.githubusercontent.com/Heman10x-NGU/openJev-verdict-2.0/bff28567cff463b833bf044f351a8b7945d53e07/verdict2/model.py",
+          "bytes": 4220,
+          "sha256": "128f6e38c0ca71420369ba0fc8b25fec2a1b7ed8bad187a47b5207a3b310f878",
+          "verified": true
+        },
+        {
+          "path": "models/openjev-verdict2/upstream/data.py",
+          "url": "https://raw.githubusercontent.com/Heman10x-NGU/openJev-verdict-2.0/bff28567cff463b833bf044f351a8b7945d53e07/verdict2/data.py",
+          "bytes": 8503,
+          "sha256": "49cb28599b73acff32b073b16696fe5efd46d83228a143a341b186a0910da4b5",
+          "verified": true
+        },
+        {
+          "path": "models/openjev-verdict2/upstream/evaluate.py",
+          "url": "https://raw.githubusercontent.com/Heman10x-NGU/openJev-verdict-2.0/bff28567cff463b833bf044f351a8b7945d53e07/verdict2/evaluate.py",
+          "bytes": 7810,
+          "sha256": "bd4f3e1e46e9211c91eb21db230a51ed8284ec4686785022d86739ce7a096772",
+          "verified": true
+        }
+      ],
+      "checkpoint_status": "unavailable; only metadata/source reference downloaded",
+      "missing_checkpoint": {
+        "expected_sha256": "2201b07ca2389fbcb7ca3428c311776ce50482e48b2dca32bdfaf12f641540f7",
+        "bytes": 598509338,
+        "reason": "GitHub LFS download API returned 404: Object does not exist on the server; advertised Hugging Face repo unavailable."
+      }
+    },
+    "openjev-verdict": {
+      "repository": "heman10x/rlcd-modernbert-151m",
+      "revision": "8af2496eb63c7fa66d7d234e1f62629380030eb4",
+      "declared_license": "apache-2.0",
+      "files": [
+        {
+          "path": "models/openjev-verdict/README.md",
+          "url": "https://huggingface.co/heman10x/rlcd-modernbert-151m/resolve/8af2496eb63c7fa66d7d234e1f62629380030eb4/README.md",
+          "bytes": 5004,
+          "expected_sha256": null,
+          "git_blob_sha1": "4ec2e60567f126dc67d164ef7df7ea65ec7c19e9",
+          "sha256": "5ff00fca5b5576ea6b0e554918e79b1494a63b7944149d7f33cfa6e1cf536d43",
+          "verified": true
+        },
+        {
+          "path": "models/openjev-verdict/bundle_manifest.json",
+          "url": "https://huggingface.co/heman10x/rlcd-modernbert-151m/resolve/8af2496eb63c7fa66d7d234e1f62629380030eb4/bundle_manifest.json",
+          "bytes": 464,
+          "expected_sha256": null,
+          "git_blob_sha1": "9fb36695e1fda40db7e76288f01dc8889609741d",
+          "sha256": "3bc1c779f09b069b48f8f2179bb4f7478320ec7cab45c14c66597d6082e5a179",
+          "verified": true
+        },
+        {
+          "path": "models/openjev-verdict/calibrator.json",
+          "url": "https://huggingface.co/heman10x/rlcd-modernbert-151m/resolve/8af2496eb63c7fa66d7d234e1f62629380030eb4/calibrator.json",
+          "bytes": 1259,
+          "expected_sha256": null,
+          "git_blob_sha1": "3e76633ea146075376db563b50f322f99833f323",
+          "sha256": "af2a876993148efa0726b6ccf710fe2303897d20c0ce8c7c9036eb50f64d23de",
+          "verified": true
+        },
+        {
+          "path": "models/openjev-verdict/config.json",
+          "url": "https://huggingface.co/heman10x/rlcd-modernbert-151m/resolve/8af2496eb63c7fa66d7d234e1f62629380030eb4/config.json",
+          "bytes": 3836,
+          "expected_sha256": null,
+          "git_blob_sha1": "8db7fe6b354ef97840467f06c634cf09dc88ecaf",
+          "sha256": "303f8eef1009cfdcb0cfba3e653247e625f16a4501e2351bad1a633f1f644695",
+          "verified": true
+        },
+        {
+          "path": "models/openjev-verdict/model.safetensors",
+          "url": "https://huggingface.co/heman10x/rlcd-modernbert-151m/resolve/8af2496eb63c7fa66d7d234e1f62629380030eb4/model.safetensors",
+          "bytes": 605529340,
+          "expected_sha256": "d252823994d47a7933217fc86449493299643af6a0c0d83d6bd5a7666d3253ef",
+          "git_blob_sha1": null,
+          "sha256": "d252823994d47a7933217fc86449493299643af6a0c0d83d6bd5a7666d3253ef",
+          "verified": true
+        },
+        {
+          "path": "models/openjev-verdict/tokenizer.json",
+          "url": "https://huggingface.co/heman10x/rlcd-modernbert-151m/resolve/8af2496eb63c7fa66d7d234e1f62629380030eb4/tokenizer.json",
+          "bytes": 3583596,
+          "expected_sha256": null,
+          "git_blob_sha1": "5651093fc4690c7ddd401a6621f3c0228f2663d1",
+          "sha256": "8bb449eb0c037aae44115b65905bb339b8f3f74eb37067c19127feb3c0755723",
+          "verified": true
+        },
+        {
+          "path": "models/openjev-verdict/tokenizer_config.json",
+          "url": "https://huggingface.co/heman10x/rlcd-modernbert-151m/resolve/8af2496eb63c7fa66d7d234e1f62629380030eb4/tokenizer_config.json",
+          "bytes": 380,
+          "expected_sha256": null,
+          "git_blob_sha1": "58abfae09964980cc64df9ffbd3d683da5c5dcda",
+          "sha256": "fb54f027372062b2ca52282efb04d178a8b57167a00cd8f4e816515823a2c016",
+          "verified": true
+        },
+        {
+          "path": "models/openjev-verdict/train_manifest.json",
+          "url": "https://huggingface.co/heman10x/rlcd-modernbert-151m/resolve/8af2496eb63c7fa66d7d234e1f62629380030eb4/train_manifest.json",
+          "bytes": 1345,
+          "expected_sha256": null,
+          "git_blob_sha1": "62b2594b1ec9d829bc9cfe6aea7199588c0bfdd0",
+          "sha256": "0de6203ad73e8987aef3fd6afd5a4522e2d329e1b63812af449e1f51b75d5388",
+          "verified": true
+        }
+      ]
+    },
+    "kev-runtime-reference": {
+      "repository": "jaredpalmer/kev",
+      "revision": "84847f0a883d900f7de5b7a57eaa341ca7f9a6b4",
+      "files": [
+        {
+          "path": "models/kev-0.8b/upstream/LICENSE",
+          "url": "https://raw.githubusercontent.com/jaredpalmer/kev/84847f0a883d900f7de5b7a57eaa341ca7f9a6b4/LICENSE",
+          "bytes": 11343,
+          "sha256": "6b08bb37982c233aa12bcbdf19106da12f3f4fcf800773ea42e28ebeddd34fb8",
+          "verified": true
+        },
+        {
+          "path": "models/kev-0.8b/upstream/README.md",
+          "url": "https://raw.githubusercontent.com/jaredpalmer/kev/84847f0a883d900f7de5b7a57eaa341ca7f9a6b4/README.md",
+          "bytes": 42304,
+          "sha256": "19c9d7d30cd723b9f112f1f68d0b415a28c5ee616dbc21b358fc29bd07a66311",
+          "verified": true
+        },
+        {
+          "path": "models/kev-0.8b/upstream/pyproject.toml",
+          "url": "https://raw.githubusercontent.com/jaredpalmer/kev/84847f0a883d900f7de5b7a57eaa341ca7f9a6b4/pyproject.toml",
+          "bytes": 1721,
+          "sha256": "7c17fbe9efcadda3eb488b59adf1b6db5938cd33af4d3bd389ce4359b73fcc7d",
+          "verified": true
+        }
+      ]
+    },
+    "laya-runtime-reference": {
+      "repository": "haddock-development/laya_new",
+      "revision": "0daedfab8ed8c7aadc67360e65ed2078ac5d0279",
+      "files": [
+        {
+          "path": "models/laya-typed-decisions/upstream/LICENSE",
+          "url": "https://raw.githubusercontent.com/haddock-development/laya_new/0daedfab8ed8c7aadc67360e65ed2078ac5d0279/LICENSE",
+          "bytes": 10173,
+          "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9",
+          "verified": true
+        },
+        {
+          "path": "models/laya-typed-decisions/upstream/README.md",
+          "url": "https://raw.githubusercontent.com/haddock-development/laya_new/0daedfab8ed8c7aadc67360e65ed2078ac5d0279/README.md",
+          "bytes": 56175,
+          "sha256": "e733406cc9b5bb77b3182ce1b1bf2753616157b02913f585e78b05df803926e4",
+          "verified": true
+        },
+        {
+          "path": "models/laya-typed-decisions/upstream/pyproject.toml",
+          "url": "https://raw.githubusercontent.com/haddock-development/laya_new/0daedfab8ed8c7aadc67360e65ed2078ac5d0279/pyproject.toml",
+          "bytes": 2235,
+          "sha256": "11b2760047c204122671b37fa4a04e7a48d6917127f64e5f00e56ded6dea4392",
+          "verified": true
+        }
+      ]
+    }
+  }
+}

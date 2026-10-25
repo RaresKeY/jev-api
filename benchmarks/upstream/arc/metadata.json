@@ -1,0 +1,277 @@
+{
+  "_id": "621ffdd236468d709f181d5e",
+  "id": "allenai/ai2_arc",
+  "author": "allenai",
+  "sha": "210d026faf9955653af8916fad021475a3f00453",
+  "lastModified": "2023-12-21T15:09:48.000Z",
+  "private": false,
+  "gated": false,
+  "disabled": false,
+  "tags": [
+    "task_categories:question-answering",
+    "task_ids:open-domain-qa",
+    "task_ids:multiple-choice-qa",
+    "annotations_creators:found",
+    "language_creators:found",
+    "multilinguality:monolingual",
+    "source_datasets:original",
+    "language:en",
+    "license:cc-by-sa-4.0",
+    "size_categories:1K<n<10K",
+    "format:parquet",
+    "modality:text",
+    "library:datasets",
+    "library:pandas",
+    "library:polars",
+    "library:mlcroissant",
+    "arxiv:1803.05457",
+    "region:us"
+  ],
+  "description": "\n\t\n\t\t\n\t\n\t\n\t\tDataset Card for \"ai2_arc\"\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Summary\n\t\n\nA new dataset of 7,787 genuine grade-school level, multiple-choice science questions, assembled to encourage research in\n advanced question-answering. The dataset is partitioned into a Challenge Set and an Easy Set, where the former contains\n only questions answered incorrectly by both a retrieval-based algorithm and a word co-occurrence algorithm. We are also\n including a corpus of over 14 million science sentences… See the full description on the dataset page: https://huggingface.co/datasets/allenai/ai2_arc.",
+  "downloads": 627630,
+  "likes": 408,
+  "cardData": {
+    "annotations_creators": [
+      "found"
+    ],
+    "language_creators": [
+      "found"
+    ],
+    "language": [
+      "en"
+    ],
+    "license": [
+      "cc-by-sa-4.0"
+    ],
+    "multilinguality": [
+      "monolingual"
+    ],
+    "size_categories": [
+      "1K<n<10K"
+    ],
+    "source_datasets": [
+      "original"
+    ],
+    "task_categories": [
+      "question-answering"
+    ],
+    "task_ids": [
+      "open-domain-qa",
+      "multiple-choice-qa"
+    ],
+    "pretty_name": "Ai2Arc",
+    "language_bcp47": [
+      "en-US"
+    ],
+    "dataset_info": [
+      {
+        "config_name": "ARC-Challenge",
+        "features": [
+          {
+            "name": "id",
+            "dtype": "string"
+          },
+          {
+            "name": "question",
+            "dtype": "string"
+          },
+          {
+            "name": "choices",
+            "sequence": [
+              {
+                "name": "text",
+                "dtype": "string"
+              },
+              {
+                "name": "label",
+                "dtype": "string"
+              }
+            ]
+          },
+          {
+            "name": "answerKey",
+            "dtype": "string"
+          }
+        ],
+        "splits": [
+          {
+            "name": "train",
+            "num_bytes": 349760,
+            "num_examples": 1119
+          },
+          {
+            "name": "test",
+            "num_bytes": 375511,
+            "num_examples": 1172
+          },
+          {
+            "name": "validation",
+            "num_bytes": 96660,
+            "num_examples": 299
+          }
+        ],
+        "download_size": 449460,
+        "dataset_size": 821931
+      },
+      {
+        "config_name": "ARC-Easy",
+        "features": [
+          {
+            "name": "id",
+            "dtype": "string"
+          },
+          {
+            "name": "question",
+            "dtype": "string"
+          },
+          {
+            "name": "choices",
+            "sequence": [
+              {
+                "name": "text",
+                "dtype": "string"
+              },
+              {
+                "name": "label",
+                "dtype": "string"
+              }
+            ]
+          },
+          {
+            "name": "answerKey",
+            "dtype": "string"
+          }
+        ],
+        "splits": [
+          {
+            "name": "train",
+            "num_bytes": 619000,
+            "num_examples": 2251
+          },
+          {
+            "name": "test",
+            "num_bytes": 657514,
+            "num_examples": 2376
+          },
+          {
+            "name": "validation",
+            "num_bytes": 157394,
+            "num_examples": 570
+          }
+        ],
+        "download_size": 762935,
+        "dataset_size": 1433908
+      }
+    ],
+    "configs": [
+      {
+        "config_name": "ARC-Challenge",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "ARC-Challenge/train-*"
+          },
+          {
+            "split": "test",
+            "path": "ARC-Challenge/test-*"
+          },
+          {
+            "split": "validation",
+            "path": "ARC-Challenge/validation-*"
+          }
+        ]
+      },
+      {
+        "config_name": "ARC-Easy",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "ARC-Easy/train-*"
+          },
+          {
+            "split": "test",
+            "path": "ARC-Easy/test-*"
+          },
+          {
+            "split": "validation",
+            "path": "ARC-Easy/validation-*"
+          }
+        ]
+      }
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "957b2579c6ef20995a09efd9a17f8fd90606f5ed",
+      "size": 1174
+    },
+    {
+      "rfilename": "ARC-Challenge/test-00000-of-00001.parquet",
+      "blobId": "dccb239c736b6aa3f70117b44820ab50fba7fb53",
+      "size": 203808,
+      "lfs": {
+        "sha256": "62f03257e737aed263f55c6abf87c7bb0028a44a6bdd2a26eb1279eb42c1d1e9",
+        "size": 203808,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "ARC-Challenge/train-00000-of-00001.parquet",
+      "blobId": "ae987592f5e0913097e4b6637fcfcbae7dcd994c",
+      "size": 189909,
+      "lfs": {
+        "sha256": "e488c1587ffdcfc8443f916c53488a95cd471c5790e0746c6bfe4cecf20962cb",
+        "size": 189909,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "ARC-Challenge/validation-00000-of-00001.parquet",
+      "blobId": "108b2f1e32ff87935ae766487409bbdf5c169964",
+      "size": 55743,
+      "lfs": {
+        "sha256": "395a5c88d1580d69855fbaee9450270578df1ad5af6259771cd0a42c20e99f05",
+        "size": 55743,
+        "pointerSize": 130
+      }
+    },
+    {
+      "rfilename": "ARC-Easy/test-00000-of-00001.parquet",
+      "blobId": "6353258399faf3b5432b66afcc7eeaaa6335b717",
+      "size": 346257,
+      "lfs": {
+        "sha256": "4160597d618ae851c7eb04e281574f3f654776216ac6b6641588d64527b47177",
+        "size": 346257,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "ARC-Easy/train-00000-of-00001.parquet",
+      "blobId": "86a868d072039643afe7dabab2502ec1f59e80e7",
+      "size": 330598,
+      "lfs": {
+        "sha256": "b315db8a4be597dc7daa50a4e70d48dd7c990c32085629e6ccd8c926beaa80b5",
+        "size": 330598,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "ARC-Easy/validation-00000-of-00001.parquet",
+      "blobId": "ca37ca123161870fcdbc8e36992a738c8d91d4fa",
+      "size": 86080,
+      "lfs": {
+        "sha256": "ed890ff1e4cef7a7140d3a30dcea3ed2c9d467c6458f447ad9ef0176d8dcbb74",
+        "size": 86080,
+        "pointerSize": 130
+      }
+    },
+    {
+      "rfilename": "README.md",
+      "blobId": "d50d3b885a6d04fe8cb16cc9947f64dff0ba941a",
+      "size": 9001
+    }
+  ],
+  "createdAt": "2022-03-02T23:29:22.000Z",
+  "usedStorage": 94480182
+}

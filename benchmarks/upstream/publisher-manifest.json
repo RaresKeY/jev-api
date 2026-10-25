@@ -1,0 +1,79 @@
+{
+  "status": "verified",
+  "bundles": {
+    "nli-small-metrics": {
+      "repository": "cross-encoder/nli-distilroberta-base",
+      "revision": "b14d131f9d32668a5e6a982729b57ff6ed5dfcbd",
+      "files": [
+        {
+          "path": "benchmarks/upstream/nli-small-metrics/CESoftmaxAccuracyEvaluator_AllNLI-dev_results.csv",
+          "url": "https://huggingface.co/cross-encoder/nli-distilroberta-base/resolve/b14d131f9d32668a5e6a982729b57ff6ed5dfcbd/CESoftmaxAccuracyEvaluator_AllNLI-dev_results.csv",
+          "bytes": 337,
+          "git_blob_sha1": "54a702e9aa66cf09e39aea0550dcbdcc247b73cc",
+          "sha256": "153654b0438b139b0e8fa0dfa2053a7521807336fb5d085e85a66a287db8ed6d",
+          "verified": true
+        }
+      ]
+    },
+    "nli-large-metrics": {
+      "repository": "cross-encoder/nli-deberta-v3-large",
+      "revision": "bab4bc7178836f731dcfd18c06ca9def0a137712",
+      "files": [
+        {
+          "path": "benchmarks/upstream/nli-large-metrics/CESoftmaxAccuracyEvaluator_AllNLI-dev_results.csv",
+          "url": "https://huggingface.co/cross-encoder/nli-deberta-v3-large/resolve/bab4bc7178836f731dcfd18c06ca9def0a137712/CESoftmaxAccuracyEvaluator_AllNLI-dev_results.csv",
+          "bytes": 678,
+          "git_blob_sha1": "3ae42b624a4f3a2077e9762a14cd5e67ecd3713c",
+          "sha256": "9b1521dabfe07e1b5ce2d09fd3910d4ed85c0396b462dc629d81423a8a7fd299",
+          "verified": true
+        }
+      ]
+    },
+    "smol-evaluation": {
+      "repository": "huggingface/smollm",
+      "revision": "f54818907404ec3d6bb150357b7d0dea333f1aea",
+      "files": [
+        {
+          "path": "benchmarks/upstream/smol-evaluation/text/evaluation/smollm2/README.md",
+          "url": "https://raw.githubusercontent.com/huggingface/smollm/f54818907404ec3d6bb150357b7d0dea333f1aea/text/evaluation/smollm2/README.md",
+          "bytes": 1796,
+          "git_blob_sha1": "56afdd07ad429ebc34e83260980d3286cf0f9527",
+          "sha256": "9a6fffe1d439dd7d33fea67a2caf374e986833fadc52aa9f803495e3070ba02b",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/smol-evaluation/text/evaluation/smollm2/math_utils.py",
+          "url": "https://raw.githubusercontent.com/huggingface/smollm/f54818907404ec3d6bb150357b7d0dea333f1aea/text/evaluation/smollm2/math_utils.py",
+          "bytes": 11034,
+          "git_blob_sha1": "73345699e320cd49b7744a8a662fa03fc85d1394",
+          "sha256": "a8cea086bab6352284a6b88433549f76b7b10047b080f11e2faa6a4a755f0690",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/smol-evaluation/text/evaluation/smollm2/tasks.py",
+          "url": "https://raw.githubusercontent.com/huggingface/smollm/f54818907404ec3d6bb150357b7d0dea333f1aea/text/evaluation/smollm2/tasks.py",
+          "bytes": 11426,
+          "git_blob_sha1": "2359c9f97fcbcd816e8ceb46c3a78d24c24145c5",
+          "sha256": "6899e7565b529ef2200e500fd9814c46bbdf42f9576f069d6de8a4dc2b9355b1",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/smol-evaluation/text/evaluation/smollm3/README.md",
+          "url": "https://raw.githubusercontent.com/huggingface/smollm/f54818907404ec3d6bb150357b7d0dea333f1aea/text/evaluation/smollm3/README.md",
+          "bytes": 2329,
+          "git_blob_sha1": "066140c40506db6ae73d3a39567874888b9bf705",
+          "sha256": "fb8e8b28bd33d23d049f063aff09820415dc99834e88f9f82068844f4bd76449",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/smol-evaluation/text/evaluation/smollm3/tasks.py",
+          "url": "https://raw.githubusercontent.com/huggingface/smollm/f54818907404ec3d6bb150357b7d0dea333f1aea/text/evaluation/smollm3/tasks.py",
+          "bytes": 26064,
+          "git_blob_sha1": "29e139175c41a8a3f19c4442fe3ef7f7cb7e5e09",
+          "sha256": "425ca8febe0991bdab67bb6ed7aa0f47c1b25a90161791c49112fb7cff7518f9",
+          "verified": true
+        }
+      ]
+    }
+  }
+}

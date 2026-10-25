@@ -1,0 +1,399 @@
+{
+  "status": "validated",
+  "original_files": 91,
+  "suites": {
+    "jevbench-easy": {
+      "cases": 48,
+      "questions": 48,
+      "strata": [
+        "extraction/choice",
+        "fact/noul",
+        "intent/choice",
+        "tool_selection/choice"
+      ],
+      "sources": [
+        "benchmarks/upstream/jevbench/datasets/public/easy.jsonl"
+      ],
+      "metric": "jevbench-exact",
+      "full_runner_ready": true,
+      "typed_runner_ready": true,
+      "runner": "scripts/upstream_benchmarks.py"
+    },
+    "jevbench-standard": {
+      "cases": 72,
+      "questions": 72,
+      "strata": [
+        "adequacy/noul",
+        "extraction/choice",
+        "intent/choice",
+        "ordinal/score",
+        "policy/noul",
+        "routing/choice"
+      ],
+      "sources": [
+        "benchmarks/upstream/jevbench/datasets/public/original.jsonl"
+      ],
+      "metric": "jevbench-exact",
+      "full_runner_ready": true,
+      "typed_runner_ready": true,
+      "runner": "scripts/upstream_benchmarks.py"
+    },
+    "jevbench-hard": {
+      "cases": 111,
+      "questions": 111,
+      "strata": [
+        "adversarial/choice",
+        "adversarial/noul",
+        "adversarial/score",
+        "ambiguous/choice",
+        "judge_hard/noul",
+        "long_policy/choice",
+        "long_policy/noul",
+        "long_policy/score",
+        "multi_hop/choice",
+        "multi_hop/noul",
+        "multi_hop/score",
+        "probability/choice",
+        "probability/noul",
+        "routing_hard/choice",
+        "temporal_numeric/choice",
+        "temporal_numeric/noul",
+        "temporal_numeric/score",
+        "tradeoff/choice",
+        "tradeoff/noul",
+        "trap/choice",
+        "trap/noul",
+        "trap/score"
+      ],
+      "sources": [
+        "benchmarks/upstream/jevbench/datasets/public/hard.jsonl"
+      ],
+      "metric": "jevbench-exact",
+      "full_runner_ready": true,
+      "typed_runner_ready": true,
+      "runner": "scripts/upstream_benchmarks.py"
+    },
+    "kev-transfer": {
+      "cases": 764,
+      "questions": 764,
+      "strata": [
+        "composition_holdout",
+        "contrastive",
+        "emotion",
+        "mmlu",
+        "paws",
+        "qnli",
+        "sciq",
+        "tweet_offensive"
+      ],
+      "sources": [
+        "benchmarks/upstream/kev/evals/v4/transfer-v4/test.jsonl"
+      ],
+      "metric": "hard-label",
+      "full_runner_ready": true,
+      "typed_runner_ready": true,
+      "runner": "scripts/upstream_benchmarks.py"
+    },
+    "kev-decision": {
+      "cases": 1176,
+      "questions": 1440,
+      "strata": [
+        "agnews",
+        "amazon",
+        "banking77",
+        "boolq",
+        "contrastive",
+        "dbpedia14",
+        "imdb",
+        "mnli",
+        "sst5",
+        "trec",
+        "yelp"
+      ],
+      "sources": [
+        "benchmarks/upstream/kev/evals/v7/decision-v7/test.jsonl"
+      ],
+      "metric": "hard-label",
+      "full_runner_ready": true,
+      "typed_runner_ready": true,
+      "runner": "scripts/upstream_benchmarks.py"
+    },
+    "kev-hard": {
+      "cases": 700,
+      "questions": 1088,
+      "strata": [
+        "hard_ambiguous",
+        "hard_judge",
+        "hard_long_policy",
+        "hard_multi_hop",
+        "hard_probability",
+        "hard_temporal_numeric",
+        "hard_tradeoff"
+      ],
+      "sources": [
+        "benchmarks/upstream/kev/evals/hard-v1/test.jsonl"
+      ],
+      "metric": "hard-label",
+      "full_runner_ready": true,
+      "typed_runner_ready": true,
+      "runner": "scripts/upstream_benchmarks.py"
+    },
+    "typed-decisions": {
+      "cases": 400,
+      "questions": 2000,
+      "strata": [
+        "agent_trace_observability",
+        "customer_service",
+        "invoice_processing",
+        "security_incidents"
+      ],
+      "sources": [
+        "benchmarks/upstream/typed-decisions/all/test-00000-of-00001.parquet"
+      ],
+      "metric": "soft-gold",
+      "full_runner_ready": true,
+      "typed_runner_ready": true,
+      "runner": "scripts/upstream_benchmarks.py"
+    },
+    "laya-zh": {
+      "cases": 219,
+      "questions": 284,
+      "strata": [
+        "content_moderation",
+        "ecommerce_cs",
+        "voice_assistant_routing"
+      ],
+      "sources": [
+        "benchmarks/upstream/laya/research/evals/zh_decision_bench.jsonl"
+      ],
+      "metric": "hard-label",
+      "full_runner_ready": true,
+      "typed_runner_ready": true,
+      "runner": "scripts/upstream_benchmarks.py"
+    },
+    "verdict-test": {
+      "cases": 500,
+      "questions": 500,
+      "strata": [
+        "unknown"
+      ],
+      "sources": [
+        "benchmarks/upstream/verdict/data/test.jsonl"
+      ],
+      "metric": "hard-label",
+      "full_runner_ready": true,
+      "typed_runner_ready": true,
+      "runner": "scripts/upstream_benchmarks.py"
+    },
+    "verdict-real_banking_test": {
+      "cases": 1000,
+      "questions": 1000,
+      "strata": [
+        "distant_oos",
+        "in_scope"
+      ],
+      "sources": [
+        "benchmarks/upstream/verdict/data/real_banking_test.jsonl"
+      ],
+      "metric": "hard-label",
+      "full_runner_ready": true,
+      "typed_runner_ready": true,
+      "runner": "scripts/upstream_benchmarks.py"
+    },
+    "verdict-slice_cardinality_k3": {
+      "cases": 100,
+      "questions": 100,
+      "strata": [
+        "in_scope"
+      ],
+      "sources": [
+        "benchmarks/upstream/verdict/data/slice_cardinality_k3.jsonl"
+      ],
+      "metric": "hard-label",
+      "full_runner_ready": true,
+      "typed_runner_ready": true,
+      "runner": "scripts/upstream_benchmarks.py"
+    },
+    "verdict-slice_cardinality_k25": {
+      "cases": 100,
+      "questions": 100,
+      "strata": [
+        "in_scope"
+      ],
+      "sources": [
+        "benchmarks/upstream/verdict/data/slice_cardinality_k25.jsonl"
+      ],
+      "metric": "hard-label",
+      "full_runner_ready": true,
+      "typed_runner_ready": true,
+      "runner": "scripts/upstream_benchmarks.py"
+    },
+    "verdict-slice_missing_option": {
+      "cases": 200,
+      "questions": 200,
+      "strata": [
+        "missing_option"
+      ],
+      "sources": [
+        "benchmarks/upstream/verdict/data/slice_missing_option.jsonl"
+      ],
+      "metric": "hard-label",
+      "full_runner_ready": true,
+      "typed_runner_ready": true,
+      "runner": "scripts/upstream_benchmarks.py"
+    },
+    "verdict-slice_distant_oos": {
+      "cases": 200,
+      "questions": 200,
+      "strata": [
+        "distant_oos"
+      ],
+      "sources": [
+        "benchmarks/upstream/verdict/data/slice_distant_oos.jsonl"
+      ],
+      "metric": "hard-label",
+      "full_runner_ready": true,
+      "typed_runner_ready": true,
+      "runner": "scripts/upstream_benchmarks.py"
+    },
+    "snli": {
+      "cases": 9824,
+      "questions": 9824,
+      "strata": [
+        "contradiction",
+        "entailment",
+        "neutral"
+      ],
+      "sources": [
+        "benchmarks/upstream/snli/plain_text/test-00000-of-00001.parquet"
+      ],
+      "metric": "native-nli",
+      "full_runner_ready": true,
+      "typed_runner_ready": true,
+      "runner": "scripts/upstream_benchmarks.py"
+    },
+    "mnli-matched": {
+      "cases": 9815,
+      "questions": 9815,
+      "strata": [
+        "contradiction",
+        "entailment",
+        "neutral"
+      ],
+      "sources": [
+        "benchmarks/upstream/mnli/data/validation_matched-00000-of-00001.parquet"
+      ],
+      "metric": "native-nli",
+      "full_runner_ready": true,
+      "typed_runner_ready": true,
+      "runner": "scripts/upstream_benchmarks.py"
+    },
+    "mnli-mismatched": {
+      "cases": 9832,
+      "questions": 9832,
+      "strata": [
+        "contradiction",
+        "entailment",
+        "neutral"
+      ],
+      "sources": [
+        "benchmarks/upstream/mnli/data/validation_mismatched-00000-of-00001.parquet"
+      ],
+      "metric": "native-nli",
+      "full_runner_ready": true,
+      "typed_runner_ready": true,
+      "runner": "scripts/upstream_benchmarks.py"
+    },
+    "arc-easy": {
+      "cases": 2376,
+      "questions": 2376,
+      "strata": [
+        "3",
+        "4",
+        "5"
+      ],
+      "sources": [
+        "benchmarks/upstream/arc/ARC-Easy/test-00000-of-00001.parquet"
+      ],
+      "metric": "task-equivalent-choice",
+      "full_runner_ready": true,
+      "typed_runner_ready": true,
+      "runner": "scripts/upstream_benchmarks.py"
+    },
+    "arc-challenge": {
+      "cases": 1172,
+      "questions": 1172,
+      "strata": [
+        "3",
+        "4",
+        "5"
+      ],
+      "sources": [
+        "benchmarks/upstream/arc/ARC-Challenge/test-00000-of-00001.parquet"
+      ],
+      "metric": "task-equivalent-choice",
+      "full_runner_ready": true,
+      "typed_runner_ready": true,
+      "runner": "scripts/upstream_benchmarks.py"
+    },
+    "gsm8k": {
+      "cases": 1319,
+      "questions": 1319,
+      "strata": [
+        "math"
+      ],
+      "sources": [
+        "benchmarks/upstream/gsm8k/main/test-00000-of-00001.parquet"
+      ],
+      "metric": "original-gsm8k-free-response",
+      "full_runner_ready": true,
+      "typed_runner_ready": false,
+      "runner": "scripts/general_benchmarks.py"
+    },
+    "ifeval": {
+      "cases": 541,
+      "questions": 834,
+      "strata": [
+        "change_case:capital_word_frequency",
+        "change_case:english_capital",
+        "change_case:english_lowercase",
+        "combination:repeat_prompt",
+        "combination:two_responses",
+        "detectable_content:number_placeholders",
+        "detectable_content:postscript",
+        "detectable_format:constrained_response",
+        "detectable_format:json_format",
+        "detectable_format:multiple_sections",
+        "detectable_format:number_bullet_lists",
+        "detectable_format:number_highlighted_sections",
+        "detectable_format:title",
+        "keywords:existence",
+        "keywords:forbidden_words",
+        "keywords:frequency",
+        "keywords:letter_frequency",
+        "language:response_language",
+        "length_constraints:nth_paragraph_first_word",
+        "length_constraints:number_paragraphs",
+        "length_constraints:number_sentences",
+        "length_constraints:number_words",
+        "punctuation:no_comma",
+        "startend:end_checker",
+        "startend:quotation"
+      ],
+      "sources": [
+        "benchmarks/upstream/ifeval/input_data.jsonl"
+      ],
+      "metric": "original-ifeval-strict-loose",
+      "full_runner_ready": true,
+      "typed_runner_ready": false,
+      "runner": "scripts/general_benchmarks.py"
+    }
+  },
+  "cloud_requests": 0,
+  "source_hashes": {
+    "scripts/upstream_benchmarks.py": "5b653445833181042b9035c35d2a4201b493bf553ad14a30291aafbf4791d20f",
+    "decision_lab/benchmarks.py": "1af46488048971d3a2bd1a759d25aad7f76fad9dfd575bab211ac22644548b11",
+    "decision_lab/specialists.py": "17e00c5fed94d464df5df8f75f2b0ff464be6dedcef06cdc160b800131cd993e",
+    "decision_lab/nli.py": "c492c0eb60d784921322efd8738ea1604c22cd25ee7e8d6031f3274e349d0acb"
+  }
+}

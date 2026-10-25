@@ -1,0 +1,100 @@
+{
+  "sources": {
+    "kev": "jaredpalmer/kev@84847f0a883d900f7de5b7a57eaa341ca7f9a6b4",
+    "laya": "NandhaKishorM/laya@fa9a2a7070b1789912a49ae24603bbfb1a78b001",
+    "verdict": "Heman10x-NGU/openJev-verdict-2.0@bff28567cff463b833bf044f351a8b7945d53e07",
+    "jevbench": "fstandhartinger/jevbench@bb05a335bc809e61b20c0f745d25499a82b326fc",
+    "ifeval": "e49bbfe381c9c0e564b937f1c4e163a2273c65cc"
+  },
+  "changes": {
+    "verdict": "core absolute imports changed to relative imports",
+    "ifeval": "instruction_following_eval imports changed to relative imports",
+    "others": "source bytes unchanged; package init files added"
+  },
+  "files": [
+    {
+      "path": "vendored/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vendored/ifeval/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vendored/ifeval/evaluation_lib.py",
+      "sha256": "83ea37b0f764a1526e9d8888bd5debe7760bb507f43a5f501e76135768cad3b0"
+    },
+    {
+      "path": "vendored/ifeval/instructions.py",
+      "sha256": "a67e7eb29d1cf5c5fd62e1185b9e8ab545c4fbce9c11c15bcae26486b8038b8a"
+    },
+    {
+      "path": "vendored/ifeval/instructions_registry.py",
+      "sha256": "59ce3690e2f704d9a855810607c034e69387245b67dffc9839e914446bd7c993"
+    },
+    {
+      "path": "vendored/ifeval/instructions_util.py",
+      "sha256": "a73797261eee5bf447e279d82a2b700b1bdd3cb1193412dbab1270a85832bc6b"
+    },
+    {
+      "path": "vendored/jevbench/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vendored/jevbench/metrics.py",
+      "sha256": "4038c8423ad1cf28601afb6babe777b71f08e379b9ca125b09b52c0ac7d60515"
+    },
+    {
+      "path": "vendored/jevbench/scoring.py",
+      "sha256": "6aa17d212ea20a3eeb6876149367842e8462c11dcb54d73df062fb406368331e"
+    },
+    {
+      "path": "vendored/kev/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vendored/kev/api.py",
+      "sha256": "a6f53af5354f8ea17915abc78360fdf291a5108ce39a53a2d9135d48c603ae58"
+    },
+    {
+      "path": "vendored/kev/metrics.py",
+      "sha256": "167a586334cfcced4adcc197758535c3bcda832b855c151095ef2d1968cf8983"
+    },
+    {
+      "path": "vendored/kev/model.py",
+      "sha256": "2ff3b2e67c048e3bc5a0d1a32aafe50804ed315a5564fce06bb4b95697c5271c"
+    },
+    {
+      "path": "vendored/laya/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vendored/laya/common.py",
+      "sha256": "a350dd1918c9b2445569bf8c0d31bd6baac2c89dded1faeb3f8aa44ea6596da3"
+    },
+    {
+      "path": "vendored/verdict/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vendored/verdict/core/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vendored/verdict/core/calibration.py",
+      "sha256": "97a50e49abf698da52e350556cc65431704d0ac4b09435568a3055eb13c80b27"
+    },
+    {
+      "path": "vendored/verdict/core/engine_encoder.py",
+      "sha256": "7f297744360b7ab3fa8027dcc99dc225e493324428d38bb15222916be04c5e43"
+    },
+    {
+      "path": "vendored/verdict/core/formatting.py",
+      "sha256": "f5380598da396dd593713c6f7be37c375a9513951bd2d046d20535689dcb7630"
+    },
+    {
+      "path": "vendored/verdict/core/primitives.py",
+      "sha256": "9f6757c50ca02fd05e3bda1f7b4b8f63fbd2dc8033a210f05b6c2f8525c1ded8"
+    }
+  ]
+}

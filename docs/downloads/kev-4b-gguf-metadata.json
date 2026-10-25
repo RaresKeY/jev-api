@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "tensors": 428,
+  "metadata": {
+    "general.architecture": "qwen35",
+    "general.name": "Kev-4B",
+    "qwen35.decision.type": "kev",
+    "qwen35.decision.temperature.choice": 2.406049966812134,
+    "qwen35.decision.temperature.score": 2.406049966812134,
+    "qwen35.decision.temperature.noul": 2.406049966812134,
+    "general.file_type": 15
+  }
+}

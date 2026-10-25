@@ -1,0 +1,19 @@
+{
+  "status": "verified",
+  "bundles": {
+    "gsm8k-demonstrations": {
+      "repository": "openai/gsm8k",
+      "revision": "740312add88f781978c0658806c59bc2815b9866",
+      "files": [
+        {
+          "path": "benchmarks/upstream/gsm8k/main/train-00000-of-00001.parquet",
+          "url": "https://huggingface.co/datasets/openai/gsm8k/resolve/740312add88f781978c0658806c59bc2815b9866/main/train-00000-of-00001.parquet",
+          "bytes": 2306545,
+          "expected_sha256": "ea82612ea9582142387730c793eb67d3b12849002bc0b7fa6f8efafa7351419d",
+          "sha256": "ea82612ea9582142387730c793eb67d3b12849002bc0b7fa6f8efafa7351419d",
+          "verified": true
+        }
+      ]
+    }
+  }
+}

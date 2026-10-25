@@ -1,0 +1,208 @@
+{
+  "_id": "621ffdd236468d709f181ed7",
+  "id": "nyu-mll/multi_nli",
+  "author": "nyu-mll",
+  "sha": "da70db2af9d09693783c3320c4249840212ee221",
+  "lastModified": "2024-01-04T16:06:27.000Z",
+  "private": false,
+  "gated": false,
+  "disabled": false,
+  "tags": [
+    "task_categories:text-classification",
+    "task_ids:natural-language-inference",
+    "task_ids:multi-input-text-classification",
+    "annotations_creators:crowdsourced",
+    "language_creators:crowdsourced",
+    "language_creators:found",
+    "multilinguality:monolingual",
+    "source_datasets:original",
+    "language:en",
+    "license:cc-by-3.0",
+    "license:cc-by-sa-3.0",
+    "license:mit",
+    "license:other",
+    "size_categories:100K<n<1M",
+    "format:parquet",
+    "modality:text",
+    "library:datasets",
+    "library:pandas",
+    "library:mlcroissant",
+    "library:polars",
+    "region:us"
+  ],
+  "description": "\n\t\n\t\t\n\t\n\t\n\t\tDataset Card for Multi-Genre Natural Language Inference (MultiNLI)\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Summary\n\t\n\nThe Multi-Genre Natural Language Inference (MultiNLI) corpus is a\ncrowd-sourced collection of 433k sentence pairs annotated with textual\nentailment information. The corpus is modeled on the SNLI corpus, but differs in\nthat covers a range of genres of spoken and written text, and supports a\ndistinctive cross-genre generalization evaluation. The corpus served as the\nbasis for the… See the full description on the dataset page: https://huggingface.co/datasets/nyu-mll/multi_nli.",
+  "paperswithcode_id": "multinli",
+  "downloads": 26316,
+  "likes": 121,
+  "cardData": {
+    "annotations_creators": [
+      "crowdsourced"
+    ],
+    "language_creators": [
+      "crowdsourced",
+      "found"
+    ],
+    "language": [
+      "en"
+    ],
+    "license": [
+      "cc-by-3.0",
+      "cc-by-sa-3.0",
+      "mit",
+      "other"
+    ],
+    "multilinguality": [
+      "monolingual"
+    ],
+    "size_categories": [
+      "100K<n<1M"
+    ],
+    "source_datasets": [
+      "original"
+    ],
+    "task_categories": [
+      "text-classification"
+    ],
+    "task_ids": [
+      "natural-language-inference",
+      "multi-input-text-classification"
+    ],
+    "paperswithcode_id": "multinli",
+    "pretty_name": "Multi-Genre Natural Language Inference",
+    "license_details": "Open Portion of the American National Corpus",
+    "dataset_info": {
+      "features": [
+        {
+          "name": "promptID",
+          "dtype": "int32"
+        },
+        {
+          "name": "pairID",
+          "dtype": "string"
+        },
+        {
+          "name": "premise",
+          "dtype": "string"
+        },
+        {
+          "name": "premise_binary_parse",
+          "dtype": "string"
+        },
+        {
+          "name": "premise_parse",
+          "dtype": "string"
+        },
+        {
+          "name": "hypothesis",
+          "dtype": "string"
+        },
+        {
+          "name": "hypothesis_binary_parse",
+          "dtype": "string"
+        },
+        {
+          "name": "hypothesis_parse",
+          "dtype": "string"
+        },
+        {
+          "name": "genre",
+          "dtype": "string"
+        },
+        {
+          "name": "label",
+          "dtype": {
+            "class_label": {
+              "names": {
+                "0": "entailment",
+                "1": "neutral",
+                "2": "contradiction"
+              }
+            }
+          }
+        }
+      ],
+      "splits": [
+        {
+          "name": "train",
+          "num_bytes": 410210306,
+          "num_examples": 392702
+        },
+        {
+          "name": "validation_matched",
+          "num_bytes": 10063907,
+          "num_examples": 9815
+        },
+        {
+          "name": "validation_mismatched",
+          "num_bytes": 10610189,
+          "num_examples": 9832
+        }
+      ],
+      "download_size": 224005223,
+      "dataset_size": 430884402
+    },
+    "configs": [
+      {
+        "config_name": "default",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/train-*"
+          },
+          {
+            "split": "validation_matched",
+            "path": "data/validation_matched-*"
+          },
+          {
+            "split": "validation_mismatched",
+            "path": "data/validation_mismatched-*"
+          }
+        ]
+      }
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "957b2579c6ef20995a09efd9a17f8fd90606f5ed",
+      "size": 1174
+    },
+    {
+      "rfilename": "README.md",
+      "blobId": "e300c98b2a3819c7b222dc103724c3368104d2d8",
+      "size": 8895
+    },
+    {
+      "rfilename": "data/train-00000-of-00001.parquet",
+      "blobId": "6a39010b5a76453be40b9728c6a49f0c5f44650d",
+      "size": 213961663,
+      "lfs": {
+        "sha256": "1c1de03640b168e410aabfca19e7cc2f3dfcd7f0e126e935674e56fb102c4529",
+        "size": 213961663,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "data/validation_matched-00000-of-00001.parquet",
+      "blobId": "b47640e0458c8bcdfb7bcdebd374593d84ba6907",
+      "size": 4938568,
+      "lfs": {
+        "sha256": "350c26950b55f460b50d36c76aef87d64b49c78812d7abf7bf97e5fede10f186",
+        "size": 4938568,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "data/validation_mismatched-00000-of-00001.parquet",
+      "blobId": "5213659c999878243f41751c749318fd40e5ef36",
+      "size": 5104992,
+      "lfs": {
+        "sha256": "6b0e1231cebedd255000a7d1732af37ad0500902239db625e231ed77c0c8f2f8",
+        "size": 5104992,
+        "pointerSize": 132
+      }
+    }
+  ],
+  "createdAt": "2022-03-02T23:29:22.000Z",
+  "usedStorage": 3281382851
+}

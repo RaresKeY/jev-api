@@ -1,0 +1,694 @@
+{
+  "_id": "6aae8e69a587030ee9383b46",
+  "id": "jaredpalmer/kev-suites",
+  "author": "jaredpalmer",
+  "sha": "cc4bac803e73112689ec327ffa481c519cbc7a05",
+  "lastModified": "2026-09-30T22:18:57.000Z",
+  "private": false,
+  "gated": false,
+  "disabled": false,
+  "tags": [
+    "region:us"
+  ],
+  "downloads": 4190,
+  "likes": 8,
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "2c9c464bdac1a2456ebcd2eb5b43f03c6fcad58c",
+      "size": 3125
+    },
+    {
+      "rfilename": "decision-v1/calibration.jsonl",
+      "blobId": "e2291d6f8887b74352385b46a9dc90f2aec7ba63",
+      "size": 324993
+    },
+    {
+      "rfilename": "decision-v1/development.jsonl",
+      "blobId": "c07e1869a36f1199583bcf0b17cdfbea51c57a2d",
+      "size": 1013151
+    },
+    {
+      "rfilename": "decision-v1/manifest.json",
+      "blobId": "95ff332a636daf0b55bb9df17c3c4b86cc689382",
+      "size": 2740
+    },
+    {
+      "rfilename": "decision-v1/test.jsonl",
+      "blobId": "cb7681676d771242ab21a208bafc6ebf615429b1",
+      "size": 1017133
+    },
+    {
+      "rfilename": "decision-v1/train.jsonl",
+      "blobId": "0e3c4ff7fcd470f86a16b2ff211f598cd6e15eac",
+      "size": 2468933
+    },
+    {
+      "rfilename": "decision-v2/calibration.jsonl",
+      "blobId": "ceaba412f3c4a516702dd09613f9f17f0317048d",
+      "size": 623092
+    },
+    {
+      "rfilename": "decision-v2/development.jsonl",
+      "blobId": "2a6bc812db41b246d39359bef1a22665d1722f97",
+      "size": 1700635
+    },
+    {
+      "rfilename": "decision-v2/manifest.json",
+      "blobId": "e29b7b271a8899114baa21bad56ee08a0c072491",
+      "size": 5310
+    },
+    {
+      "rfilename": "decision-v2/test.jsonl",
+      "blobId": "eaac28b16f0120b686e33636aa11e7a18d67303f",
+      "size": 1705815
+    },
+    {
+      "rfilename": "decision-v2/train.jsonl",
+      "blobId": "f26caff11e48ad56946764bc2b77f34953c69f23",
+      "size": 4799762
+    },
+    {
+      "rfilename": "diagnostics/binding-v1.jsonl",
+      "blobId": "99bae17980415b4f0a247bb1ba9eb7b7160cab76",
+      "size": 686856
+    },
+    {
+      "rfilename": "diagnostics/binding-v1.manifest.json",
+      "blobId": "94b51a5914bb2d3969b7c4bc8ded7a27b7fad76c",
+      "size": 903
+    },
+    {
+      "rfilename": "documents-v1/train.jsonl",
+      "blobId": "612474e37f874f94165bd90633b5336ae1bceeb1",
+      "size": 23268481,
+      "lfs": {
+        "sha256": "2d7e4c4360d642a382d55425d7f34ffa2f46d00ca39a9bae31acaf82b178ee69",
+        "size": 23268481,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "external/scienthoon-v1/calibration.jsonl",
+      "blobId": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "rfilename": "external/scienthoon-v1/development.jsonl",
+      "blobId": "6b33ce0c71e6ddd0dd4829bbaa6f6c8cacb445c0",
+      "size": 359125
+    },
+    {
+      "rfilename": "external/scienthoon-v1/manifest.json",
+      "blobId": "60fcb3e297e4ec9855d4650f090b721cf125e88f",
+      "size": 1487
+    },
+    {
+      "rfilename": "external/scienthoon-v1/test.jsonl",
+      "blobId": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "rfilename": "external/scienthoon-v1/train.jsonl",
+      "blobId": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "rfilename": "external/semif-v1/calibration.jsonl",
+      "blobId": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "rfilename": "external/semif-v1/development.jsonl",
+      "blobId": "4fe39ee8f829d9bdf52b70cc877a9a2df57b80e1",
+      "size": 259562
+    },
+    {
+      "rfilename": "external/semif-v1/manifest.json",
+      "blobId": "d43ea6fcc99b7a35d5fc87aba87a6096214b63b7",
+      "size": 1502
+    },
+    {
+      "rfilename": "external/semif-v1/test.jsonl",
+      "blobId": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "rfilename": "external/semif-v1/train.jsonl",
+      "blobId": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "rfilename": "hard-v1/train.jsonl",
+      "blobId": "2b069eb9b308e1a9092c4ce4ea49440f28d9f6d9",
+      "size": 23118561,
+      "lfs": {
+        "sha256": "a08ca9c5ba5d365967876d7d88753cf876624be8553df5af3dca8973e4a1aa4d",
+        "size": 23118561,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "public-pool-v4/calibration.jsonl",
+      "blobId": "bc91b59dd32f39a9eb99373009913dacb41bbcf4",
+      "size": 849843
+    },
+    {
+      "rfilename": "public-pool-v4/development.jsonl",
+      "blobId": "eb2910439c53b70c6ce8374cc19c268f95c0947a",
+      "size": 1473897
+    },
+    {
+      "rfilename": "public-pool-v4/manifest.json",
+      "blobId": "a5e143fd4c1df3ad07a176024fb6723a75116e3d",
+      "size": 4030
+    },
+    {
+      "rfilename": "public-pool-v4/test.jsonl",
+      "blobId": "279bae62b2d22959266c2b817f9873d63d796c61",
+      "size": 1479024
+    },
+    {
+      "rfilename": "public-pool-v4/train.jsonl",
+      "blobId": "b4242104c44cb09e32ecb8fc5b48c89b2f13e118",
+      "size": 14445065,
+      "lfs": {
+        "sha256": "21807df00aa0ab67b5c499f902316e76f8b65b609c31cc3f12f07e9fcbdcb525",
+        "size": 14445065,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "public-pool-v5/calibration.jsonl",
+      "blobId": "207e6e8b1d6260d1ece9508fb0f092805cab958e",
+      "size": 862921
+    },
+    {
+      "rfilename": "public-pool-v5/development.jsonl",
+      "blobId": "eb2910439c53b70c6ce8374cc19c268f95c0947a",
+      "size": 1473897
+    },
+    {
+      "rfilename": "public-pool-v5/manifest.json",
+      "blobId": "5054f6ef0816df088f2c24a5ef58536b3d132886",
+      "size": 4034
+    },
+    {
+      "rfilename": "public-pool-v5/test.jsonl",
+      "blobId": "279bae62b2d22959266c2b817f9873d63d796c61",
+      "size": 1479024
+    },
+    {
+      "rfilename": "public-pool-v5/train.jsonl",
+      "blobId": "4c08f632d210768b303d15e5488ba480d4746890",
+      "size": 28897743,
+      "lfs": {
+        "sha256": "0ea9aebb770439bb10cf5bdd469616eb39804695ff5b37d40280ece1ddfa40b4",
+        "size": 28897743,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "public-pool-v6/calibration.jsonl",
+      "blobId": "bcec9799d0a4c22ee6d3e1c7dbc0826eea77099f",
+      "size": 991941
+    },
+    {
+      "rfilename": "public-pool-v6/development.jsonl",
+      "blobId": "4351c412af96a5b82cd9151577f41a22403e4c23",
+      "size": 1762192
+    },
+    {
+      "rfilename": "public-pool-v6/manifest.json",
+      "blobId": "869d521115c12ae6d84e8b54415908df0096af8d",
+      "size": 4570
+    },
+    {
+      "rfilename": "public-pool-v6/test.jsonl",
+      "blobId": "f4d5d9706086dc9f5dce90277c3ee0a57dc25035",
+      "size": 1765351
+    },
+    {
+      "rfilename": "public-pool-v6/train.jsonl",
+      "blobId": "1a60f37b2f86e3ec93ab6171810fb1f7a947c8df",
+      "size": 16816266,
+      "lfs": {
+        "sha256": "f5f6d6e62b8617b0773be7fc7a7210c355a3b3247798deac7fe377ed70fd1164",
+        "size": 16816266,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "round3/decision-r3/calibration.jsonl",
+      "blobId": "fc64670afad73b91b52b9beff6f879066e7cda10",
+      "size": 1449835
+    },
+    {
+      "rfilename": "round3/decision-r3/development.jsonl",
+      "blobId": "5311241b8cbf00797133ae6f84725a2ae610fe46",
+      "size": 1763325
+    },
+    {
+      "rfilename": "round3/decision-r3/manifest.json",
+      "blobId": "acab195dbf46e96aff2f915cd22158d298b77c2e",
+      "size": 72914
+    },
+    {
+      "rfilename": "round3/decision-r3/test.jsonl",
+      "blobId": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "rfilename": "round3/decision-r3/train.jsonl",
+      "blobId": "fc84680c7b836583bab39923b8a1c2519b2e6a5e",
+      "size": 4774294
+    },
+    {
+      "rfilename": "round3/transfer-r3/calibration.jsonl",
+      "blobId": "c3f4decebe2713e4311b3b80be0e558ec85c2969",
+      "size": 645558
+    },
+    {
+      "rfilename": "round3/transfer-r3/development.jsonl",
+      "blobId": "5e5a53fa87d94f6f389b66a1ecbf06fa12944c69",
+      "size": 803309
+    },
+    {
+      "rfilename": "round3/transfer-r3/manifest.json",
+      "blobId": "153172ae7f2c413b6a2146b4d36f0ee3f3c0f2f5",
+      "size": 13439
+    },
+    {
+      "rfilename": "round3/transfer-r3/test.jsonl",
+      "blobId": "e9fcb9d3b7e17e566de5255af5177fab4167b8be",
+      "size": 1383147
+    },
+    {
+      "rfilename": "round3/transfer-r3/train.jsonl",
+      "blobId": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "rfilename": "smoke-v1/calibration.jsonl",
+      "blobId": "28234a60e434af20fafffa1ade0ca597a6268b53",
+      "size": 15937
+    },
+    {
+      "rfilename": "smoke-v1/development.jsonl",
+      "blobId": "70f709a7f84802bb7cf322dfe62f575395d1b19d",
+      "size": 57843
+    },
+    {
+      "rfilename": "smoke-v1/manifest.json",
+      "blobId": "a7f5a00d253a07a1d08c5ff8ec58df8088312b14",
+      "size": 2619
+    },
+    {
+      "rfilename": "smoke-v1/test.jsonl",
+      "blobId": "ef2581f05e1f64e04067f3f72ced8fc203a530be",
+      "size": 58613
+    },
+    {
+      "rfilename": "smoke-v1/train.jsonl",
+      "blobId": "09ac6f316ae6278ee672927fd931980d8ee06631",
+      "size": 17657
+    },
+    {
+      "rfilename": "transfer-v1/calibration.jsonl",
+      "blobId": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "rfilename": "transfer-v1/development.jsonl",
+      "blobId": "016d388f6d663d716f2366aa28f64f6c783c0e19",
+      "size": 794002
+    },
+    {
+      "rfilename": "transfer-v1/manifest.json",
+      "blobId": "92d5479e36d31256b9ac53ace5a83272ef5d2074",
+      "size": 3227
+    },
+    {
+      "rfilename": "transfer-v1/test.jsonl",
+      "blobId": "4945df49b1fbc8185a927b91758a64e49500e1ec",
+      "size": 795756
+    },
+    {
+      "rfilename": "transfer-v1/train.jsonl",
+      "blobId": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "rfilename": "transfer-v2/calibration.jsonl",
+      "blobId": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "rfilename": "transfer-v2/development.jsonl",
+      "blobId": "0213cea82f2f2a8cf33ac05023b1558870eda3c7",
+      "size": 628304
+    },
+    {
+      "rfilename": "transfer-v2/manifest.json",
+      "blobId": "3117c1622d2764b291316bbbd06fdbafcd9d9bcf",
+      "size": 4144
+    },
+    {
+      "rfilename": "transfer-v2/test.jsonl",
+      "blobId": "f7cb4b2c911ceec55985ed403072f35d77ea181b",
+      "size": 631162
+    },
+    {
+      "rfilename": "transfer-v2/train.jsonl",
+      "blobId": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "rfilename": "v3/decision-v3/calibration.jsonl",
+      "blobId": "35935a2dc6b428455f104671d2427c8c2f9514f9",
+      "size": 735634
+    },
+    {
+      "rfilename": "v3/decision-v3/development.jsonl",
+      "blobId": "5311241b8cbf00797133ae6f84725a2ae610fe46",
+      "size": 1763325
+    },
+    {
+      "rfilename": "v3/decision-v3/manifest.json",
+      "blobId": "428982f8ba2e8e041c4153c19c938892ed2736f6",
+      "size": 5834
+    },
+    {
+      "rfilename": "v3/decision-v3/test.jsonl",
+      "blobId": "eaac28b16f0120b686e33636aa11e7a18d67303f",
+      "size": 1705815
+    },
+    {
+      "rfilename": "v3/decision-v3/train.jsonl",
+      "blobId": "c07ff3430d27c42b91fecee213384daa3a421bf0",
+      "size": 5461726
+    },
+    {
+      "rfilename": "v3/smoke-v3/calibration.jsonl",
+      "blobId": "cde8132b09bf0c09341f962e305744014bef1286",
+      "size": 42409
+    },
+    {
+      "rfilename": "v3/smoke-v3/development.jsonl",
+      "blobId": "ef86de9880ad9dd3f4ef4c4e3b4ed8ae2372733a",
+      "size": 95042
+    },
+    {
+      "rfilename": "v3/smoke-v3/manifest.json",
+      "blobId": "5007949716f1e94f3d2ca9568640774f996ff09c",
+      "size": 5840
+    },
+    {
+      "rfilename": "v3/smoke-v3/test.jsonl",
+      "blobId": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "rfilename": "v3/smoke-v3/train.jsonl",
+      "blobId": "e4a6b2631d7b73893894e5ab943b5f28cfd42be2",
+      "size": 46623
+    },
+    {
+      "rfilename": "v3/transfer-v3/calibration.jsonl",
+      "blobId": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "rfilename": "v3/transfer-v3/development.jsonl",
+      "blobId": "5e5a53fa87d94f6f389b66a1ecbf06fa12944c69",
+      "size": 803309
+    },
+    {
+      "rfilename": "v3/transfer-v3/manifest.json",
+      "blobId": "27ae8becb0b61290ef435a1853002b6495372157",
+      "size": 5818
+    },
+    {
+      "rfilename": "v3/transfer-v3/test.jsonl",
+      "blobId": "ab24c8bce1e610b42cea8f9bf414cd1a3faf1d48",
+      "size": 803960
+    },
+    {
+      "rfilename": "v3/transfer-v3/train.jsonl",
+      "blobId": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "rfilename": "v4/decision-v4/calibration.jsonl",
+      "blobId": "ae7c811f9ee75462459fe89ff5413baa70710e1e",
+      "size": 1013789
+    },
+    {
+      "rfilename": "v4/decision-v4/development.jsonl",
+      "blobId": "5311241b8cbf00797133ae6f84725a2ae610fe46",
+      "size": 1763325
+    },
+    {
+      "rfilename": "v4/decision-v4/manifest.json",
+      "blobId": "138a7b2e3de064be08db0cf214c2565f29c5cd62",
+      "size": 6439
+    },
+    {
+      "rfilename": "v4/decision-v4/test.jsonl",
+      "blobId": "eaac28b16f0120b686e33636aa11e7a18d67303f",
+      "size": 1705815
+    },
+    {
+      "rfilename": "v4/decision-v4/train.jsonl",
+      "blobId": "e8a5c66debe80c5c99205b5716edc74cc682a6d2",
+      "size": 15592580,
+      "lfs": {
+        "sha256": "cb55b79e037c9f5a0ef2de4efe79ec6ef5d7d8d21aa64e94eee7731d7eddce74",
+        "size": 15592580,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "v4/transfer-v4/calibration.jsonl",
+      "blobId": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "rfilename": "v4/transfer-v4/development.jsonl",
+      "blobId": "5e5a53fa87d94f6f389b66a1ecbf06fa12944c69",
+      "size": 803309
+    },
+    {
+      "rfilename": "v4/transfer-v4/manifest.json",
+      "blobId": "ca1739abf2ee83cf9740c2b7cc9fbc692231da9c",
+      "size": 6421
+    },
+    {
+      "rfilename": "v4/transfer-v4/test.jsonl",
+      "blobId": "ab24c8bce1e610b42cea8f9bf414cd1a3faf1d48",
+      "size": 803960
+    },
+    {
+      "rfilename": "v4/transfer-v4/train.jsonl",
+      "blobId": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "rfilename": "v5/decision-v5/calibration.jsonl",
+      "blobId": "21b0ef2c70100daf6a7cc9dd18ce7409bff89c83",
+      "size": 1522900
+    },
+    {
+      "rfilename": "v5/decision-v5/development.jsonl",
+      "blobId": "5311241b8cbf00797133ae6f84725a2ae610fe46",
+      "size": 1763325
+    },
+    {
+      "rfilename": "v5/decision-v5/manifest.json",
+      "blobId": "2bd65f1de40db8a0fba4acdafd37388ab0ba6306",
+      "size": 6605
+    },
+    {
+      "rfilename": "v5/decision-v5/test.jsonl",
+      "blobId": "eaac28b16f0120b686e33636aa11e7a18d67303f",
+      "size": 1705815
+    },
+    {
+      "rfilename": "v5/decision-v5/train.jsonl",
+      "blobId": "ab0697db83cbcc99bb183933c10f2881367afb15",
+      "size": 33463975,
+      "lfs": {
+        "sha256": "62beae9f2c6e8aa27bde3b2b067c0873dfb9a089cb02b1b770fd81ce788457dd",
+        "size": 33463975,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "v5/transfer-v5/calibration.jsonl",
+      "blobId": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "rfilename": "v5/transfer-v5/development.jsonl",
+      "blobId": "5e5a53fa87d94f6f389b66a1ecbf06fa12944c69",
+      "size": 803309
+    },
+    {
+      "rfilename": "v5/transfer-v5/manifest.json",
+      "blobId": "037afa17c1d6e0f85c449a2fb4366d23d52d92d2",
+      "size": 6585
+    },
+    {
+      "rfilename": "v5/transfer-v5/test.jsonl",
+      "blobId": "ab24c8bce1e610b42cea8f9bf414cd1a3faf1d48",
+      "size": 803960
+    },
+    {
+      "rfilename": "v5/transfer-v5/train.jsonl",
+      "blobId": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "rfilename": "v6/decision-v6/calibration.jsonl",
+      "blobId": "75346ec21202dd70d0f82458519d002ac1dc36bb",
+      "size": 1155887
+    },
+    {
+      "rfilename": "v6/decision-v6/development.jsonl",
+      "blobId": "5311241b8cbf00797133ae6f84725a2ae610fe46",
+      "size": 1763325
+    },
+    {
+      "rfilename": "v6/decision-v6/manifest.json",
+      "blobId": "2af92205354305ce198f1f4f450820e96d28377d",
+      "size": 6644
+    },
+    {
+      "rfilename": "v6/decision-v6/test.jsonl",
+      "blobId": "eaac28b16f0120b686e33636aa11e7a18d67303f",
+      "size": 1705815
+    },
+    {
+      "rfilename": "v6/decision-v6/train.jsonl",
+      "blobId": "8b2d637e202979e5ad3c2923d74c54efc461d952",
+      "size": 17963756,
+      "lfs": {
+        "sha256": "7c28800dd9f33465e5704353bcc5f6bec5ae933a9925d61f4957a7fb38efb454",
+        "size": 17963756,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "v6/transfer-v6/calibration.jsonl",
+      "blobId": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "rfilename": "v6/transfer-v6/development.jsonl",
+      "blobId": "5e5a53fa87d94f6f389b66a1ecbf06fa12944c69",
+      "size": 803309
+    },
+    {
+      "rfilename": "v6/transfer-v6/manifest.json",
+      "blobId": "abf39720c963803ce97e89feaa3f5259cde5026f",
+      "size": 6584
+    },
+    {
+      "rfilename": "v6/transfer-v6/test.jsonl",
+      "blobId": "ab24c8bce1e610b42cea8f9bf414cd1a3faf1d48",
+      "size": 803960
+    },
+    {
+      "rfilename": "v6/transfer-v6/train.jsonl",
+      "blobId": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "rfilename": "v7/decision-v7/calibration.jsonl",
+      "blobId": "fc64670afad73b91b52b9beff6f879066e7cda10",
+      "size": 1449835
+    },
+    {
+      "rfilename": "v7/decision-v7/development.jsonl",
+      "blobId": "5311241b8cbf00797133ae6f84725a2ae610fe46",
+      "size": 1763325
+    },
+    {
+      "rfilename": "v7/decision-v7/manifest.json",
+      "blobId": "39a3a957f90e06da814151de6e4448ba31965fd3",
+      "size": 7234
+    },
+    {
+      "rfilename": "v7/decision-v7/test.jsonl",
+      "blobId": "eaac28b16f0120b686e33636aa11e7a18d67303f",
+      "size": 1705815
+    },
+    {
+      "rfilename": "v7/decision-v7/train.jsonl",
+      "blobId": "bd6e20c8c3cab186628bdb89854438f59ff6589f",
+      "size": 18679889,
+      "lfs": {
+        "sha256": "7ed5254b5cb5291baefaceb09edf7e13110258211518c8038f4a12c11bd628ad",
+        "size": 18679889,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "v8/decision-v8/calibration.jsonl",
+      "blobId": "5c2c51bbd3b3ad30b5710e62977fc80cc23a64c6",
+      "size": 1469135
+    },
+    {
+      "rfilename": "v8/decision-v8/development.jsonl",
+      "blobId": "5311241b8cbf00797133ae6f84725a2ae610fe46",
+      "size": 1763325
+    },
+    {
+      "rfilename": "v8/decision-v8/manifest.json",
+      "blobId": "c949e378ae4bf83297d6edc10babe0fa46cd1a56",
+      "size": 7385
+    },
+    {
+      "rfilename": "v8/decision-v8/test.jsonl",
+      "blobId": "eaac28b16f0120b686e33636aa11e7a18d67303f",
+      "size": 1705815
+    },
+    {
+      "rfilename": "v8/decision-v8/train.jsonl",
+      "blobId": "57f124e803c709e6e63e607e049a646479df91de",
+      "size": 18815202,
+      "lfs": {
+        "sha256": "0a2199e4a63384a50ae9185a4ff3aa8fd87784cd8e1d74adf846e20309943b2b",
+        "size": 18815202,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "v9/transfer-v9/calibration.jsonl",
+      "blobId": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "rfilename": "v9/transfer-v9/development.jsonl",
+      "blobId": "4452e3adbcbedef5f890a16c53b634a2bc5bc1ce",
+      "size": 1424590
+    },
+    {
+      "rfilename": "v9/transfer-v9/manifest.json",
+      "blobId": "32eb74a85d06b49121e379a1cdf6ff3699d3887d",
+      "size": 5433
+    },
+    {
+      "rfilename": "v9/transfer-v9/test.jsonl",
+      "blobId": "ad93ff6c453f91cca5b60054378fe9619129c62c",
+      "size": 1428328
+    },
+    {
+      "rfilename": "v9/transfer-v9/train.jsonl",
+      "blobId": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    }
+  ],
+  "createdAt": "2026-09-19T13:30:17.000Z",
+  "usedStorage": 211061518
+}

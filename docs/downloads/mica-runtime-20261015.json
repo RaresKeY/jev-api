@@ -1,0 +1,145 @@
+{
+  "image": "localhost/llama-server-local:llama-cpp-df18bee-cuda12.6.0-ubuntu22.04",
+  "retention": "ephemeral extracted runtime, recreatable from retained image",
+  "files": [
+    {
+      "name": "libggml-base.so",
+      "sha256": "5e6fc1b498c562abdf95b721e7d716bf79bb9dba052bc26487e382cb5317002c",
+      "bytes": 897792,
+      "symlink": true
+    },
+    {
+      "name": "libggml-base.so.0",
+      "sha256": "5e6fc1b498c562abdf95b721e7d716bf79bb9dba052bc26487e382cb5317002c",
+      "bytes": 897792,
+      "symlink": true
+    },
+    {
+      "name": "libggml-base.so.0.26.0",
+      "sha256": "5e6fc1b498c562abdf95b721e7d716bf79bb9dba052bc26487e382cb5317002c",
+      "bytes": 897792,
+      "symlink": false
+    },
+    {
+      "name": "libggml-cpu.so",
+      "sha256": "0b58ff79174d9d884d6e4da6810bea3820f3791e25f2e903a2bee24ca87f0ba7",
+      "bytes": 1407688,
+      "symlink": true
+    },
+    {
+      "name": "libggml-cpu.so.0",
+      "sha256": "0b58ff79174d9d884d6e4da6810bea3820f3791e25f2e903a2bee24ca87f0ba7",
+      "bytes": 1407688,
+      "symlink": true
+    },
+    {
+      "name": "libggml-cpu.so.0.26.0",
+      "sha256": "0b58ff79174d9d884d6e4da6810bea3820f3791e25f2e903a2bee24ca87f0ba7",
+      "bytes": 1407688,
+      "symlink": false
+    },
+    {
+      "name": "libggml-cuda.so",
+      "sha256": "bf64730464e96fa99d139eda93ad6b8dcacdb020e70326d85b756c097d756dff",
+      "bytes": 209513752,
+      "symlink": true
+    },
+    {
+      "name": "libggml-cuda.so.0",
+      "sha256": "bf64730464e96fa99d139eda93ad6b8dcacdb020e70326d85b756c097d756dff",
+      "bytes": 209513752,
+      "symlink": true
+    },
+    {
+      "name": "libggml-cuda.so.0.26.0",
+      "sha256": "bf64730464e96fa99d139eda93ad6b8dcacdb020e70326d85b756c097d756dff",
+      "bytes": 209513752,
+      "symlink": false
+    },
+    {
+      "name": "libggml.so",
+      "sha256": "d5be2f72f887a86715dc13c0973d73d73e79f83a60b6b766363e87e7c852e823",
+      "bytes": 55384,
+      "symlink": true
+    },
+    {
+      "name": "libggml.so.0",
+      "sha256": "d5be2f72f887a86715dc13c0973d73d73e79f83a60b6b766363e87e7c852e823",
+      "bytes": 55384,
+      "symlink": true
+    },
+    {
+      "name": "libggml.so.0.26.0",
+      "sha256": "d5be2f72f887a86715dc13c0973d73d73e79f83a60b6b766363e87e7c852e823",
+      "bytes": 55384,
+      "symlink": false
+    },
+    {
+      "name": "libllama-common.so",
+      "sha256": "b5c5eff5393f4eaf27cd2cc2692cb5c8ef38e066b88fe53a64141e4c82361ce3",
+      "bytes": 6480808,
+      "symlink": true
+    },
+    {
+      "name": "libllama-common.so.0",
+      "sha256": "b5c5eff5393f4eaf27cd2cc2692cb5c8ef38e066b88fe53a64141e4c82361ce3",
+      "bytes": 6480808,
+      "symlink": true
+    },
+    {
+      "name": "libllama-common.so.0.6.0",
+      "sha256": "b5c5eff5393f4eaf27cd2cc2692cb5c8ef38e066b88fe53a64141e4c82361ce3",
+      "bytes": 6480808,
+      "symlink": false
+    },
+    {
+      "name": "libllama-server-impl.so",
+      "sha256": "b6ea1150d7e24d410c91306aadeea03ba9bf26821ff7b66d7031bfd977df1269",
+      "bytes": 4337328,
+      "symlink": false
+    },
+    {
+      "name": "libllama.so",
+      "sha256": "502afbf6e1e52cb1aefb4f237e99d0b7a88657ba572fe27623d89ac6fe568242",
+      "bytes": 5068608,
+      "symlink": true
+    },
+    {
+      "name": "libllama.so.0",
+      "sha256": "502afbf6e1e52cb1aefb4f237e99d0b7a88657ba572fe27623d89ac6fe568242",
+      "bytes": 5068608,
+      "symlink": true
+    },
+    {
+      "name": "libllama.so.0.6.0",
+      "sha256": "502afbf6e1e52cb1aefb4f237e99d0b7a88657ba572fe27623d89ac6fe568242",
+      "bytes": 5068608,
+      "symlink": false
+    },
+    {
+      "name": "libmtmd.so",
+      "sha256": "c480cb9231de3b94ae74cae2f92550d7021fbcfc246c389b34fa67172947358d",
+      "bytes": 1929664,
+      "symlink": true
+    },
+    {
+      "name": "libmtmd.so.0",
+      "sha256": "c480cb9231de3b94ae74cae2f92550d7021fbcfc246c389b34fa67172947358d",
+      "bytes": 1929664,
+      "symlink": true
+    },
+    {
+      "name": "libmtmd.so.0.6.0",
+      "sha256": "c480cb9231de3b94ae74cae2f92550d7021fbcfc246c389b34fa67172947358d",
+      "bytes": 1929664,
+      "symlink": false
+    }
+  ],
+  "abi": {
+    "model_size": 80,
+    "context_size": 168,
+    "moe_cache_size": 112,
+    "abort_callback": 120,
+    "ctx_other": 160
+  }
+}

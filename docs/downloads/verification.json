@@ -1,0 +1,40 @@
+{
+  "status": "verified",
+  "files": 51,
+  "total_bytes": 3294529391,
+  "bundle_bytes": {
+    "kev-0.8b": 65546190,
+    "kev-base": 1769912179,
+    "laya-typed-decisions": 846202059,
+    "verdict-encoder-config": 1193,
+    "openjev-verdict2-reference": 3618595,
+    "openjev-verdict": 609125224,
+    "kev-runtime-reference": 55368,
+    "laya-runtime-reference": 68583
+  },
+  "safetensors": {
+    "models/kev-0.8b/adapter_model.safetensors": {
+      "tensor_entries": 372,
+      "complete": true
+    },
+    "models/qwen3.5-0.8b-base/model.safetensors-00001-of-00001.safetensors": {
+      "tensor_entries": 488,
+      "complete": true
+    },
+    "models/laya-typed-decisions/model.safetensors": {
+      "tensor_entries": 206,
+      "complete": true
+    },
+    "models/openjev-verdict/model.safetensors": {
+      "tensor_entries": 143,
+      "complete": true
+    }
+  },
+  "kev_head_archive_integrity": true,
+  "no_partial_files": true,
+  "specialized_verdict_weights_present": false,
+  "general_verdict_weights_present": true,
+  "upstream_code_executed": false,
+  "inference_run": false,
+  "jev_requests": 0
+}

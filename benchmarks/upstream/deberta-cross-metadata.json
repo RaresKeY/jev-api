@@ -1,0 +1,243 @@
+{
+  "_id": "621ffdc136468d709f17a219",
+  "id": "cross-encoder/nli-deberta-v3-large",
+  "private": false,
+  "pipeline_tag": "zero-shot-classification",
+  "library_name": "sentence-transformers",
+  "tags": [
+    "sentence-transformers",
+    "pytorch",
+    "onnx",
+    "safetensors",
+    "deberta-v2",
+    "text-classification",
+    "transformers",
+    "zero-shot-classification",
+    "en",
+    "dataset:nyu-mll/multi_nli",
+    "dataset:stanfordnlp/snli",
+    "base_model:microsoft/deberta-v3-large",
+    "base_model:quantized:microsoft/deberta-v3-large",
+    "license:apache-2.0",
+    "region:us"
+  ],
+  "downloads": 94122,
+  "likes": 45,
+  "modelId": "cross-encoder/nli-deberta-v3-large",
+  "author": "cross-encoder",
+  "sha": "bab4bc7178836f731dcfd18c06ca9def0a137712",
+  "lastModified": "2025-04-15T07:48:35.000Z",
+  "gated": false,
+  "disabled": false,
+  "mask_token": "[MASK]",
+  "widgetData": [
+    {
+      "text": "I have a problem with my iphone that needs to be resolved asap!",
+      "candidate_labels": "urgent, not urgent, phone, tablet, computer",
+      "multi_class": true
+    },
+    {
+      "text": "Last week I upgraded my iOS version and ever since then my phone has been overheating whenever I use your app.",
+      "candidate_labels": "mobile, website, billing, account access",
+      "multi_class": false
+    },
+    {
+      "text": "A new model offers an explanation for how the Galilean satellites formed around the solar system\u2019s largest world. Konstantin Batygin did not set out to solve one of the solar system\u2019s most puzzling mysteries when he went for a run up a hill in Nice, France. Dr. Batygin, a Caltech researcher, best known for his contributions to the search for the solar system\u2019s missing \u201cPlanet Nine,\u201d spotted a beer bottle. At a steep, 20 degree grade, he wondered why it wasn\u2019t rolling down the hill. He realized there was a breeze at his back holding the bottle in place. Then he had a thought that would only pop into the mind of a theoretical astrophysicist: \u201cOh! This is how Europa formed.\u201d Europa is one of Jupiter\u2019s four large Galilean moons. And in a paper published Monday in the Astrophysical Journal, Dr. Batygin and a co-author, Alessandro Morbidelli, a planetary scientist at the C\u00f4te d\u2019Azur Observatory in France, present a theory explaining how some moons form around gas giants like Jupiter and Saturn, suggesting that millimeter-sized grains of hail produced during the solar system\u2019s formation became trapped around these massive worlds, taking shape one at a time into the potentially habitable moons we know today.",
+      "candidate_labels": "space & cosmos, scientific discovery, microbiology, robots, archeology",
+      "multi_class": true
+    }
+  ],
+  "model-index": null,
+  "config": {
+    "architectures": [
+      "DebertaV2ForSequenceClassification"
+    ],
+    "model_type": "deberta-v2",
+    "tokenizer_config": {
+      "bos_token": "[CLS]",
+      "cls_token": "[CLS]",
+      "eos_token": "[SEP]",
+      "mask_token": "[MASK]",
+      "pad_token": "[PAD]",
+      "sep_token": "[SEP]",
+      "unk_token": "[UNK]"
+    }
+  },
+  "cardData": {
+    "language": "en",
+    "pipeline_tag": "zero-shot-classification",
+    "tags": [
+      "transformers"
+    ],
+    "datasets": [
+      "nyu-mll/multi_nli",
+      "stanfordnlp/snli"
+    ],
+    "metrics": [
+      "accuracy"
+    ],
+    "license": "apache-2.0",
+    "base_model": [
+      "microsoft/deberta-v3-large"
+    ],
+    "library_name": "sentence-transformers"
+  },
+  "transformersInfo": {
+    "auto_model": "AutoModelForSequenceClassification",
+    "pipeline_tag": "text-classification",
+    "processor": "AutoTokenizer"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "2bf99854609538f90af03c921c41a0cbde670b2f",
+      "size": 1229
+    },
+    {
+      "rfilename": "CESoftmaxAccuracyEvaluator_AllNLI-dev_results.csv",
+      "blobId": "3ae42b624a4f3a2077e9762a14cd5e67ecd3713c",
+      "size": 678
+    },
+    {
+      "rfilename": "README.md",
+      "blobId": "b896875cbe5ae203a287f72dd848cc48bde49e5c",
+      "size": 2934
+    },
+    {
+      "rfilename": "added_tokens.json",
+      "blobId": "71b89921f9568175266f31ac7e5ed6c39f008fd3",
+      "size": 26
+    },
+    {
+      "rfilename": "config.json",
+      "blobId": "dce93442a4936603bc2f2a4622cbe264886f9c9f",
+      "size": 1100
+    },
+    {
+      "rfilename": "model.safetensors",
+      "blobId": "78b1d1f45a53e3b641e6d0971d1428032b08020f",
+      "size": 1740312740,
+      "lfs": {
+        "sha256": "01cb91b046c0c88c538c06c6d2a8ab8b11f9b9c5f9c2ef0c8e20c4086710063c",
+        "size": 1740312740,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "onnx/model.onnx",
+      "blobId": "34523ff1cdf0c384ef814e1f876a04fe4f0b75ed",
+      "size": 1742010231,
+      "lfs": {
+        "sha256": "522031148bd5696cf67ca4a682ee56090cd5219558f29b62b311ea345e9f0fb7",
+        "size": 1742010231,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "onnx/model_O1.onnx",
+      "blobId": "cc91d09685a71f33223d5f775c26772ed864779d",
+      "size": 1839911421,
+      "lfs": {
+        "sha256": "de2f95a699e08164ecec72f5a49abaa81434d719f1abf751196dcb3a71bee5a7",
+        "size": 1839911421,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "onnx/model_qint8_arm64.onnx",
+      "blobId": "9a29e0abb397a0a26c5ed219c81b0595b98b5498",
+      "size": 642857090,
+      "lfs": {
+        "sha256": "9411944eb4cfb593a2fea3b3e51f1c4c6531afaa59ef1b8f2713b6eec427126c",
+        "size": 642857090,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "onnx/model_qint8_avx512.onnx",
+      "blobId": "9a29e0abb397a0a26c5ed219c81b0595b98b5498",
+      "size": 642857090,
+      "lfs": {
+        "sha256": "9411944eb4cfb593a2fea3b3e51f1c4c6531afaa59ef1b8f2713b6eec427126c",
+        "size": 642857090,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "onnx/model_qint8_avx512_vnni.onnx",
+      "blobId": "9a29e0abb397a0a26c5ed219c81b0595b98b5498",
+      "size": 642857090,
+      "lfs": {
+        "sha256": "9411944eb4cfb593a2fea3b3e51f1c4c6531afaa59ef1b8f2713b6eec427126c",
+        "size": 642857090,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "onnx/model_quint8_avx2.onnx",
+      "blobId": "6cf827a61b79f4e7ff6ed476a00448a0422f5fbc",
+      "size": 642857089,
+      "lfs": {
+        "sha256": "821dc4407d10a9d25c20c57fcb742ddc20c09bc55c8093557091efb825256754",
+        "size": 642857089,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "pytorch_model.bin",
+      "blobId": "06462537aed284399abb9295941e9f1f370eb631",
+      "size": 1740435986,
+      "lfs": {
+        "sha256": "9c33255910cf2783a71731b2798bec3732f6ad9585682bea7c8233608e4c7d34",
+        "size": 1740435986,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "special_tokens_map.json",
+      "blobId": "21ee423233314af53c84b2a229398f8b425672f5",
+      "size": 301
+    },
+    {
+      "rfilename": "spm.model",
+      "blobId": "b1b95e5b0fef33623979511f423eaeee465c46f0",
+      "size": 2464616,
+      "lfs": {
+        "sha256": "c679fbf93643d19aab7ee10c0b99e460bdbc02fedf34b92b05af343b4af586fd",
+        "size": 2464616,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "tokenizer.json",
+      "blobId": "12cc2e86bad0e731393847b017b32a7405ebd4f8",
+      "size": 8656624
+    },
+    {
+      "rfilename": "tokenizer_config.json",
+      "blobId": "734481711f0d172bd376a6d06c545286d58d8159",
+      "size": 1346
+    }
+  ],
+  "spaces": [
+    "SamSankar/hallucination-guard-env",
+    "devrajsinh2012/Mexar",
+    "Samaksh25/GST_RAG_BACKEND",
+    "ahm14/AA_Final2",
+    "vaishupv/h22r",
+    "thecodemasster/similarity-checker",
+    "eyesee11/b-ware",
+    "sairaj2/hallucination-guard-env",
+    "Tejash9/autograde-ml",
+    "Lp012/RSCE"
+  ],
+  "createdAt": "2022-03-02T23:29:05.000Z",
+  "safetensors": {
+    "parameters": {
+      "I64": 512,
+      "F32": 435064835
+    },
+    "total": 435065347
+  },
+  "usedStorage": 8350849173
+}

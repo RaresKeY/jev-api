@@ -1,0 +1,15 @@
+{
+  "version": 3,
+  "tensors": 429,
+  "metadata": {
+    "general.architecture": "qwen35",
+    "general.name": "Kev-9B",
+    "qwen35.decision.type": "kev",
+    "qwen35.decision.temperature.choice": 2.193650007247925,
+    "qwen35.decision.temperature.score": 2.193650007247925,
+    "qwen35.decision.temperature.noul": 2.193650007247925,
+    "general.file_type": 15
+  },
+  "source_revision": "db029f08b290afd9fee4aa4bbcd9ae48602d1eb0",
+  "source_reference": "https://huggingface.co/ggml-org/Kev-9B-GGUF/resolve/ec2bbfe6620218aee2e01cc93bb78dee2a96ed58/.src_sha"
+}

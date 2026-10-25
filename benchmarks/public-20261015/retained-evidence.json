@@ -1,0 +1,26 @@
+{
+  "schema": "retained-public-evidence/v1",
+  "static_review_sha256": "16b78b38f2bdaf151f69ef7a5b02bad118b1b9138a24c3d25fd0da7310acdb81",
+  "files": [
+    {
+      "repository": "SemIf-OpenJev",
+      "commit": "23cf1f39fc9534fe81437200959b6dfc7106e45a",
+      "source_path": "results/raw/predictions/direct-authored144.jsonl",
+      "source_url": "https://github.com/TheoLeeCJ/SemIf-OpenJev/blob/23cf1f39fc9534fe81437200959b6dfc7106e45a/results/raw/predictions/direct-authored144.jsonl",
+      "path": "benchmarks/public-20261015/retained-evidence/SemIf-OpenJev/results/raw/predictions/direct-authored144.jsonl",
+      "bytes": 173955,
+      "sha256": "7c966285d2bbee3afd04d0bb454ce6a9d88336c7d5968b1fddde99ac7e83c321",
+      "role": "Published scorer parity evidence, data only"
+    },
+    {
+      "repository": "SemIf-OpenJev",
+      "commit": "23cf1f39fc9534fe81437200959b6dfc7106e45a",
+      "source_path": "results/phase1-summary.json",
+      "source_url": "https://github.com/TheoLeeCJ/SemIf-OpenJev/blob/23cf1f39fc9534fe81437200959b6dfc7106e45a/results/phase1-summary.json",
+      "path": "benchmarks/public-20261015/retained-evidence/SemIf-OpenJev/results/phase1-summary.json",
+      "bytes": 7335,
+      "sha256": "0f6714e92bbc78320fc9afb62e5c52ec9ad7795a96a85ee4eaea9ce5da2b0444",
+      "role": "Published scorer parity evidence, data only"
+    }
+  ]
+}

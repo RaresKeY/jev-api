@@ -1,0 +1,7 @@
+{
+  "parity": "SemIf original 144-row published baseline, mean family balanced accuracy",
+  "recomputed": 0.8132381607613807,
+  "published": 0.8132381608,
+  "original_predictions_sha256": "7c966285d2bbee3afd04d0bb454ce6a9d88336c7d5968b1fddde99ac7e83c321",
+  "upstream_code_executed": false
+}

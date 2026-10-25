@@ -1,0 +1,20 @@
+{
+  "checked": "2026-10-03",
+  "repository": "Heman10x-NGU/openJev-verdict-2.0",
+  "revision": "bff28567cff463b833bf044f351a8b7945d53e07",
+  "object_sha256": "2201b07ca2389fbcb7ca3428c311776ce50482e48b2dca32bdfaf12f641540f7",
+  "bytes": 598509338,
+  "github_media_http_status": 404,
+  "github_lfs_batch_object_error": {
+    "code": 404,
+    "message": "Object does not exist on the server"
+  },
+  "advertised_hub_repository": "heman10x/openJev-verdict-2.0",
+  "advertised_hub_http_status": 401,
+  "public_author_model_list": [
+    "heman10x/rlcd-modernbert-151m"
+  ],
+  "github_releases": [],
+  "selected_public_fallback": "heman10x/rlcd-modernbert-151m",
+  "note": "401 can mean a private or nonexistent Hub repository. No authentication was attempted. The general-purpose fallback is not the specialized 77.1% checkpoint."
+}

@@ -1,0 +1,203 @@
+{
+  "schema": "owned-public-benchmarks/v1",
+  "suites": {
+    "jevbench-easy": {
+      "path": "benchmarks/public-20261015/cases/jevbench-easy.jsonl",
+      "sha256": "7a98c0adcf9ed198a69f9c91736fdcbb4f15dbd31a6464d331328dc324042924",
+      "requests": 48,
+      "questions": 48,
+      "labelled_questions": 48,
+      "groups": 48,
+      "families": {
+        "intent": 12,
+        "fact": 12,
+        "extraction": 12,
+        "tool_selection": 12
+      },
+      "original_split": "public",
+      "metric": "jevbench-exact"
+    },
+    "jevbench-standard": {
+      "path": "benchmarks/public-20261015/cases/jevbench-standard.jsonl",
+      "sha256": "8827deeb4d647366186a471a4c5eb1ac801eb405180ac82ce4f335fa3428e3f6",
+      "requests": 72,
+      "questions": 72,
+      "labelled_questions": 72,
+      "groups": 36,
+      "families": {
+        "policy": 12,
+        "intent": 12,
+        "ordinal": 12,
+        "extraction": 12,
+        "adequacy": 12,
+        "routing": 12
+      },
+      "original_split": "public",
+      "metric": "jevbench-exact"
+    },
+    "jevbench-hard": {
+      "path": "benchmarks/public-20261015/cases/jevbench-hard.jsonl",
+      "sha256": "e6d4008247dcafb8c3d0693d8134191406814dafe536800d66eeee143b75dfb2",
+      "requests": 111,
+      "questions": 111,
+      "labelled_questions": 111,
+      "groups": 111,
+      "families": {
+        "long_policy": 19,
+        "probability": 10,
+        "temporal_numeric": 15,
+        "ambiguous": 7,
+        "multi_hop": 18,
+        "tradeoff": 6,
+        "adversarial": 6,
+        "trap": 8,
+        "judge_hard": 17,
+        "routing_hard": 5
+      },
+      "original_split": "public",
+      "metric": "jevbench-exact"
+    },
+    "semif-authored": {
+      "path": "benchmarks/public-20261015/cases/semif-authored.jsonl",
+      "sha256": "93d04513bd813ac24201d15ff31959866bb3488a60b7cf815639d02f7eda4b01",
+      "requests": 144,
+      "questions": 144,
+      "labelled_questions": 144,
+      "groups": 36,
+      "families": {
+        "evidence_interpretation": 48,
+        "rule_application": 48,
+        "candidate_selection": 48
+      },
+      "original_split": "test",
+      "metric": "semif-ordered-family-balanced"
+    },
+    "semif-perturbations": {
+      "path": "benchmarks/public-20261015/cases/semif-perturbations.jsonl",
+      "sha256": "7ad28504bd943623bbc3e43eab8e9551f3f0bf30bc9d9c07950abecf5cb324c5",
+      "requests": 108,
+      "questions": 108,
+      "labelled_questions": 108,
+      "groups": 36,
+      "families": {
+        "evidence_interpretation": 36,
+        "rule_application": 36,
+        "candidate_selection": 36
+      },
+      "original_split": "rebase_stability",
+      "metric": "semif-ordered-family-balanced"
+    },
+    "kev-transfer-v9-test": {
+      "path": "benchmarks/public-20261015/cases/kev-transfer-v9-test.jsonl",
+      "sha256": "5a1bbbcd0102538fecd555e5ccf33d2eb0166c0aca2d595973ec6a429da5bb75",
+      "requests": 1264,
+      "questions": 1264,
+      "labelled_questions": 1154,
+      "groups": 799,
+      "families": {
+        "mmlu": 116,
+        "emotion": 116,
+        "tweet_offensive": 80,
+        "qnli": 80,
+        "paws": 80,
+        "sciq": 116,
+        "contrastive": 80,
+        "composition_holdout": 96,
+        "mmlu_pro": 200,
+        "buried": 80,
+        "unknowable": 110,
+        "unknowable_control": 110
+      },
+      "original_split": "test",
+      "metric": "kev-ordered-native"
+    },
+    "kev-transfer-v9-development": {
+      "path": "benchmarks/public-20261015/cases/kev-transfer-v9-development.jsonl",
+      "sha256": "1faff2784c6f1e2ca046bd30d1ebec8f3b569c10c06ecb084fdb8ef6e849e654",
+      "requests": 1264,
+      "questions": 1264,
+      "labelled_questions": 1154,
+      "groups": 799,
+      "families": {
+        "mmlu": 116,
+        "emotion": 116,
+        "tweet_offensive": 80,
+        "qnli": 80,
+        "paws": 80,
+        "sciq": 116,
+        "legacy_holdout": 80,
+        "composition_holdout": 96,
+        "mmlu_pro": 200,
+        "buried": 80,
+        "unknowable": 110,
+        "unknowable_control": 110
+      },
+      "original_split": "development",
+      "metric": "kev-ordered-native"
+    },
+    "mmlu-pro-test": {
+      "path": "benchmarks/public-20261015/cases/mmlu-pro-test.jsonl",
+      "sha256": "3a243b26595d98711308307fa72448e5a86765da1b49d42f7477f3535c22687c",
+      "requests": 12032,
+      "questions": 12032,
+      "labelled_questions": 12032,
+      "groups": 12032,
+      "families": {
+        "business": 789,
+        "law": 1101,
+        "psychology": 798,
+        "biology": 717,
+        "chemistry": 1132,
+        "history": 381,
+        "other": 924,
+        "health": 818,
+        "economics": 844,
+        "math": 1351,
+        "physics": 1299,
+        "computer science": 410,
+        "philosophy": 499,
+        "engineering": 969
+      },
+      "original_split": "test",
+      "metric": "direct-choice-adaptation"
+    },
+    "mmlu-pro-validation": {
+      "path": "benchmarks/public-20261015/cases/mmlu-pro-validation.jsonl",
+      "sha256": "2ca8a9f1b58839dce654303fffba2a688c5cca09c20155700454451a351b27da",
+      "requests": 70,
+      "questions": 70,
+      "labelled_questions": 70,
+      "groups": 70,
+      "families": {
+        "math": 5,
+        "health": 5,
+        "physics": 5,
+        "business": 5,
+        "biology": 5,
+        "chemistry": 5,
+        "computer science": 5,
+        "economics": 5,
+        "engineering": 5,
+        "philosophy": 5,
+        "other": 5,
+        "history": 5,
+        "psychology": 5,
+        "law": 5
+      },
+      "original_split": "validation",
+      "metric": "direct-choice-adaptation"
+    }
+  },
+  "default_suites": [
+    "jevbench-easy",
+    "jevbench-standard",
+    "jevbench-hard",
+    "semif-authored",
+    "semif-perturbations",
+    "kev-transfer-v9-test",
+    "mmlu-pro-test"
+  ],
+  "source_manifest_sha256": "3dd5a5f4a40bef78acd0258edc6076d5ee14c7ae87e4afab3b321e825ad44bf7",
+  "adapter_sha256": "73ee90fb0d23017c211a30c3abce1db7a9307054c54ade303a0d3912076e53bf",
+  "no_inference": true
+}

@@ -1,0 +1,44 @@
+{
+  "status": "historical-validated-profile",
+  "endpoint": "/v1/systemone",
+  "source": "results/kev-cpp-ab-v2",
+  "image": "localhost/jev-kev-server:llama-cpp-a4cb4c6-cuda12.6.0-ubuntu22.04",
+  "default_quantization": "q8",
+  "models": {
+    "q8": {
+      "path": "models/kev-4b-gguf/Kev-4B-Q8_0.gguf",
+      "sha256": "7c2ebed90560522c2801389db482ac1dc4c36d828f201f6074c1d60e433948da",
+      "bytes": 4483801504
+    },
+    "q4": {
+      "path": "models/kev-4b-gguf/Kev-4B-Q4_K_M.gguf",
+      "sha256": "33ae6b18926502b2209a1bf7d3b61a350d65938441515c686bb87d226a19eff9",
+      "bytes": 3033489824
+    }
+  },
+  "settings": {
+    "LLM_IMAGE": "localhost/jev-kev-server:llama-cpp-a4cb4c6-cuda12.6.0-ubuntu22.04",
+    "LLM_CTX": "4096",
+    "LLM_PARALLEL": "1",
+    "LLM_BATCH": "1024",
+    "LLM_CACHE_TYPE_K": "f16",
+    "LLM_CACHE_TYPE_V": "f16",
+    "LLM_N_GPU_LAYERS": "999",
+    "LLM_FLASH_ATTN": "on",
+    "LLM_CACHE_RAM": "0",
+    "LLM_REASONING": "off",
+    "LLM_BIND_ADDRESS": "127.0.0.1"
+  },
+  "notes": [
+    "Native decision endpoint; no generation sampler or chat prompt.",
+    "One unsafe approval on the synthetic 64-case set; not an authorization policy.",
+    "Larger states/options require explicit admission and context/batch validation.",
+    "Four-slot trial is separate; no existing default configuration changed."
+  ],
+  "runtime_source": {
+    "repository": "https://github.com/ggml-org/llama.cpp",
+    "revision": "a4cb4c61fd9d9c2066c7c1747821d3d65b8943bd",
+    "base_image": "docker.io/nvidia/cuda:12.6.0-runtime-ubuntu22.04",
+    "cuda_architecture": "75"
+  }
+}

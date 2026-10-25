@@ -1,0 +1,18 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.pyc
+models/
+/.work/
+/.local/
+
+# Local experiment outputs; preserve them on disk, never publish them.
+/results/
+/benchmarks/public-20261015/acquisition.json
+/benchmarks/public-20261015/cleanup.json
+/benchmarks/public-20261015/forecast.json
+/benchmarks/public-20261015/plans/
+/benchmarks/public-20261015/pre-cleanup-verification.json
+/benchmarks/public-20261015/verification.json

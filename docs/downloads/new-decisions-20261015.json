@@ -1,0 +1,163 @@
+{
+  "status": "verified",
+  "models": {
+    "clef-flash-q4": {
+      "repository": "ggml-org/Clef-Flash-GGUF",
+      "revision": "6b4fe4c59098479652d94f0fe11a40facbebd1ec",
+      "status": "verified",
+      "files": [
+        {
+          "path": "models/clef-flash-q4/Clef-Flash-Q4_K_M.gguf",
+          "bytes": 6486448288,
+          "sha256": "3626116623ca8d89641952471fac9ce12af84fb3517520029a2ac6f5146868a2",
+          "publisher_sha256": "3626116623ca8d89641952471fac9ce12af84fb3517520029a2ac6f5146868a2",
+          "publisher_git_blob": "f52835062c194b8951a21e68e3ad1de3b3e13543"
+        },
+        {
+          "path": "models/clef-flash-q4/README.md",
+          "bytes": 520,
+          "sha256": "30b244b7a978fe38d7d859c049b9b229470de276ec51ba918f758fec2a79ba80",
+          "publisher_sha256": null,
+          "publisher_git_blob": "47e4303a047ceb0d83e0010ab0219121ba558f18"
+        },
+        {
+          "path": "models/clef-flash-q4/.gitattributes",
+          "bytes": 1820,
+          "sha256": "759212a3ea6004e0f22ac035f69bc188c10f49250200caa36650a9a3f3276664",
+          "publisher_sha256": null,
+          "publisher_git_blob": "ffdd00c9a4aecf9da5a8755105cd362d203c1496"
+        }
+      ]
+    },
+    "mica-01-q8": {
+      "repository": "sky7350/Mica-v0.1-4B",
+      "revision": "9b6428b272f4708ef54a4702b52bb453a4059363",
+      "status": "verified",
+      "files": [
+        {
+          "path": "models/mica-01-q8/mica-v0.1-4b-Q8_0.gguf",
+          "bytes": 5157833088,
+          "sha256": "44ecd05c8e6e8a536c9b11c1f68e3d10dd445ff39c02bac1cb07298e20a7a3ef",
+          "publisher_sha256": "44ecd05c8e6e8a536c9b11c1f68e3d10dd445ff39c02bac1cb07298e20a7a3ef",
+          "publisher_git_blob": "706782fd195fdbcde4dce4682548c90834223346"
+        },
+        {
+          "path": "models/mica-01-q8/tokenizer.json",
+          "bytes": 19989343,
+          "sha256": "87a7830d63fcf43bf241c3c5242e96e62dd3fdc29224ca26fed8ea333db72de4",
+          "publisher_sha256": "87a7830d63fcf43bf241c3c5242e96e62dd3fdc29224ca26fed8ea333db72de4",
+          "publisher_git_blob": "67741b04f23bfdb46501f748ce27865ec82eccfb"
+        },
+        {
+          "path": "models/mica-01-q8/tokenizer_config.json",
+          "bytes": 1098,
+          "sha256": "83febe739ecefd99f984f546dfdc10149cedf293b9ee0291b99894341188b613",
+          "publisher_sha256": null,
+          "publisher_git_blob": "e15d4cc343e26fd4b2fdc18ffecfc256b90a547b"
+        },
+        {
+          "path": "models/mica-01-q8/chat_template.jinja",
+          "bytes": 7756,
+          "sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+          "publisher_sha256": null,
+          "publisher_git_blob": "a585dec894e63da457d9440ec6aa7caa16d20860"
+        },
+        {
+          "path": "models/mica-01-q8/config.json",
+          "bytes": 1978,
+          "sha256": "a9e9564540d0ab364e5aa08eb2a63d3f9ca3ba3216734c4c14f0ea629328378b",
+          "publisher_sha256": null,
+          "publisher_git_blob": "fdf772e2e47bee2bbf7ac8cae804e29260f0e785"
+        },
+        {
+          "path": "models/mica-01-q8/calibration.json",
+          "bytes": 35,
+          "sha256": "90076b77fd398dc42123dd970933d5af17ebca8cc9d8de6e2225bc2d0c76fbca",
+          "publisher_sha256": null,
+          "publisher_git_blob": "719d9d44794bc3d25692967c3b423b05e98ebf7a"
+        },
+        {
+          "path": "models/mica-01-q8/README.md",
+          "bytes": 9808,
+          "sha256": "367f2ae50e514ee9b4224c4bb167c3a9dc28cac13b1a404171495358907f1d45",
+          "publisher_sha256": null,
+          "publisher_git_blob": "e1cc13a03cd141e8ee2199bb4bafd708372f05f1"
+        },
+        {
+          "path": "models/mica-01-q8/NOTICE",
+          "bytes": 413,
+          "sha256": "ce0b725c0171063827818bb5c914f7884e20eb2f105c7cd06bcc1e567edca30f",
+          "publisher_sha256": null,
+          "publisher_git_blob": "40cba1f0c8852c123adc00b7ba3c0b933099fcfa"
+        },
+        {
+          "path": "models/mica-01-q8/LICENSE",
+          "bytes": 11358,
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "publisher_sha256": null,
+          "publisher_git_blob": "d645695673349e3947e8e5ae42332d0ac3164cd7"
+        }
+      ]
+    }
+  },
+  "mica_source": {
+    "repository": "akivet/Mica",
+    "revision": "4f47a21bfc3ca9d1fd26d789c485ea24d7c04e2e",
+    "files": [
+      {
+        "path": "vendored/mica-v01/mica/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "url": "https://raw.githubusercontent.com/akivet/Mica/4f47a21bfc3ca9d1fd26d789c485ea24d7c04e2e/mica/__init__.py"
+      },
+      {
+        "path": "vendored/mica-v01/mica/direct_backend.py",
+        "sha256": "91cdc4373632478061c8261abeb1b572c0c5a79903985ecdcc135f5ee61abae1",
+        "url": "https://raw.githubusercontent.com/akivet/Mica/4f47a21bfc3ca9d1fd26d789c485ea24d7c04e2e/mica/direct_backend.py"
+      },
+      {
+        "path": "vendored/mica-v01/mica/native.py",
+        "sha256": "92b1303bddaab3f56fc4956d2ca3f65c2576f0e871f636ee19df9421aed5d2c8",
+        "url": "https://raw.githubusercontent.com/akivet/Mica/4f47a21bfc3ca9d1fd26d789c485ea24d7c04e2e/mica/native.py"
+      },
+      {
+        "path": "vendored/mica-v01/mica/codebook.py",
+        "sha256": "3a7bc5e96a074961d5742b7cf77493c29c4bc33845600e851dcd05cdb7f4c302",
+        "url": "https://raw.githubusercontent.com/akivet/Mica/4f47a21bfc3ca9d1fd26d789c485ea24d7c04e2e/mica/codebook.py"
+      },
+      {
+        "path": "vendored/mica-v01/mica/calibration.py",
+        "sha256": "3b18891171f0e487dd9c24defd1e92453992290eb6b9f6c98e76c944fee1c8b1",
+        "url": "https://raw.githubusercontent.com/akivet/Mica/4f47a21bfc3ca9d1fd26d789c485ea24d7c04e2e/mica/calibration.py"
+      },
+      {
+        "path": "vendored/mica-v01/mica/typesafe_server.py",
+        "sha256": "a8a32ce443d64ffebd6bb28fb6ebde35c335d1a5e80432ffe213b0ff7c0f30e9",
+        "url": "https://raw.githubusercontent.com/akivet/Mica/4f47a21bfc3ca9d1fd26d789c485ea24d7c04e2e/mica/typesafe_server.py"
+      },
+      {
+        "path": "vendored/mica-v01/LICENSE",
+        "sha256": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5",
+        "url": "https://raw.githubusercontent.com/akivet/Mica/4f47a21bfc3ca9d1fd26d789c485ea24d7c04e2e/LICENSE"
+      },
+      {
+        "path": "vendored/mica-v01/NOTICE",
+        "sha256": "cfa5d6801b1e366405102b64db03e0478f976bf186e97b3f99a0ac0663af3a04",
+        "url": "https://raw.githubusercontent.com/akivet/Mica/4f47a21bfc3ca9d1fd26d789c485ea24d7c04e2e/NOTICE"
+      },
+      {
+        "path": "vendored/mica-v01/calibration.json",
+        "sha256": "28bb2ea985dbbb52be6bfd5c0f475d0b2b85a7aad97e57f9ad53301d33c8d4e6",
+        "url": "https://raw.githubusercontent.com/akivet/Mica/4f47a21bfc3ca9d1fd26d789c485ea24d7c04e2e/calibration.json"
+      },
+      {
+        "path": "vendored/mica-v01/mica/codebook_255.json",
+        "sha256": "29af056b97934d0a1ccd850b47e1270edfb62c0454e4f7376ffa301518808782",
+        "url": "https://raw.githubusercontent.com/akivet/Mica/4f47a21bfc3ca9d1fd26d789c485ea24d7c04e2e/mica/codebook_255.json"
+      }
+    ]
+  },
+  "unavailable": {
+    "mica-0.5": "Public model API returned 401; author public inventory only lists v0.1."
+  },
+  "inference_calls": 0
+}

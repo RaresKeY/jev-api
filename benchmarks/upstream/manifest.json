@@ -1,0 +1,537 @@
+{
+  "status": "verified",
+  "bundles": {
+    "kev": {
+      "repository": "jaredpalmer/kev",
+      "revision": "84847f0a883d900f7de5b7a57eaa341ca7f9a6b4",
+      "files": [
+        {
+          "path": "benchmarks/upstream/kev/README.md",
+          "url": "https://raw.githubusercontent.com/jaredpalmer/kev/84847f0a883d900f7de5b7a57eaa341ca7f9a6b4/README.md",
+          "bytes": 42304,
+          "git_blob_sha1": "f74193a24470441aa6a832ed534e944d31edecf2",
+          "sha256": "19c9d7d30cd723b9f112f1f68d0b415a28c5ee616dbc21b358fc29bd07a66311",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/kev/LICENSE",
+          "url": "https://raw.githubusercontent.com/jaredpalmer/kev/84847f0a883d900f7de5b7a57eaa341ca7f9a6b4/LICENSE",
+          "bytes": 11343,
+          "git_blob_sha1": "e1ece45b775283628888a36bc75f56078cee9de0",
+          "sha256": "6b08bb37982c233aa12bcbdf19106da12f3f4fcf800773ea42e28ebeddd34fb8",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/kev/kev/metrics.py",
+          "url": "https://raw.githubusercontent.com/jaredpalmer/kev/84847f0a883d900f7de5b7a57eaa341ca7f9a6b4/kev/metrics.py",
+          "bytes": 24401,
+          "git_blob_sha1": "6c5aacf46aa8e43c0666b47d51e940058771da09",
+          "sha256": "167a586334cfcced4adcc197758535c3bcda832b855c151095ef2d1968cf8983",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/kev/kev/evaluate.py",
+          "url": "https://raw.githubusercontent.com/jaredpalmer/kev/84847f0a883d900f7de5b7a57eaa341ca7f9a6b4/kev/evaluate.py",
+          "bytes": 14408,
+          "git_blob_sha1": "703f5f593c88b1699ee76d84f6ef966b7e670534",
+          "sha256": "b2a6fbad7a1494728ea8d9ed0ad54ae23ff2ee1d543444fd0c3c110da4ab07cc",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/kev/kev/model.py",
+          "url": "https://raw.githubusercontent.com/jaredpalmer/kev/84847f0a883d900f7de5b7a57eaa341ca7f9a6b4/kev/model.py",
+          "bytes": 35153,
+          "git_blob_sha1": "1fffa118c8dbac8b3c6c1d2be39d6cd6ce8e9326",
+          "sha256": "2ff3b2e67c048e3bc5a0d1a32aafe50804ed315a5564fce06bb4b95697c5271c",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/kev/kev/checkpoint.py",
+          "url": "https://raw.githubusercontent.com/jaredpalmer/kev/84847f0a883d900f7de5b7a57eaa341ca7f9a6b4/kev/checkpoint.py",
+          "bytes": 23232,
+          "git_blob_sha1": "272462473b5c9dddfeae25499efea319c831fa19",
+          "sha256": "02062399977ee0da316dd52e03a79fa5e10134aa49c0b5ed801598c52042dc32",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/kev/kev/data.py",
+          "url": "https://raw.githubusercontent.com/jaredpalmer/kev/84847f0a883d900f7de5b7a57eaa341ca7f9a6b4/kev/data.py",
+          "bytes": 25861,
+          "git_blob_sha1": "a81ea0e2d40059ba304778c33d9eca5ec3178a11",
+          "sha256": "e77a2fffeb8ee7e05b118893be8e38b8358aef97c3ca2e143cdce208201b92f9",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/kev/kev/api.py",
+          "url": "https://raw.githubusercontent.com/jaredpalmer/kev/84847f0a883d900f7de5b7a57eaa341ca7f9a6b4/kev/api.py",
+          "bytes": 7526,
+          "git_blob_sha1": "0096b136e3fad80ce7c25a5dfec33644990d7aca",
+          "sha256": "a6f53af5354f8ea17915abc78360fdf291a5108ce39a53a2d9135d48c603ae58",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/kev/kev/device.py",
+          "url": "https://raw.githubusercontent.com/jaredpalmer/kev/84847f0a883d900f7de5b7a57eaa341ca7f9a6b4/kev/device.py",
+          "bytes": 1164,
+          "git_blob_sha1": "f01f7026b7bac8a5ad598ddf50bb8f607ee455c6",
+          "sha256": "bda81dff5be33c59eee8de76e534976cc137a2661da6afd2a67abb85d8dad4a2",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/kev/evals/v4/transfer-v4/test.jsonl",
+          "url": "https://raw.githubusercontent.com/jaredpalmer/kev/84847f0a883d900f7de5b7a57eaa341ca7f9a6b4/evals/v4/transfer-v4/test.jsonl",
+          "bytes": 803960,
+          "git_blob_sha1": "ab24c8bce1e610b42cea8f9bf414cd1a3faf1d48",
+          "sha256": "c30a91274f9b483aac9e4f02ada5dea953b3f1a2829456e0bc07806c4e73b517",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/kev/evals/v4/transfer-v4/manifest.json",
+          "url": "https://raw.githubusercontent.com/jaredpalmer/kev/84847f0a883d900f7de5b7a57eaa341ca7f9a6b4/evals/v4/transfer-v4/manifest.json",
+          "bytes": 6421,
+          "git_blob_sha1": "ca1739abf2ee83cf9740c2b7cc9fbc692231da9c",
+          "sha256": "31677c2256b406222e7d94ffdc0a02a70ce05746b9efe307876024c4e77291d1",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/kev/evals/v7/decision-v7/test.jsonl",
+          "url": "https://raw.githubusercontent.com/jaredpalmer/kev/84847f0a883d900f7de5b7a57eaa341ca7f9a6b4/evals/v7/decision-v7/test.jsonl",
+          "bytes": 1705815,
+          "git_blob_sha1": "eaac28b16f0120b686e33636aa11e7a18d67303f",
+          "sha256": "cd7d129a84232e0c7a4e92b4840a6dfe14c8bb93c5d1904b526fa8c085325d2d",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/kev/evals/v7/decision-v7/manifest.json",
+          "url": "https://raw.githubusercontent.com/jaredpalmer/kev/84847f0a883d900f7de5b7a57eaa341ca7f9a6b4/evals/v7/decision-v7/manifest.json",
+          "bytes": 7234,
+          "git_blob_sha1": "39a3a957f90e06da814151de6e4448ba31965fd3",
+          "sha256": "a8f50e481b7d90b97da049e0ff6a01cee2f1ed204aed61a8265af0edbb5514d2",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/kev/evals/hard-v1/test.jsonl",
+          "url": "https://raw.githubusercontent.com/jaredpalmer/kev/84847f0a883d900f7de5b7a57eaa341ca7f9a6b4/evals/hard-v1/test.jsonl",
+          "bytes": 2598306,
+          "git_blob_sha1": "1e274c1a35f73c18b18dc2a539132cc855c6c248",
+          "sha256": "246ee92234d33f8e3f10ac6e1542651531b128fd7cc66f3a9964589b77dfa22b",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/kev/evals/hard-v1/manifest.json",
+          "url": "https://raw.githubusercontent.com/jaredpalmer/kev/84847f0a883d900f7de5b7a57eaa341ca7f9a6b4/evals/hard-v1/manifest.json",
+          "bytes": 28284,
+          "git_blob_sha1": "22d7b2932fa18c2879f270ed4a85aa3ae2495bd8",
+          "sha256": "9d8dd335f5a73840b144c987ee91bb0513301128c474a7a4cd3f754a130cfa5c",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/kev/evals/breadth-v1/manifest.json",
+          "url": "https://raw.githubusercontent.com/jaredpalmer/kev/84847f0a883d900f7de5b7a57eaa341ca7f9a6b4/evals/breadth-v1/manifest.json",
+          "bytes": 53965,
+          "git_blob_sha1": "7762905f579f198e4f015f57661a79b6ec75068b",
+          "sha256": "6a391fedf285f2f8584f0ff1a5d845a119dd34cd16c58f8aa320c8beced54563",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/kev/kev/suite.py",
+          "url": "https://raw.githubusercontent.com/jaredpalmer/kev/84847f0a883d900f7de5b7a57eaa341ca7f9a6b4/kev/suite.py",
+          "bytes": 26388,
+          "git_blob_sha1": "2a49b69630186c1ef652e4ce52c27c9348a8dec2",
+          "sha256": "8e7d257a10b4704d7bf4f8ec2c74dddf26aa5a2a610ea78610360e6baf43eff5",
+          "verified": true
+        }
+      ],
+      "missing_paths": []
+    },
+    "laya": {
+      "repository": "NandhaKishorM/laya",
+      "revision": "fa9a2a7070b1789912a49ae24603bbfb1a78b001",
+      "files": [
+        {
+          "path": "benchmarks/upstream/laya/README.md",
+          "url": "https://raw.githubusercontent.com/NandhaKishorM/laya/fa9a2a7070b1789912a49ae24603bbfb1a78b001/README.md",
+          "bytes": 104485,
+          "git_blob_sha1": "af65dae7803c8b18c42174c392f059eeb233478d",
+          "sha256": "f819355eae040a60271292801b296678a105beac34e545d951c86ab486148a60",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/laya/LICENSE",
+          "url": "https://raw.githubusercontent.com/NandhaKishorM/laya/fa9a2a7070b1789912a49ae24603bbfb1a78b001/LICENSE",
+          "bytes": 10173,
+          "git_blob_sha1": "d9a10c0d8e868ebf8da0b3dc95bb0be634c34bfe",
+          "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/laya/BENCHMARKS.md",
+          "url": "https://raw.githubusercontent.com/NandhaKishorM/laya/fa9a2a7070b1789912a49ae24603bbfb1a78b001/BENCHMARKS.md",
+          "bytes": 30577,
+          "git_blob_sha1": "336fbfefe6ec9c2f379f6fee5d21351f9721351f",
+          "sha256": "a8377611795291e4855638b9fb9ec6d9d085ea724ffb016c8559fa52401dad6c",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/laya/docs/evals.md",
+          "url": "https://raw.githubusercontent.com/NandhaKishorM/laya/fa9a2a7070b1789912a49ae24603bbfb1a78b001/docs/evals.md",
+          "bytes": 21077,
+          "git_blob_sha1": "28e15cffb9cd69b56fef85855a58b7d226fc6fb3",
+          "sha256": "fba2362fe7947f7a044913389af78ee3e583957ccd57cd665890bfd0ca1a7527",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/laya/laya/agent.py",
+          "url": "https://raw.githubusercontent.com/NandhaKishorM/laya/fa9a2a7070b1789912a49ae24603bbfb1a78b001/laya/agent.py",
+          "bytes": 111253,
+          "git_blob_sha1": "83b18da42f1c6ed4a44c16b78dee47c693d6c180",
+          "sha256": "63160e021015e0df6ed9bc3b65957f919178b3e98a23f020c2995cffb7c381b1",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/laya/laya/common.py",
+          "url": "https://raw.githubusercontent.com/NandhaKishorM/laya/fa9a2a7070b1789912a49ae24603bbfb1a78b001/laya/common.py",
+          "bytes": 42752,
+          "git_blob_sha1": "874b0450ddd37425595e0720226f3e12a17e8d3b",
+          "sha256": "a350dd1918c9b2445569bf8c0d31bd6baac2c89dded1faeb3f8aa44ea6596da3",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/laya/laya/evals.py",
+          "url": "https://raw.githubusercontent.com/NandhaKishorM/laya/fa9a2a7070b1789912a49ae24603bbfb1a78b001/laya/evals.py",
+          "bytes": 44360,
+          "git_blob_sha1": "163575a9eb70c0988af8523a0687a67316f3e863",
+          "sha256": "2192134d6e590d4773aa31d1e7f938fc2b9e44dede8a820fe60e5e2444736862",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/laya/research/evals/fixture.jsonl",
+          "url": "https://raw.githubusercontent.com/NandhaKishorM/laya/fa9a2a7070b1789912a49ae24603bbfb1a78b001/research/evals/fixture.jsonl",
+          "bytes": 3380,
+          "git_blob_sha1": "ce854cbadbc628fcd348694bcfe14c3f0c1f7a4b",
+          "sha256": "55d5e18c71fdb16f9a6e67cdecc5b972f14cd1d53ea58cd8daa101bee4d96adc",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/laya/research/evals/zh_decision_bench.jsonl",
+          "url": "https://raw.githubusercontent.com/NandhaKishorM/laya/fa9a2a7070b1789912a49ae24603bbfb1a78b001/research/evals/zh_decision_bench.jsonl",
+          "bytes": 146482,
+          "git_blob_sha1": "5cfe7ff9d6fa4a1caf77ae6292848e20f89c1e22",
+          "sha256": "59c74927d91657a3bceea89a61e64660d471cd1eaa8eab9778f760ca46d85c37",
+          "verified": true
+        }
+      ],
+      "missing_paths": []
+    },
+    "verdict": {
+      "repository": "Heman10x-NGU/openJev-verdict-2.0",
+      "revision": "bff28567cff463b833bf044f351a8b7945d53e07",
+      "files": [
+        {
+          "path": "benchmarks/upstream/verdict/README.md",
+          "url": "https://raw.githubusercontent.com/Heman10x-NGU/openJev-verdict-2.0/bff28567cff463b833bf044f351a8b7945d53e07/README.md",
+          "bytes": 10936,
+          "git_blob_sha1": "d83e994730daa8a4b029932e4a7760d758c9cb38",
+          "sha256": "4f75677f7f18cc7983e46ed15094b31fd531538ba2e014fee7fcda4907e1ab46",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/verdict/LICENSE",
+          "url": "https://raw.githubusercontent.com/Heman10x-NGU/openJev-verdict-2.0/bff28567cff463b833bf044f351a8b7945d53e07/LICENSE",
+          "bytes": 3027,
+          "git_blob_sha1": "84d35485d24c8a57b620fbf91ebb61406bee3ee1",
+          "sha256": "936dfcf776d91682f02528cde6f5ff440104a689aa19448fa33aa2f4dd4b19a4",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/verdict/core/engine_encoder.py",
+          "url": "https://raw.githubusercontent.com/Heman10x-NGU/openJev-verdict-2.0/bff28567cff463b833bf044f351a8b7945d53e07/core/engine_encoder.py",
+          "bytes": 15249,
+          "git_blob_sha1": "f1f4cc8d52481cf1bb5ae82eecdd79be77e24ce2",
+          "sha256": "78d094ae36aaf90a8a3a27e175746916f440adf749f73ead17c9012c27a6814b",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/verdict/core/formatting.py",
+          "url": "https://raw.githubusercontent.com/Heman10x-NGU/openJev-verdict-2.0/bff28567cff463b833bf044f351a8b7945d53e07/core/formatting.py",
+          "bytes": 4129,
+          "git_blob_sha1": "3df16b5c1a3ac1f481d31383e3e13b74d8b849eb",
+          "sha256": "2ab22599b4cbc1227d7befb767e58bf0bdbc67c62b88848f06c384eadf7f92f2",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/verdict/core/primitives.py",
+          "url": "https://raw.githubusercontent.com/Heman10x-NGU/openJev-verdict-2.0/bff28567cff463b833bf044f351a8b7945d53e07/core/primitives.py",
+          "bytes": 9170,
+          "git_blob_sha1": "ce730b4630571a8f6498f341e8e807f8aa73c3e1",
+          "sha256": "9f6757c50ca02fd05e3bda1f7b4b8f63fbd2dc8033a210f05b6c2f8525c1ded8",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/verdict/core/calibration.py",
+          "url": "https://raw.githubusercontent.com/Heman10x-NGU/openJev-verdict-2.0/bff28567cff463b833bf044f351a8b7945d53e07/core/calibration.py",
+          "bytes": 11273,
+          "git_blob_sha1": "52059e178a7fc5d8f4d0083ce321a531b6c5dcf5",
+          "sha256": "97a50e49abf698da52e350556cc65431704d0ac4b09435568a3055eb13c80b27",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/verdict/scripts/evaluate.py",
+          "url": "https://raw.githubusercontent.com/Heman10x-NGU/openJev-verdict-2.0/bff28567cff463b833bf044f351a8b7945d53e07/scripts/evaluate.py",
+          "bytes": 25695,
+          "git_blob_sha1": "68c519d49afa867daeb0bc1ff1b0a50fdc0ee693",
+          "sha256": "4ee94d62cce0754d576c2e9dd4c390fd7382e8a9b75c9cb37139baf68a97541a",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/verdict/data/test.jsonl",
+          "url": "https://raw.githubusercontent.com/Heman10x-NGU/openJev-verdict-2.0/bff28567cff463b833bf044f351a8b7945d53e07/data/test.jsonl",
+          "bytes": 449436,
+          "git_blob_sha1": "d700bc727fca78e4c8bb0ebe9fe050909ab0c1e4",
+          "sha256": "65d6c59e8f4966a581e391a8103ab63b90d685c4c11899bc5c7b0a87d90ba676",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/verdict/data/dataset_manifest.json",
+          "url": "https://raw.githubusercontent.com/Heman10x-NGU/openJev-verdict-2.0/bff28567cff463b833bf044f351a8b7945d53e07/data/dataset_manifest.json",
+          "bytes": 208,
+          "git_blob_sha1": "af042171951d37fa21c10ce07e38eec9e6f70284",
+          "sha256": "3151a7b94fca1037ee84cff9032b9600ba5e0f01bc2335dbc13843981645670b",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/verdict/data/synthetic_test.jsonl",
+          "url": "https://raw.githubusercontent.com/Heman10x-NGU/openJev-verdict-2.0/bff28567cff463b833bf044f351a8b7945d53e07/data/synthetic_test.jsonl",
+          "bytes": 17229,
+          "git_blob_sha1": "bb8146633544ecaa064a062a26c647505135cf3b",
+          "sha256": "b18aef96b44f8d2d54120ece347fd741d2c5556901407c9ce69692c10fa9d039",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/verdict/data/real_banking_test.jsonl",
+          "url": "https://raw.githubusercontent.com/Heman10x-NGU/openJev-verdict-2.0/bff28567cff463b833bf044f351a8b7945d53e07/data/real_banking_test.jsonl",
+          "bytes": 855855,
+          "git_blob_sha1": "d951313e84495b2f09dcba31543bff90c67d7679",
+          "sha256": "533f773c5167a402c30685c1f673bc68feb1d29c096d583a2cdfd9afb58a0426",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/verdict/data/real_benchmark_manifest.json",
+          "url": "https://raw.githubusercontent.com/Heman10x-NGU/openJev-verdict-2.0/bff28567cff463b833bf044f351a8b7945d53e07/data/real_benchmark_manifest.json",
+          "bytes": 448,
+          "git_blob_sha1": "dcf3c879a37d0e9aaa43bea83c47dd4a02067cda",
+          "sha256": "34f83a6548bcd183f848e5cb67e7e39294bbf9319c72a77cf78c5d96b11486a9",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/verdict/data/slice_cardinality_k3.jsonl",
+          "url": "https://raw.githubusercontent.com/Heman10x-NGU/openJev-verdict-2.0/bff28567cff463b833bf044f351a8b7945d53e07/data/slice_cardinality_k3.jsonl",
+          "bytes": 63703,
+          "git_blob_sha1": "6220b157d52a293da72dc97c2c7ba9089c983ccc",
+          "sha256": "a30927bc536cfaa575771de67fe820e7f5e2b47d22e4afdd72e323abc76bda47",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/verdict/data/slice_cardinality_k25.jsonl",
+          "url": "https://raw.githubusercontent.com/Heman10x-NGU/openJev-verdict-2.0/bff28567cff463b833bf044f351a8b7945d53e07/data/slice_cardinality_k25.jsonl",
+          "bytes": 338543,
+          "git_blob_sha1": "a42406c01a5d4db66da46b1bc57c8cbcbf24976b",
+          "sha256": "d920f6123650ab7e8756ef3e4c15cfb1b70fb78229ac9c6e1eab83b0c9cde1a1",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/verdict/data/slice_missing_option.jsonl",
+          "url": "https://raw.githubusercontent.com/Heman10x-NGU/openJev-verdict-2.0/bff28567cff463b833bf044f351a8b7945d53e07/data/slice_missing_option.jsonl",
+          "bytes": 172446,
+          "git_blob_sha1": "72dbcbd3a85b83c64cf6adcdc4e1c8728802fa7e",
+          "sha256": "29c10c2bf4850ffa8460017dd5d18fba9d600ac4ecef3045330c8d93a34e57d1",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/verdict/data/slice_distant_oos.jsonl",
+          "url": "https://raw.githubusercontent.com/Heman10x-NGU/openJev-verdict-2.0/bff28567cff463b833bf044f351a8b7945d53e07/data/slice_distant_oos.jsonl",
+          "bytes": 171298,
+          "git_blob_sha1": "f8d21cbb26661a24e86858e28eb3a2f3eb73c58c",
+          "sha256": "f05c3da93b2cd6cb97ccf3706854a54158e544eb0e60c82d4af5382df6efa56e",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/verdict/reports/verdict2_base_test.json",
+          "url": "https://raw.githubusercontent.com/Heman10x-NGU/openJev-verdict-2.0/bff28567cff463b833bf044f351a8b7945d53e07/reports/verdict2_base_test.json",
+          "bytes": 3799,
+          "git_blob_sha1": "1c0fba95bb11dfd6a82ef7da979281085f15a152",
+          "sha256": "a933e9019af0ef5cca403e52f474ec61c60798042906648d2a117a1ea4f214d9",
+          "verified": true
+        }
+      ],
+      "missing_paths": []
+    },
+    "jevbench": {
+      "repository": "fstandhartinger/jevbench",
+      "revision": "bb05a335bc809e61b20c0f745d25499a82b326fc",
+      "files": [
+        {
+          "path": "benchmarks/upstream/jevbench/README.md",
+          "url": "https://raw.githubusercontent.com/fstandhartinger/jevbench/bb05a335bc809e61b20c0f745d25499a82b326fc/README.md",
+          "bytes": 35366,
+          "git_blob_sha1": "92023893206bd8ff6029fabe4679faeb99717856",
+          "sha256": "42992cc7110a18f2685df88fe25914e0e977569cc3070a3fce50fe35e00abcb8",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/jevbench/LICENSE",
+          "url": "https://raw.githubusercontent.com/fstandhartinger/jevbench/bb05a335bc809e61b20c0f745d25499a82b326fc/LICENSE",
+          "bytes": 1096,
+          "git_blob_sha1": "ebdd5738fd5fc4eda295eb05ceb01618aedba35c",
+          "sha256": "3e5beed774bb0bcbfb2fcf24ba9554212c6ae112937d308040989465ab0c5784",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/jevbench/datasets/manifest.json",
+          "url": "https://raw.githubusercontent.com/fstandhartinger/jevbench/bb05a335bc809e61b20c0f745d25499a82b326fc/datasets/manifest.json",
+          "bytes": 2891,
+          "git_blob_sha1": "d7fc36530a8ff3f11ca508ffaa3b756a681d88e3",
+          "sha256": "0983ad3e73a34e7c55b02b5d09ed983aeccabef0253bb31be43a2e6230d58f7b",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/jevbench/datasets/public/easy.jsonl",
+          "url": "https://raw.githubusercontent.com/fstandhartinger/jevbench/bb05a335bc809e61b20c0f745d25499a82b326fc/datasets/public/easy.jsonl",
+          "bytes": 37220,
+          "git_blob_sha1": "1d5a81a6fc8c5e2dd3e243202802f0f3a04c7f35",
+          "sha256": "231df3c2c8e88a1a8c137ebe85de96ba70fabd330849098ac7b3c52c70b7172b",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/jevbench/datasets/public/original.jsonl",
+          "url": "https://raw.githubusercontent.com/fstandhartinger/jevbench/bb05a335bc809e61b20c0f745d25499a82b326fc/datasets/public/original.jsonl",
+          "bytes": 57237,
+          "git_blob_sha1": "c65c0f7b40856f85e0e441d4dcbafa4a0be14fd9",
+          "sha256": "5c2414edb3006b8bfcb70fda433f0f9ca015759433849f8d3104328a1f7c4180",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/jevbench/datasets/public/hard.jsonl",
+          "url": "https://raw.githubusercontent.com/fstandhartinger/jevbench/bb05a335bc809e61b20c0f745d25499a82b326fc/datasets/public/hard.jsonl",
+          "bytes": 651848,
+          "git_blob_sha1": "8bf8451fb84fd3cd50514e8c0e0c55b0c38e3679",
+          "sha256": "89e9e6becb33ed88c1de7d42dcc87531b2fb64cfaef4e1986faf7c37b3f80ebb",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/jevbench/jevbench/tasks.py",
+          "url": "https://raw.githubusercontent.com/fstandhartinger/jevbench/bb05a335bc809e61b20c0f745d25499a82b326fc/jevbench/tasks.py",
+          "bytes": 4339,
+          "git_blob_sha1": "fd6de6f7aa863fccb4c2ab333222121a73a7bfae",
+          "sha256": "b9c2f8ba9a7301519656d79d47c31b8ab0542a5545498ce3b339d5e93b976812",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/jevbench/jevbench/scoring.py",
+          "url": "https://raw.githubusercontent.com/fstandhartinger/jevbench/bb05a335bc809e61b20c0f745d25499a82b326fc/jevbench/scoring.py",
+          "bytes": 5743,
+          "git_blob_sha1": "7c189504b44768a8d1040a4790262a0fa415b2ac",
+          "sha256": "6aa17d212ea20a3eeb6876149367842e8462c11dcb54d73df062fb406368331e",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/jevbench/jevbench/metrics.py",
+          "url": "https://raw.githubusercontent.com/fstandhartinger/jevbench/bb05a335bc809e61b20c0f745d25499a82b326fc/jevbench/metrics.py",
+          "bytes": 5604,
+          "git_blob_sha1": "1694a6fb469ec8be181d64ef22b8404f890794d4",
+          "sha256": "4038c8423ad1cf28601afb6babe777b71f08e379b9ca125b09b52c0ac7d60515",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/jevbench/jevbench/adapters/verdict_local.py",
+          "url": "https://raw.githubusercontent.com/fstandhartinger/jevbench/bb05a335bc809e61b20c0f745d25499a82b326fc/jevbench/adapters/verdict_local.py",
+          "bytes": 5686,
+          "git_blob_sha1": "eaceba3754fe9430a44b25e1bf1dbffc1fdc243f",
+          "sha256": "2ad82354224687f434042a0bdbc1f0d713ea73f0d76040912441c0dc5a66e3e7",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/jevbench/jevbench/adapters/laya_local.py",
+          "url": "https://raw.githubusercontent.com/fstandhartinger/jevbench/bb05a335bc809e61b20c0f745d25499a82b326fc/jevbench/adapters/laya_local.py",
+          "bytes": 4287,
+          "git_blob_sha1": "269a555f862eecb98633b0af3d89df954ddabcf1",
+          "sha256": "7bb75b8e81fd423b0914a0c3cdf74108231ad5ce24f26f38714599f5cdcd7dec",
+          "verified": true
+        }
+      ],
+      "missing_paths": [
+        "datasets/public/HARD-TIER.md"
+      ]
+    },
+    "typed-decisions": {
+      "repository": "LocalLLaMA/typed-decisions",
+      "revision": "d0e2f0c42fef86cc15d1688d25a19f5ba7c85b18",
+      "files": [
+        {
+          "path": "benchmarks/upstream/typed-decisions/README.md",
+          "url": "https://huggingface.co/datasets/LocalLLaMA/typed-decisions/resolve/d0e2f0c42fef86cc15d1688d25a19f5ba7c85b18/README.md",
+          "bytes": 15271,
+          "expected_sha256": null,
+          "git_blob_sha1": "95bc494dc41bf2e0c2482f875538d5729c0ad9e7",
+          "sha256": "257572fae9b6601eb143b9842da9d40ee0f13e1cb239e335d86b020cd4fe483d",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/typed-decisions/agent_trace_observability/test-00000-of-00001.parquet",
+          "url": "https://huggingface.co/datasets/LocalLLaMA/typed-decisions/resolve/d0e2f0c42fef86cc15d1688d25a19f5ba7c85b18/agent_trace_observability/test-00000-of-00001.parquet",
+          "bytes": 71362,
+          "expected_sha256": "833ad1364237b9a3fe05be2c62e632f0cb34ba372284b975140d362ab246f70d",
+          "git_blob_sha1": null,
+          "sha256": "833ad1364237b9a3fe05be2c62e632f0cb34ba372284b975140d362ab246f70d",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/typed-decisions/all/test-00000-of-00001.parquet",
+          "url": "https://huggingface.co/datasets/LocalLLaMA/typed-decisions/resolve/d0e2f0c42fef86cc15d1688d25a19f5ba7c85b18/all/test-00000-of-00001.parquet",
+          "bytes": 222140,
+          "expected_sha256": "4f294f218ea1da27f3efef936359389c62ea4d3973a41457732990f1d31b647c",
+          "git_blob_sha1": null,
+          "sha256": "4f294f218ea1da27f3efef936359389c62ea4d3973a41457732990f1d31b647c",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/typed-decisions/customer_service/test-00000-of-00001.parquet",
+          "url": "https://huggingface.co/datasets/LocalLLaMA/typed-decisions/resolve/d0e2f0c42fef86cc15d1688d25a19f5ba7c85b18/customer_service/test-00000-of-00001.parquet",
+          "bytes": 115037,
+          "expected_sha256": "b4e6e23b3c2add197dda74008f2ce42ff996511ff1bf9c93e8b0e6d84ac9c275",
+          "git_blob_sha1": null,
+          "sha256": "b4e6e23b3c2add197dda74008f2ce42ff996511ff1bf9c93e8b0e6d84ac9c275",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/typed-decisions/eval.yaml",
+          "url": "https://huggingface.co/datasets/LocalLLaMA/typed-decisions/resolve/d0e2f0c42fef86cc15d1688d25a19f5ba7c85b18/eval.yaml",
+          "bytes": 532,
+          "expected_sha256": null,
+          "git_blob_sha1": "70829f65a162f6618f4dc8c05459100b54a3464b",
+          "sha256": "9b8d323eb146f5b55ec168335710b77c6239efaa37a19861b4981d6c8631a6f7",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/typed-decisions/invoice_processing/test-00000-of-00001.parquet",
+          "url": "https://huggingface.co/datasets/LocalLLaMA/typed-decisions/resolve/d0e2f0c42fef86cc15d1688d25a19f5ba7c85b18/invoice_processing/test-00000-of-00001.parquet",
+          "bytes": 79603,
+          "expected_sha256": "ce2adfb5201dba910b23bda6ab9678c385b580edaabbf8348b4e024c120d4b75",
+          "git_blob_sha1": null,
+          "sha256": "ce2adfb5201dba910b23bda6ab9678c385b580edaabbf8348b4e024c120d4b75",
+          "verified": true
+        },
+        {
+          "path": "benchmarks/upstream/typed-decisions/security_incidents/test-00000-of-00001.parquet",
+          "url": "https://huggingface.co/datasets/LocalLLaMA/typed-decisions/resolve/d0e2f0c42fef86cc15d1688d25a19f5ba7c85b18/security_incidents/test-00000-of-00001.parquet",
+          "bytes": 87929,
+          "expected_sha256": "4d8bc1879a0b67e5d275edea21a694b06136ca2a2c3355215a7d8adea6b0c75f",
+          "git_blob_sha1": null,
+          "sha256": "4d8bc1879a0b67e5d275edea21a694b06136ca2a2c3355215a7d8adea6b0c75f",
+          "verified": true
+        }
+      ],
+      "declared_license": "Apache-2.0"
+    }
+  }
+}

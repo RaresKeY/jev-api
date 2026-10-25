@@ -1,0 +1,16 @@
+{
+  "source": "https://huggingface.co/api/models/bartowski/SmolLM2-135M-Instruct-GGUF?blobs=true",
+  "revision": "09816acd5d99df7be770d85ea30822623dab342c",
+  "files": [
+    {
+      "rfilename": "SmolLM2-135M-Instruct-Q4_K_M.gguf",
+      "blobId": "bbd90a1d40b01f026dbc0e40d87c88211de68572",
+      "size": 105454432,
+      "lfs": {
+        "sha256": "2e8040ceae7815abe0dcb3540b9995eaa1fa0d2ca9e797d0a635ae4433c68c2d",
+        "size": 105454432,
+        "pointerSize": 134
+      }
+    }
+  ]
+}

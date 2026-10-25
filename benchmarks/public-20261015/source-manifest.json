@@ -1,0 +1,225 @@
+{
+  "files": [
+    {
+      "repository": "jevbench",
+      "commit": "609a664e81f46e03731600bd7bd9f1b7a61257c5",
+      "source_path": "LICENSE",
+      "path": "benchmarks/public-20261015/upstream/jevbench/LICENSE",
+      "bytes": 1096,
+      "sha256": "3e5beed774bb0bcbfb2fcf24ba9554212c6ae112937d308040989465ab0c5784",
+      "source_url": "https://github.com/fstandhartinger/jevbench",
+      "role": "original data/notice"
+    },
+    {
+      "repository": "jevbench",
+      "commit": "609a664e81f46e03731600bd7bd9f1b7a61257c5",
+      "source_path": "datasets/public/easy.jsonl",
+      "path": "benchmarks/public-20261015/upstream/jevbench/datasets/public/easy.jsonl",
+      "bytes": 37220,
+      "sha256": "231df3c2c8e88a1a8c137ebe85de96ba70fabd330849098ac7b3c52c70b7172b",
+      "source_url": "https://github.com/fstandhartinger/jevbench",
+      "role": "original data/notice"
+    },
+    {
+      "repository": "jevbench",
+      "commit": "609a664e81f46e03731600bd7bd9f1b7a61257c5",
+      "source_path": "datasets/public/original.jsonl",
+      "path": "benchmarks/public-20261015/upstream/jevbench/datasets/public/original.jsonl",
+      "bytes": 57237,
+      "sha256": "5c2414edb3006b8bfcb70fda433f0f9ca015759433849f8d3104328a1f7c4180",
+      "source_url": "https://github.com/fstandhartinger/jevbench",
+      "role": "original data/notice"
+    },
+    {
+      "repository": "jevbench",
+      "commit": "609a664e81f46e03731600bd7bd9f1b7a61257c5",
+      "source_path": "datasets/public/hard.jsonl",
+      "path": "benchmarks/public-20261015/upstream/jevbench/datasets/public/hard.jsonl",
+      "bytes": 651848,
+      "sha256": "89e9e6becb33ed88c1de7d42dcc87531b2fb64cfaef4e1986faf7c37b3f80ebb",
+      "source_url": "https://github.com/fstandhartinger/jevbench",
+      "role": "original data/notice"
+    },
+    {
+      "repository": "jevbench",
+      "commit": "609a664e81f46e03731600bd7bd9f1b7a61257c5",
+      "source_path": "jevbench/scoring.py",
+      "path": "benchmarks/public-20261015/upstream/jevbench/jevbench/scoring.py",
+      "bytes": 5743,
+      "sha256": "6aa17d212ea20a3eeb6876149367842e8462c11dcb54d73df062fb406368331e",
+      "source_url": "https://github.com/fstandhartinger/jevbench",
+      "role": "reference-only, never imported"
+    },
+    {
+      "repository": "jevbench",
+      "commit": "609a664e81f46e03731600bd7bd9f1b7a61257c5",
+      "source_path": "jevbench/metrics.py",
+      "path": "benchmarks/public-20261015/upstream/jevbench/jevbench/metrics.py",
+      "bytes": 5604,
+      "sha256": "4038c8423ad1cf28601afb6babe777b71f08e379b9ca125b09b52c0ac7d60515",
+      "source_url": "https://github.com/fstandhartinger/jevbench",
+      "role": "reference-only, never imported"
+    },
+    {
+      "repository": "SemIf-OpenJev",
+      "commit": "23cf1f39fc9534fe81437200959b6dfc7106e45a",
+      "source_path": "LICENSE",
+      "path": "benchmarks/public-20261015/upstream/SemIf-OpenJev/LICENSE",
+      "bytes": 1066,
+      "sha256": "f765f2140f8507a8f0d81ec0fd2c4bd72fe6a066841ef27883ff876a76bf61be",
+      "source_url": "https://github.com/TheoLeeCJ/SemIf-OpenJev",
+      "role": "original data/notice"
+    },
+    {
+      "repository": "SemIf-OpenJev",
+      "commit": "23cf1f39fc9534fe81437200959b6dfc7106e45a",
+      "source_path": "benchmarks/data/authored144.jsonl",
+      "path": "benchmarks/public-20261015/upstream/SemIf-OpenJev/benchmarks/data/authored144.jsonl",
+      "bytes": 193250,
+      "sha256": "8162d1c73f925af64453f1ec05ef36d583b3815bf698e60f0d454bd11537e079",
+      "source_url": "https://github.com/TheoLeeCJ/SemIf-OpenJev",
+      "role": "original data/notice"
+    },
+    {
+      "repository": "SemIf-OpenJev",
+      "commit": "23cf1f39fc9534fe81437200959b6dfc7106e45a",
+      "source_path": "benchmarks/data/perturbations108.jsonl",
+      "path": "benchmarks/public-20261015/upstream/SemIf-OpenJev/benchmarks/data/perturbations108.jsonl",
+      "bytes": 103443,
+      "sha256": "1dd7ccf80518d0e34886478ca23982aa726e9daccd343b9e95cedaf6b569bec4",
+      "source_url": "https://github.com/TheoLeeCJ/SemIf-OpenJev",
+      "role": "original data/notice"
+    },
+    {
+      "repository": "SemIf-OpenJev",
+      "commit": "23cf1f39fc9534fe81437200959b6dfc7106e45a",
+      "source_path": "benchmarks/data/perturbations108-manifest.json",
+      "path": "benchmarks/public-20261015/upstream/SemIf-OpenJev/benchmarks/data/perturbations108-manifest.json",
+      "bytes": 471,
+      "sha256": "f81f93b57e0b46b0164b6eb6d65a419604c6af37a5aaba55c413f76581f2fef8",
+      "source_url": "https://github.com/TheoLeeCJ/SemIf-OpenJev",
+      "role": "original data/notice"
+    },
+    {
+      "repository": "SemIf-OpenJev",
+      "commit": "23cf1f39fc9534fe81437200959b6dfc7106e45a",
+      "source_path": "benchmarks/evaluate.py",
+      "path": "benchmarks/public-20261015/upstream/SemIf-OpenJev/benchmarks/evaluate.py",
+      "bytes": 15719,
+      "sha256": "2b8376577294d6836e2aff1bccf5d4d01aa1ec39e21f8f908281437b2bd4f2af",
+      "source_url": "https://github.com/TheoLeeCJ/SemIf-OpenJev",
+      "role": "reference-only, never imported"
+    },
+    {
+      "repository": "SemIf-OpenJev",
+      "commit": "23cf1f39fc9534fe81437200959b6dfc7106e45a",
+      "source_path": "benchmarks/evaluate_perturbations.py",
+      "path": "benchmarks/public-20261015/upstream/SemIf-OpenJev/benchmarks/evaluate_perturbations.py",
+      "bytes": 4563,
+      "sha256": "646a10a1af6dbbb272dffc75ee7d26f6491f1e5b4dccc74f07a52ba7f7894410",
+      "source_url": "https://github.com/TheoLeeCJ/SemIf-OpenJev",
+      "role": "reference-only, never imported"
+    },
+    {
+      "repository": "kev",
+      "commit": "dd375f27fd61486c52204205e10a0d2e10f3b34a",
+      "source_path": "LICENSE",
+      "path": "benchmarks/public-20261015/upstream/kev/LICENSE",
+      "bytes": 11343,
+      "sha256": "6b08bb37982c233aa12bcbdf19106da12f3f4fcf800773ea42e28ebeddd34fb8",
+      "source_url": "https://github.com/jaredpalmer/kev",
+      "role": "original data/notice"
+    },
+    {
+      "repository": "kev",
+      "commit": "dd375f27fd61486c52204205e10a0d2e10f3b34a",
+      "source_path": "evals/v9/transfer-v9/manifest.json",
+      "path": "benchmarks/public-20261015/upstream/kev/evals/v9/transfer-v9/manifest.json",
+      "bytes": 5433,
+      "sha256": "3c4f0be94509a3612678bfd3a30fd99a8d0ca3c47ddfe7318075d95b2fa365e4",
+      "source_url": "https://github.com/jaredpalmer/kev",
+      "role": "original data/notice"
+    },
+    {
+      "repository": "kev",
+      "commit": "dd375f27fd61486c52204205e10a0d2e10f3b34a",
+      "source_path": "evals/v9/transfer-v9/development.jsonl",
+      "path": "benchmarks/public-20261015/upstream/kev/evals/v9/transfer-v9/development.jsonl",
+      "bytes": 1424590,
+      "sha256": "53872ba045564315cf3c3dd8fb656e76441c6c514b1a7ff985ff0db3955710cf",
+      "source_url": "https://github.com/jaredpalmer/kev",
+      "role": "original data/notice"
+    },
+    {
+      "repository": "kev",
+      "commit": "dd375f27fd61486c52204205e10a0d2e10f3b34a",
+      "source_path": "evals/v9/transfer-v9/test.jsonl",
+      "path": "benchmarks/public-20261015/upstream/kev/evals/v9/transfer-v9/test.jsonl",
+      "bytes": 1428328,
+      "sha256": "048abea5e12c73c3a622ce5836898c00fa43766e0bf48fb2459e77ee9873497f",
+      "source_url": "https://github.com/jaredpalmer/kev",
+      "role": "original data/notice"
+    },
+    {
+      "repository": "kev",
+      "commit": "dd375f27fd61486c52204205e10a0d2e10f3b34a",
+      "source_path": "kev/metrics.py",
+      "path": "benchmarks/public-20261015/upstream/kev/kev/metrics.py",
+      "bytes": 24401,
+      "sha256": "167a586334cfcced4adcc197758535c3bcda832b855c151095ef2d1968cf8983",
+      "source_url": "https://github.com/jaredpalmer/kev",
+      "role": "reference-only, never imported"
+    },
+    {
+      "repository": "MMLU-Pro",
+      "commit": "f418b116db00b065c2aea046518d8fcf74d39872",
+      "source_path": "LICENSE",
+      "path": "benchmarks/public-20261015/upstream/MMLU-Pro/LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "source_url": "https://github.com/TIGER-AI-Lab/MMLU-Pro",
+      "role": "original data/notice"
+    },
+    {
+      "repository": "MMLU-Pro",
+      "commit": "f418b116db00b065c2aea046518d8fcf74d39872",
+      "source_path": "README.md",
+      "path": "benchmarks/public-20261015/upstream/MMLU-Pro/README.md",
+      "bytes": 5993,
+      "sha256": "dfbab62320e644f3682d4697e206160bbb59baafa324c59a17e4424328e3e5a5",
+      "source_url": "https://github.com/TIGER-AI-Lab/MMLU-Pro",
+      "role": "original data/notice"
+    },
+    {
+      "repository": "MMLU-Pro-data",
+      "commit": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+      "source_path": "README.md",
+      "path": "benchmarks/public-20261015/upstream/MMLU-Pro-data/README.md",
+      "bytes": 11723,
+      "sha256": "4bd710f67da3fa359a33edce1b4b5816b3de416c823c2624ba5e89c2557d2a47",
+      "source_url": "https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro",
+      "role": "original data/notice"
+    },
+    {
+      "repository": "MMLU-Pro-data",
+      "commit": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+      "source_path": "data/test-00000-of-00001.parquet",
+      "path": "benchmarks/public-20261015/upstream/MMLU-Pro-data/data/test-00000-of-00001.parquet",
+      "bytes": 132,
+      "sha256": "b114a0a2c876deae656987049fc68845514263f648ddd1e68ee7677dd82b5d09",
+      "source_url": "https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro",
+      "role": "original data/notice"
+    },
+    {
+      "repository": "MMLU-Pro-data",
+      "commit": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+      "source_path": "data/validation-00000-of-00001.parquet",
+      "path": "benchmarks/public-20261015/upstream/MMLU-Pro-data/data/validation-00000-of-00001.parquet",
+      "bytes": 130,
+      "sha256": "12a2807421e8b9d94b3f82e4ad3ba9568d9c0e439a511c77649a87638804e780",
+      "source_url": "https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro",
+      "role": "original data/notice"
+    }
+  ],
+  "static_review_sha256": "16b78b38f2bdaf151f69ef7a5b02bad118b1b9138a24c3d25fd0da7310acdb81"
+}

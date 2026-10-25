@@ -1,0 +1,1710 @@
+{
+  "sha": "bff28567cff463b833bf044f351a8b7945d53e07",
+  "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/trees/bff28567cff463b833bf044f351a8b7945d53e07",
+  "tree": [
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a6536a41568c60a633c43a03ec082b8b96c95d3",
+      "size": 69,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/5a6536a41568c60a633c43a03ec082b8b96c95d3"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7606f3c7a04740a9f7b136cbd0e5e026c4e02206",
+      "size": 591,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/7606f3c7a04740a9f7b136cbd0e5e026c4e02206"
+    },
+    {
+      "path": "AGENTS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7942c2698a2bb2a09af3f134cbdc8f898a45c8ad",
+      "size": 2853,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/7942c2698a2bb2a09af3f134cbdc8f898a45c8ad"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84d35485d24c8a57b620fbf91ebb61406bee3ee1",
+      "size": 3027,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/84d35485d24c8a57b620fbf91ebb61406bee3ee1"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d83e994730daa8a4b029932e4a7760d758c9cb38",
+      "size": 10936,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/d83e994730daa8a4b029932e4a7760d758c9cb38"
+    },
+    {
+      "path": "RUNBOOK.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "434d63edacf112049f763c7ba83a6971378aa501",
+      "size": 6584,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/434d63edacf112049f763c7ba83a6971378aa501"
+    },
+    {
+      "path": "artifacts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f414e2a9bb68dd861e8e9caf7b1e0453e560da3c",
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/trees/f414e2a9bb68dd861e8e9caf7b1e0453e560da3c"
+    },
+    {
+      "path": "artifacts/ARTIFACTS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec14b2de8e83ec6a8bcb8d9ad21fb1ad84a2cd42",
+      "size": 2157,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/ec14b2de8e83ec6a8bcb8d9ad21fb1ad84a2cd42"
+    },
+    {
+      "path": "artifacts/calibrator.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e76633ea146075376db563b50f322f99833f323",
+      "size": 1259,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/3e76633ea146075376db563b50f322f99833f323"
+    },
+    {
+      "path": "artifacts/smoke",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "edfea767299241709f8b92793aabaf440675ea81",
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/trees/edfea767299241709f8b92793aabaf440675ea81"
+    },
+    {
+      "path": "artifacts/smoke/dev_metrics.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "521aaf2d04df651a57bc7e955ae776895eb42d63",
+      "size": 381,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/521aaf2d04df651a57bc7e955ae776895eb42d63"
+    },
+    {
+      "path": "artifacts/smoke/tokenizer.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f4d8583e507b7466d2490e2d6c045647a822698",
+      "size": 3583228,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/2f4d8583e507b7466d2490e2d6c045647a822698"
+    },
+    {
+      "path": "artifacts/smoke/tokenizer_config.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58abfae09964980cc64df9ffbd3d683da5c5dcda",
+      "size": 380,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/58abfae09964980cc64df9ffbd3d683da5c5dcda"
+    },
+    {
+      "path": "artifacts/tokenizer.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5651093fc4690c7ddd401a6621f3c0228f2663d1",
+      "size": 3583596,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/5651093fc4690c7ddd401a6621f3c0228f2663d1"
+    },
+    {
+      "path": "artifacts/tokenizer_config.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58abfae09964980cc64df9ffbd3d683da5c5dcda",
+      "size": 380,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/58abfae09964980cc64df9ffbd3d683da5c5dcda"
+    },
+    {
+      "path": "artifacts/train_manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "397843e4553fc9f2e3ac4cbe7f325c201c7b2feb",
+      "size": 1129,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/397843e4553fc9f2e3ac4cbe7f325c201c7b2feb"
+    },
+    {
+      "path": "artifacts/v2",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "33535da6bd50d8cb00e4833fb7f0d28262caa770",
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/trees/33535da6bd50d8cb00e4833fb7f0d28262caa770"
+    },
+    {
+      "path": "artifacts/v2/bundle_manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fb36695e1fda40db7e76288f01dc8889609741d",
+      "size": 464,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/9fb36695e1fda40db7e76288f01dc8889609741d"
+    },
+    {
+      "path": "artifacts/v2/calibrator.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e76633ea146075376db563b50f322f99833f323",
+      "size": 1259,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/3e76633ea146075376db563b50f322f99833f323"
+    },
+    {
+      "path": "artifacts/v2/calibrator_modernbert.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f509a70d4bee06f991caf8f5c8387213dcd564d0",
+      "size": 502,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/f509a70d4bee06f991caf8f5c8387213dcd564d0"
+    },
+    {
+      "path": "artifacts/v2/config.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8db7fe6b354ef97840467f06c634cf09dc88ecaf",
+      "size": 3836,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/8db7fe6b354ef97840467f06c634cf09dc88ecaf"
+    },
+    {
+      "path": "artifacts/v2/epoch_1",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5f9a248e266160ccf1b44adbc177f8159c40398f",
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/trees/5f9a248e266160ccf1b44adbc177f8159c40398f"
+    },
+    {
+      "path": "artifacts/v2/epoch_1/config.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8db7fe6b354ef97840467f06c634cf09dc88ecaf",
+      "size": 3836,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/8db7fe6b354ef97840467f06c634cf09dc88ecaf"
+    },
+    {
+      "path": "artifacts/v2/epoch_1/val_metrics.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32785905e325200c0f67f9d5b7d3f1d42d7ef487",
+      "size": 113,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/32785905e325200c0f67f9d5b7d3f1d42d7ef487"
+    },
+    {
+      "path": "artifacts/v2/epoch_2",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cb9a137ebf1efcda8e5c8b163435cdfcc06be45c",
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/trees/cb9a137ebf1efcda8e5c8b163435cdfcc06be45c"
+    },
+    {
+      "path": "artifacts/v2/epoch_2/config.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8db7fe6b354ef97840467f06c634cf09dc88ecaf",
+      "size": 3836,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/8db7fe6b354ef97840467f06c634cf09dc88ecaf"
+    },
+    {
+      "path": "artifacts/v2/epoch_2/val_metrics.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "513b1f8c8ae0d57a48329d36ae4f235284e2b5ad",
+      "size": 114,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/513b1f8c8ae0d57a48329d36ae4f235284e2b5ad"
+    },
+    {
+      "path": "artifacts/v2/epoch_3",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "024ba167c43835f02fea66557b54067a5b49eeec",
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/trees/024ba167c43835f02fea66557b54067a5b49eeec"
+    },
+    {
+      "path": "artifacts/v2/epoch_3/config.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8db7fe6b354ef97840467f06c634cf09dc88ecaf",
+      "size": 3836,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/8db7fe6b354ef97840467f06c634cf09dc88ecaf"
+    },
+    {
+      "path": "artifacts/v2/epoch_3/val_metrics.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d00ca7af0c8ece6f34d301418273a228021f1b0",
+      "size": 112,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/2d00ca7af0c8ece6f34d301418273a228021f1b0"
+    },
+    {
+      "path": "artifacts/v2/tokenizer.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5651093fc4690c7ddd401a6621f3c0228f2663d1",
+      "size": 3583596,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/5651093fc4690c7ddd401a6621f3c0228f2663d1"
+    },
+    {
+      "path": "artifacts/v2/tokenizer_config.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58abfae09964980cc64df9ffbd3d683da5c5dcda",
+      "size": 380,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/58abfae09964980cc64df9ffbd3d683da5c5dcda"
+    },
+    {
+      "path": "artifacts/v2/train_manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62b2594b1ec9d829bc9cfe6aea7199588c0bfdd0",
+      "size": 1345,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/62b2594b1ec9d829bc9cfe6aea7199588c0bfdd0"
+    },
+    {
+      "path": "artifacts/verdict2-base",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c284b967a939ffac4a060eeb11d71b3fc04f57b6",
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/trees/c284b967a939ffac4a060eeb11d71b3fc04f57b6"
+    },
+    {
+      "path": "artifacts/verdict2-base/dev_metrics.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6265f260d65cef04b4ddb0c0a645cf1bf2d33bc9",
+      "size": 357,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/6265f260d65cef04b4ddb0c0a645cf1bf2d33bc9"
+    },
+    {
+      "path": "artifacts/verdict2-base/model.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d3e63ea83a78e3d945cba62035af26063d1337e",
+      "size": 134,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/1d3e63ea83a78e3d945cba62035af26063d1337e"
+    },
+    {
+      "path": "artifacts/verdict2-base/tokenizer.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f4d8583e507b7466d2490e2d6c045647a822698",
+      "size": 3583228,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/2f4d8583e507b7466d2490e2d6c045647a822698"
+    },
+    {
+      "path": "artifacts/verdict2-base/tokenizer_config.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58abfae09964980cc64df9ffbd3d683da5c5dcda",
+      "size": 380,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/58abfae09964980cc64df9ffbd3d683da5c5dcda"
+    },
+    {
+      "path": "assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9042c5b4fe936ba7d4fc3954a0e04bedd23752f9",
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/trees/9042c5b4fe936ba7d4fc3954a0e04bedd23752f9"
+    },
+    {
+      "path": "assets/benchmark_breakthrough_light.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "095561f75b3e3a2ab428279b7e4bb37be02c5bf7",
+      "size": 294048,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/095561f75b3e3a2ab428279b7e4bb37be02c5bf7"
+    },
+    {
+      "path": "assets/benchmark_breakthrough_twitter.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "519b0d9249eb7bc361dac9d24e3d4c857ed3f463",
+      "size": 293348,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/519b0d9249eb7bc361dac9d24e3d4c857ed3f463"
+    },
+    {
+      "path": "assets/how-jev-works.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4fe98e18def35e8d408c14c29a0f3d5b88db417",
+      "size": 1038444,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/a4fe98e18def35e8d408c14c29a0f3d5b88db417"
+    },
+    {
+      "path": "assets/icon.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f695f138912c6070691a10a2eb7ddc0c03294b71",
+      "size": 453355,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/f695f138912c6070691a10a2eb7ddc0c03294b71"
+    },
+    {
+      "path": "assets/social-preview.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c03aeb51b09dca024eb5dff5570d9d66ba6a3780",
+      "size": 669710,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/c03aeb51b09dca024eb5dff5570d9d66ba6a3780"
+    },
+    {
+      "path": "assets/v1.4",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2cbfe1cf8946893d00348e21b7c39260ca762243",
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/trees/2cbfe1cf8946893d00348e21b7c39260ca762243"
+    },
+    {
+      "path": "assets/v1.4/benchmark-deltas.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee2b8544571955c0c96066b694bab05c27574e41",
+      "size": 81729,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/ee2b8544571955c0c96066b694bab05c27574e41"
+    },
+    {
+      "path": "assets/v1.4/benchmark-deltas.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c435ea45a52ff393d32f7cedc4e60286f6186f4d",
+      "size": 5645,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/c435ea45a52ff393d32f7cedc4e60286f6186f4d"
+    },
+    {
+      "path": "assets/v1.4/benchmark-leaderboard-chart.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bec8e44c7d72c458915c3784b7f77e4aeb15e253",
+      "size": 202297,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/bec8e44c7d72c458915c3784b7f77e4aeb15e253"
+    },
+    {
+      "path": "assets/v1.4/benchmark-leaderboard-table.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03346afc58a8d559f841f0feabc1dffffe6ec0fa",
+      "size": 213819,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/03346afc58a8d559f841f0feabc1dffffe6ec0fa"
+    },
+    {
+      "path": "assets/v1.4/benchmark-table.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bbee48b4e63269ceb6df8578c8f67afcee8d9bd1",
+      "size": 115643,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/bbee48b4e63269ceb6df8578c8f67afcee8d9bd1"
+    },
+    {
+      "path": "assets/v1.4/benchmark-table.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf5ee77ed7a0cd1d036d154bf2baa42833e203a5",
+      "size": 5921,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/cf5ee77ed7a0cd1d036d154bf2baa42833e203a5"
+    },
+    {
+      "path": "assets/verdict2_performance_matrix_light.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc456f2c6fdf5630f69f41e7847a4bd92dfc114e",
+      "size": 303503,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/bc456f2c6fdf5630f69f41e7847a4bd92dfc114e"
+    },
+    {
+      "path": "assets/verdict2_performance_matrix_twitter.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53aa2540fa65600ba1e4e83dff6170679690faed",
+      "size": 308847,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/53aa2540fa65600ba1e4e83dff6170679690faed"
+    },
+    {
+      "path": "assets/verdict2_vs_laya_jev_showdown.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e9af7392f12a3e47101344bf1eacf9e5446d9e6",
+      "size": 543453,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/0e9af7392f12a3e47101344bf1eacf9e5446d9e6"
+    },
+    {
+      "path": "assets/verdict2_vs_laya_jev_showdown_light.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efda920e1e83290385f1dc1c0ee12cb78f924d3c",
+      "size": 566732,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/efda920e1e83290385f1dc1c0ee12cb78f924d3c"
+    },
+    {
+      "path": "assets/why-jev-matters.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c768d298ea6fdb85ef5b9696f325982e8fe3a5c",
+      "size": 369400,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/6c768d298ea6fdb85ef5b9696f325982e8fe3a5c"
+    },
+    {
+      "path": "core",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7c3e16089ea52cba0b4f63bbff5f8926744936e0",
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/trees/7c3e16089ea52cba0b4f63bbff5f8926744936e0"
+    },
+    {
+      "path": "core/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e4969e52a1b077520aae1b4116ee048cd14bdbf",
+      "size": 1873,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/4e4969e52a1b077520aae1b4116ee048cd14bdbf"
+    },
+    {
+      "path": "core/banking_glossary.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5bc4b56dfc1adea66fdc6e3a90f87841dd20aa17",
+      "size": 7474,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/5bc4b56dfc1adea66fdc6e3a90f87841dd20aa17"
+    },
+    {
+      "path": "core/calibration.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52059e178a7fc5d8f4d0083ce321a531b6c5dcf5",
+      "size": 11273,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/52059e178a7fc5d8f4d0083ce321a531b6c5dcf5"
+    },
+    {
+      "path": "core/dag.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "455849e70e88e3a6710cf4616027acff539472f8",
+      "size": 8110,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/455849e70e88e3a6710cf4616027acff539472f8"
+    },
+    {
+      "path": "core/engine_causal.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56132380d3aecd3df378ed63484d662c4396fbb5",
+      "size": 13544,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/56132380d3aecd3df378ed63484d662c4396fbb5"
+    },
+    {
+      "path": "core/engine_encoder.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1f4cc8d52481cf1bb5ae82eecdd79be77e24ce2",
+      "size": 15249,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/f1f4cc8d52481cf1bb5ae82eecdd79be77e24ce2"
+    },
+    {
+      "path": "core/formatting.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3df16b5c1a3ac1f481d31383e3e13b74d8b849eb",
+      "size": 4129,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/3df16b5c1a3ac1f481d31383e3e13b74d8b849eb"
+    },
+    {
+      "path": "core/primitives.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce730b4630571a8f6498f341e8e807f8aa73c3e1",
+      "size": 9170,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/ce730b4630571a8f6498f341e8e807f8aa73c3e1"
+    },
+    {
+      "path": "core/tabular.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7681841b4b9ba697fbb3878ccd77025976712efd",
+      "size": 10830,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/7681841b4b9ba697fbb3878ccd77025976712efd"
+    },
+    {
+      "path": "data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1d2c66b928bf1ee1985143c6a0f5f4d70962c8ff",
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/trees/1d2c66b928bf1ee1985143c6a0f5f4d70962c8ff"
+    },
+    {
+      "path": "data/dataset_manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af042171951d37fa21c10ce07e38eec9e6f70284",
+      "size": 208,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/af042171951d37fa21c10ce07e38eec9e6f70284"
+    },
+    {
+      "path": "data/gen",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "23208639c28107c8aff14c409ff94b9177cbf609",
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/trees/23208639c28107c8aff14c409ff94b9177cbf609"
+    },
+    {
+      "path": "data/gen/T01.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0643e60e67f9b2da502703e3a5378c36889d5419",
+      "size": 1022283,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/0643e60e67f9b2da502703e3a5378c36889d5419"
+    },
+    {
+      "path": "data/gen/T02.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de073d7d6e33c097dddc1859b715e2dac9751a0c",
+      "size": 895976,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/de073d7d6e33c097dddc1859b715e2dac9751a0c"
+    },
+    {
+      "path": "data/gen/T03.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "788084cbc345e3f312fd398be66cc6ffcc134700",
+      "size": 936000,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/788084cbc345e3f312fd398be66cc6ffcc134700"
+    },
+    {
+      "path": "data/gen/T04.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9d8b0069a37f341d501e06630fe7ebd6d2c95e0",
+      "size": 2123992,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/d9d8b0069a37f341d501e06630fe7ebd6d2c95e0"
+    },
+    {
+      "path": "data/gen/T05.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d72610462b9c645868fddfd59510019374ae1bb",
+      "size": 1019216,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/3d72610462b9c645868fddfd59510019374ae1bb"
+    },
+    {
+      "path": "data/gen/T06.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "831ece7fd6a6979f47e3dc3953b64ca7d9c474fc",
+      "size": 909455,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/831ece7fd6a6979f47e3dc3953b64ca7d9c474fc"
+    },
+    {
+      "path": "data/gen/T07.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9877c5cd1afeec5bb9786d39eb17c03613f8067c",
+      "size": 1356454,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/9877c5cd1afeec5bb9786d39eb17c03613f8067c"
+    },
+    {
+      "path": "data/gen/T08.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed8d7947b07e8acb6d65dbf45e6dd3e6eb6dcc5a",
+      "size": 1122782,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/ed8d7947b07e8acb6d65dbf45e6dd3e6eb6dcc5a"
+    },
+    {
+      "path": "data/gen/T09.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0be4031527aaae028a6287cf860a67376f1a4c8d",
+      "size": 2436023,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/0be4031527aaae028a6287cf860a67376f1a4c8d"
+    },
+    {
+      "path": "data/gen/T10.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c94beb94bfe7d98a9bb627c3b1386b97e5255579",
+      "size": 2449229,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/c94beb94bfe7d98a9bb627c3b1386b97e5255579"
+    },
+    {
+      "path": "data/gen/T11.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "819d5c3e0951ffa8f1c606ab58a376bf993bee68",
+      "size": 1515579,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/819d5c3e0951ffa8f1c606ab58a376bf993bee68"
+    },
+    {
+      "path": "data/gen/T12.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d8ec939bf35d154bd03863204c10ded8eabd117",
+      "size": 1088713,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/2d8ec939bf35d154bd03863204c10ded8eabd117"
+    },
+    {
+      "path": "data/gen/manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "167492ca12aa1ae7d7399071037cd45919077e4c",
+      "size": 360821,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/167492ca12aa1ae7d7399071037cd45919077e4c"
+    },
+    {
+      "path": "data/real_banking_cal.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4d647b9187a98016452df44b149e46c675e0578",
+      "size": 427582,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/a4d647b9187a98016452df44b149e46c675e0578"
+    },
+    {
+      "path": "data/real_banking_test.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d951313e84495b2f09dcba31543bff90c67d7679",
+      "size": 855855,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/d951313e84495b2f09dcba31543bff90c67d7679"
+    },
+    {
+      "path": "data/real_banking_train.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8159758c90a62a4bbd87e4a9ebf767a6c789573",
+      "size": 1975149,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/c8159758c90a62a4bbd87e4a9ebf767a6c789573"
+    },
+    {
+      "path": "data/real_banking_val.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7fa118acc16523699b01c0b91ff5a8a00742530",
+      "size": 426187,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/b7fa118acc16523699b01c0b91ff5a8a00742530"
+    },
+    {
+      "path": "data/real_benchmark_manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcf3c879a37d0e9aaa43bea83c47dd4a02067cda",
+      "size": 448,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/dcf3c879a37d0e9aaa43bea83c47dd4a02067cda"
+    },
+    {
+      "path": "data/slice_cardinality_k17.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "987637e681cf30bf3b8bca6c2eda2763ea00f4e6",
+      "size": 239587,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/987637e681cf30bf3b8bca6c2eda2763ea00f4e6"
+    },
+    {
+      "path": "data/slice_cardinality_k25.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a42406c01a5d4db66da46b1bc57c8cbcbf24976b",
+      "size": 338543,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/a42406c01a5d4db66da46b1bc57c8cbcbf24976b"
+    },
+    {
+      "path": "data/slice_cardinality_k3.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6220b157d52a293da72dc97c2c7ba9089c983ccc",
+      "size": 63703,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/6220b157d52a293da72dc97c2c7ba9089c983ccc"
+    },
+    {
+      "path": "data/slice_cardinality_k5.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ccbb23b58890f438590d6062371d30f1238e0676",
+      "size": 88562,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/ccbb23b58890f438590d6062371d30f1238e0676"
+    },
+    {
+      "path": "data/slice_cardinality_k9.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da0098355c2a073c1b47008bbbcc49332357f097",
+      "size": 138781,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/da0098355c2a073c1b47008bbbcc49332357f097"
+    },
+    {
+      "path": "data/slice_distant_oos.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8d21cbb26661a24e86858e28eb3a2f3eb73c58c",
+      "size": 171298,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/f8d21cbb26661a24e86858e28eb3a2f3eb73c58c"
+    },
+    {
+      "path": "data/slice_missing_option.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72dbcbd3a85b83c64cf6adcdc4e1c8728802fa7e",
+      "size": 172446,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/72dbcbd3a85b83c64cf6adcdc4e1c8728802fa7e"
+    },
+    {
+      "path": "data/synthetic_calibration.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8352ee1172c1573b5b41414a8e936f23aac65d56",
+      "size": 18610,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/8352ee1172c1573b5b41414a8e936f23aac65d56"
+    },
+    {
+      "path": "data/synthetic_test.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb8146633544ecaa064a062a26c647505135cf3b",
+      "size": 17229,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/bb8146633544ecaa064a062a26c647505135cf3b"
+    },
+    {
+      "path": "data/synthetic_train.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83bd61abf9d76dd0f76ba0a745a97b97579a0a68",
+      "size": 101980,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/83bd61abf9d76dd0f76ba0a745a97b97579a0a68"
+    },
+    {
+      "path": "data/test.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d700bc727fca78e4c8bb0ebe9fe050909ab0c1e4",
+      "size": 449436,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/d700bc727fca78e4c8bb0ebe9fe050909ab0c1e4"
+    },
+    {
+      "path": "data/train.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9580271503d1c444b723fe427f627bc15ba602cc",
+      "size": 3599925,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/9580271503d1c444b723fe427f627bc15ba602cc"
+    },
+    {
+      "path": "data/val.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa214341c64231a400c66eb45092a013468ad852",
+      "size": 449986,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/aa214341c64231a400c66eb45092a013468ad852"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cf8795e384d147a8d731686582b8183c8cd5b424",
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/trees/cf8795e384d147a8d731686582b8183c8cd5b424"
+    },
+    {
+      "path": "docs/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70909e8a09f3342e053d3ad9c86e324f4b12ae7f",
+      "size": 32867,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/70909e8a09f3342e053d3ad9c86e324f4b12ae7f"
+    },
+    {
+      "path": "examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b61f6d2b170290ae7a73e8f860c2d0d776c7a561",
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/trees/b61f6d2b170290ae7a73e8f860c2d0d776c7a561"
+    },
+    {
+      "path": "examples/enterprise_triage_runner.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6139af980a5188a030679e61943cfa1a4442d035",
+      "size": 8324,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/6139af980a5188a030679e61943cfa1a4442d035"
+    },
+    {
+      "path": "export",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "171fcdd3c35afeeb4f93e7c5be400358b9b6352c",
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/trees/171fcdd3c35afeeb4f93e7c5be400358b9b6352c"
+    },
+    {
+      "path": "export/export_onnx.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e131bfa1c1104d6405a5855ec2271b214bf46aa",
+      "size": 5802,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/5e131bfa1c1104d6405a5855ec2271b214bf46aa"
+    },
+    {
+      "path": "openjev",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dea42ed3f26afd82f1105afb1b73782e24376733",
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/trees/dea42ed3f26afd82f1105afb1b73782e24376733"
+    },
+    {
+      "path": "openjev/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f1e088778fd3dc7f5de0e653cd6ce4af09f2971",
+      "size": 141,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/1f1e088778fd3dc7f5de0e653cd6ce4af09f2971"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac8f453d5f2c1a42282e96282f569947c8381945",
+      "size": 778,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/ac8f453d5f2c1a42282e96282f569947c8381945"
+    },
+    {
+      "path": "reports",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ca3e7ea4111311efa0986ed83321b69d9326c82c",
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/trees/ca3e7ea4111311efa0986ed83321b69d9326c82c"
+    },
+    {
+      "path": "reports/reference_floors.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9dc0877f00c109e668db853a3a02e39672b396f",
+      "size": 789,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/e9dc0877f00c109e668db853a3a02e39672b396f"
+    },
+    {
+      "path": "reports/v2",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8e637598c7242e1a56f91f03bd5d5ecdcda4add5",
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/trees/8e637598c7242e1a56f91f03bd5d5ecdcda4add5"
+    },
+    {
+      "path": "reports/v2/evaluation_report_v2.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f337875f4a4d4a6bba68a26cfa070f165ae468d",
+      "size": 10206,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/4f337875f4a4d4a6bba68a26cfa070f165ae468d"
+    },
+    {
+      "path": "reports/v2/exp_e1_shuffled_control.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1102a4717f092143f9f03d61cf481baf1e2c9c0",
+      "size": 616,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/b1102a4717f092143f9f03d61cf481baf1e2c9c0"
+    },
+    {
+      "path": "reports/v2/exp_e2_option_order.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01e12379e9997fc994547dd3b81cca595c48927c",
+      "size": 1908,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/01e12379e9997fc994547dd3b81cca595c48927c"
+    },
+    {
+      "path": "reports/v2/exp_e3_label_bias.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e083f6127029f2ccdcf2a2a819d91703836aa3da",
+      "size": 694,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/e083f6127029f2ccdcf2a2a819d91703836aa3da"
+    },
+    {
+      "path": "reports/v2/exp_e4_hard_negatives.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dbcf81e7e69ad52dabec2366c72ac4b007f43ed1",
+      "size": 478,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/dbcf81e7e69ad52dabec2366c72ac4b007f43ed1"
+    },
+    {
+      "path": "reports/v2/exp_e5_abstention_generalization.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ad242fc31fe300a7f27e6bbba1be45e86817cca",
+      "size": 1166,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/0ad242fc31fe300a7f27e6bbba1be45e86817cca"
+    },
+    {
+      "path": "reports/v2/exp_e6_contamination.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dbdc7fab1f26598c09450e28076d29deae7c490b",
+      "size": 5644,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/dbdc7fab1f26598c09450e28076d29deae7c490b"
+    },
+    {
+      "path": "reports/v2/exp_e7_latency.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af273a5d29e0d677c55709d0dec48f45fdcb4fef",
+      "size": 8241,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/af273a5d29e0d677c55709d0dec48f45fdcb4fef"
+    },
+    {
+      "path": "reports/v2/exp_e8_fp16_parity.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34ede1d38a18d114471c1900b64613096084d6e0",
+      "size": 5497,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/34ede1d38a18d114471c1900b64613096084d6e0"
+    },
+    {
+      "path": "reports/v2/exp_e9_external_cases.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9f6613c26fd26d138a6522dc584b83930c24f5b",
+      "size": 1662,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/a9f6613c26fd26d138a6522dc584b83930c24f5b"
+    },
+    {
+      "path": "reports/v2/experiment_log.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e8541932b84b9c39181d8b0f7b92ee346545b9d",
+      "size": 3595,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/3e8541932b84b9c39181d8b0f7b92ee346545b9d"
+    },
+    {
+      "path": "reports/v2/failure_gallery.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e37831efbf14cc6f487ff0dae42d9d4af4deadd",
+      "size": 5354,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/3e37831efbf14cc6f487ff0dae42d9d4af4deadd"
+    },
+    {
+      "path": "reports/v2/gen_sweep_summary.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58f7eb8ff9bea1f90a8673cb74b9a8ac4eb94f96",
+      "size": 1296915,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/58f7eb8ff9bea1f90a8673cb74b9a8ac4eb94f96"
+    },
+    {
+      "path": "reports/v2/predictions_v2.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "609e321df6162516411264cbb0ceba34bdfa2c04",
+      "size": 206768,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/609e321df6162516411264cbb0ceba34bdfa2c04"
+    },
+    {
+      "path": "reports/v2/receipt_t01.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75215a8ceb68a2faea111bec7fbb9bde5565e1c4",
+      "size": 96223,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/75215a8ceb68a2faea111bec7fbb9bde5565e1c4"
+    },
+    {
+      "path": "reports/v2/receipt_t02.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dabbc474cd36b42d3b4eb38420fdddf5089026d3",
+      "size": 95858,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/dabbc474cd36b42d3b4eb38420fdddf5089026d3"
+    },
+    {
+      "path": "reports/v2/receipt_t03.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4060362f03fffc852a5f3c9fc957e071c060cfbc",
+      "size": 96705,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/4060362f03fffc852a5f3c9fc957e071c060cfbc"
+    },
+    {
+      "path": "reports/v2/receipt_t04.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e16a7630e7f35706346a5875964af1d9cfe1dd5",
+      "size": 96954,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/8e16a7630e7f35706346a5875964af1d9cfe1dd5"
+    },
+    {
+      "path": "reports/v2/receipt_t05.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c996d99721bc69d362b9b0debb5cb4edf4a6b91c",
+      "size": 97369,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/c996d99721bc69d362b9b0debb5cb4edf4a6b91c"
+    },
+    {
+      "path": "reports/v2/receipt_t06.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1f95446116ae7c57ac79ed564c94a4b4dd4ffe0",
+      "size": 97962,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/e1f95446116ae7c57ac79ed564c94a4b4dd4ffe0"
+    },
+    {
+      "path": "reports/v2/receipt_t07.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac0148f71c8ae5fbe476e78321ab6f624b82e87c",
+      "size": 96636,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/ac0148f71c8ae5fbe476e78321ab6f624b82e87c"
+    },
+    {
+      "path": "reports/v2/receipt_t08.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c1c3a77b9b78c0e5bdc2c60198ac1b0686b48a6",
+      "size": 97292,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/7c1c3a77b9b78c0e5bdc2c60198ac1b0686b48a6"
+    },
+    {
+      "path": "reports/v2/receipt_t09.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "634f95e49eee93b5e79946f5a07da9b07704a41f",
+      "size": 92960,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/634f95e49eee93b5e79946f5a07da9b07704a41f"
+    },
+    {
+      "path": "reports/v2/receipt_t10.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7f3567c05047a8741412370b0e28d4c0e9d0f8c",
+      "size": 91489,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/f7f3567c05047a8741412370b0e28d4c0e9d0f8c"
+    },
+    {
+      "path": "reports/v2/receipt_t11.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a3529dfdce9ea971b20e66dda080b42119a5dd0",
+      "size": 91887,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/5a3529dfdce9ea971b20e66dda080b42119a5dd0"
+    },
+    {
+      "path": "reports/v2/receipt_t12.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "997047ae43e15055661b270629518eb6c83d7c77",
+      "size": 96572,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/997047ae43e15055661b270629518eb6c83d7c77"
+    },
+    {
+      "path": "reports/verdict2_base_test.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c0fba95bb11dfd6a82ef7da979281085f15a152",
+      "size": 3799,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/1c0fba95bb11dfd6a82ef7da979281085f15a152"
+    },
+    {
+      "path": "reports/verdict2_base_test_predictions.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "176c36d52c702a4ace5a4bed14a72af326a1d633",
+      "size": 716101,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/176c36d52c702a4ace5a4bed14a72af326a1d633"
+    },
+    {
+      "path": "reports/verdict_baseline_3runs_summary.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40d98b2508da4b586747a61df9790402d67cbeba",
+      "size": 3685,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/40d98b2508da4b586747a61df9790402d67cbeba"
+    },
+    {
+      "path": "reports/verdict_baseline_benchmark.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "589ad513efc80de4aa86f906d526da47f7d685f2",
+      "size": 553,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/589ad513efc80de4aa86f906d526da47f7d685f2"
+    },
+    {
+      "path": "reports/verdict_baseline_benchmark_full.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8331ff99bb491685386d107d58187a26746beeb5",
+      "size": 868,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/8331ff99bb491685386d107d58187a26746beeb5"
+    },
+    {
+      "path": "reports/verdict_baseline_run_2.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "781e04d6043f2136adf4b7693378749ac8523a4f",
+      "size": 868,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/781e04d6043f2136adf4b7693378749ac8523a4f"
+    },
+    {
+      "path": "reports/verdict_baseline_run_3.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6da69494158b2de8205c397de4ecdad9e11087e",
+      "size": 869,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/c6da69494158b2de8205c397de4ecdad9e11087e"
+    },
+    {
+      "path": "requirements-train.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "243a746b2f4c1a02361b9ff4aebd1f4cbf2df59f",
+      "size": 411,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/243a746b2f4c1a02361b9ff4aebd1f4cbf2df59f"
+    },
+    {
+      "path": "rlcd",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e2fa20f0e7b804d0afa2c80196afa2452823ce72",
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/trees/e2fa20f0e7b804d0afa2c80196afa2452823ce72"
+    },
+    {
+      "path": "rlcd/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bcc78e5e36aa1f4be69da9305f2fc641e61df734",
+      "size": 1560,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/bcc78e5e36aa1f4be69da9305f2fc641e61df734"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0b0c424ddff85888a1972366e2a34773c66fed55",
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/trees/0b0c424ddff85888a1972366e2a34773c66fed55"
+    },
+    {
+      "path": "scripts/analysis",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "637be7b76958a5f2e7df025443b1a2572f524806",
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/trees/637be7b76958a5f2e7df025443b1a2572f524806"
+    },
+    {
+      "path": "scripts/analysis/phase0_diagnose.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84b57b8800b326490258d7a2e12457b555d46867",
+      "size": 6829,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/84b57b8800b326490258d7a2e12457b555d46867"
+    },
+    {
+      "path": "scripts/analysis/reference_floors.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a61b882b637b76215809d5ce4f866ff88d3706c",
+      "size": 12032,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/5a61b882b637b76215809d5ce4f866ff88d3706c"
+    },
+    {
+      "path": "scripts/analysis/selective_classification.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a179016e9b602d4bcc7745fc603499a4ccb8f08f",
+      "size": 5094,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/a179016e9b602d4bcc7745fc603499a4ccb8f08f"
+    },
+    {
+      "path": "scripts/audit_contamination.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24d02c16dc63267bb0f5df0f244e0120d741346c",
+      "size": 11037,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/24d02c16dc63267bb0f5df0f244e0120d741346c"
+    },
+    {
+      "path": "scripts/audit_data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f482af226ee41c4599d3bcf043c0c30ecf9cd669",
+      "size": 1808,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/f482af226ee41c4599d3bcf043c0c30ecf9cd669"
+    },
+    {
+      "path": "scripts/benchmark_latency.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "044fbef5c713879ea29930fe7b9d8f61080ac924",
+      "size": 6231,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/044fbef5c713879ea29930fe7b9d8f61080ac924"
+    },
+    {
+      "path": "scripts/download_artifacts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1cbf5c8d1eac65fe3a2f2483a065f612f5e3946a",
+      "size": 4571,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/1cbf5c8d1eac65fe3a2f2483a065f612f5e3946a"
+    },
+    {
+      "path": "scripts/download_real_benchmarks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4428220d70cbea4e89843802fd766e3a6ea2b96c",
+      "size": 12683,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/4428220d70cbea4e89843802fd766e3a6ea2b96c"
+    },
+    {
+      "path": "scripts/evaluate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68c519d49afa867daeb0bc1ff1b0a50fdc0ee693",
+      "size": 25695,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/68c519d49afa867daeb0bc1ff1b0a50fdc0ee693"
+    },
+    {
+      "path": "scripts/evaluate_verdict_baseline.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a47422534d76fc3a068fa4b5db86f94853938009",
+      "size": 12433,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/a47422534d76fc3a068fa4b5db86f94853938009"
+    },
+    {
+      "path": "scripts/exp_abstention_generalization.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfa68286fb42c579266d273bd4fbf2f1b86fb936",
+      "size": 11975,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/dfa68286fb42c579266d273bd4fbf2f1b86fb936"
+    },
+    {
+      "path": "scripts/exp_external_eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de5f6956241069c69fc2a937a31af27013082fd3",
+      "size": 10958,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/de5f6956241069c69fc2a937a31af27013082fd3"
+    },
+    {
+      "path": "scripts/exp_fp16_parity.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4b47fc4734fef791b84e99d2a4b1527e2bc8b3e",
+      "size": 8142,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/b4b47fc4734fef791b84e99d2a4b1527e2bc8b3e"
+    },
+    {
+      "path": "scripts/exp_hard_negatives.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "625a8b2bafff44914b6e72e57af9579ea278efe5",
+      "size": 10740,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/625a8b2bafff44914b6e72e57af9579ea278efe5"
+    },
+    {
+      "path": "scripts/exp_label_length.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "738cda63aeb67d93ccca50bfba15ed8e72c429e5",
+      "size": 13990,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/738cda63aeb67d93ccca50bfba15ed8e72c429e5"
+    },
+    {
+      "path": "scripts/exp_option_order.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1db629cbabc9ebe8c7b86e2b74ec4e63ec5017b8",
+      "size": 11490,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/1db629cbabc9ebe8c7b86e2b74ec4e63ec5017b8"
+    },
+    {
+      "path": "scripts/exp_shuffled_control.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97175ee073a39e92233ff0d9e406011b864178a1",
+      "size": 9185,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/97175ee073a39e92233ff0d9e406011b864178a1"
+    },
+    {
+      "path": "scripts/export_presets.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3306cb9d28f5a5e6e9a3a2e14e79d93c3dba8cd",
+      "size": 3837,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/c3306cb9d28f5a5e6e9a3a2e14e79d93c3dba8cd"
+    },
+    {
+      "path": "scripts/export_prompt_contract.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33635eeae5d721b6d3f0b0cee9b87ca52b914eca",
+      "size": 1311,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/33635eeae5d721b6d3f0b0cee9b87ca52b914eca"
+    },
+    {
+      "path": "scripts/gen_suite",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d8941075850f283460e82f486cdf43ebb1aa7593",
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/trees/d8941075850f283460e82f486cdf43ebb1aa7593"
+    },
+    {
+      "path": "scripts/gen_suite/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a82509117ed70e1f31540c4ef02ec9cef119178b",
+      "size": 83,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/a82509117ed70e1f31540c4ef02ec9cef119178b"
+    },
+    {
+      "path": "scripts/gen_suite/analyze.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d73e3b0fbfccf7e5ce629588b3cfe199931b4015",
+      "size": 16633,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/d73e3b0fbfccf7e5ce629588b3cfe199931b4015"
+    },
+    {
+      "path": "scripts/gen_suite/prepare_all.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9dda4ad6250f48d377e98f13637e76f81a23bc81",
+      "size": 45520,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/9dda4ad6250f48d377e98f13637e76f81a23bc81"
+    },
+    {
+      "path": "scripts/gen_suite/render.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e46aceef2b82a8bd4f4ccd7e67c9f01891a497b",
+      "size": 7159,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/0e46aceef2b82a8bd4f4ccd7e67c9f01891a497b"
+    },
+    {
+      "path": "scripts/gen_suite/run_inference.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "340b7bf5396ea49d753e9111429bf7910c902035",
+      "size": 8290,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/340b7bf5396ea49d753e9111429bf7910c902035"
+    },
+    {
+      "path": "scripts/gen_suite/tasks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "876d7700279ecbb4f02314e190c53a29d2989e71",
+      "size": 30575,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/876d7700279ecbb4f02314e190c53a29d2989e71"
+    },
+    {
+      "path": "scripts/generate_laya_showdown_card.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7353b2e5df4c75f8007988289910770407eab8a",
+      "size": 16058,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/b7353b2e5df4c75f8007988289910770407eab8a"
+    },
+    {
+      "path": "scripts/generate_synthetic.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "557cdb61a4d03982df1126b1d33399c35a56ac4d",
+      "size": 8503,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/557cdb61a4d03982df1126b1d33399c35a56ac4d"
+    },
+    {
+      "path": "scripts/generate_twitter_cards.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e66e16604f605ff327ba881e1ec16e888be5f763",
+      "size": 16262,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/e66e16604f605ff327ba881e1ec16e888be5f763"
+    },
+    {
+      "path": "scripts/prepare_data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc4ec297b19b83ba95a244b65ebb1d3e4486420a",
+      "size": 13987,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/fc4ec297b19b83ba95a244b65ebb1d3e4486420a"
+    },
+    {
+      "path": "scripts/render_receipts.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "25ebfe89e1bc3488a9093efab3a7a8564968c91b",
+      "size": 15000,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/25ebfe89e1bc3488a9093efab3a7a8564968c91b"
+    },
+    {
+      "path": "scripts/run_baseline_repeats.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9dea60c72fb3ce1330b00bd15baf8807f4d5a75b",
+      "size": 3613,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/9dea60c72fb3ce1330b00bd15baf8807f4d5a75b"
+    },
+    {
+      "path": "scripts/scrape_cookbooks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9ac449c5458bade89b20baeff2419f32a5fbbca",
+      "size": 15398,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/b9ac449c5458bade89b20baeff2419f32a5fbbca"
+    },
+    {
+      "path": "scripts/train.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7973dee23f8e6028912134f6dccfafe8570cd82c",
+      "size": 16668,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/7973dee23f8e6028912134f6dccfafe8570cd82c"
+    },
+    {
+      "path": "scripts/train_calibrator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4dfdaaa7110b6203ac2aa72e67e8f5ca96cd842b",
+      "size": 6777,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/4dfdaaa7110b6203ac2aa72e67e8f5ca96cd842b"
+    },
+    {
+      "path": "scripts/upload_to_hf.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16b2cfb3bdb122e6ef92801531f02653a408b760",
+      "size": 5938,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/16b2cfb3bdb122e6ef92801531f02653a408b760"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "46b02c03bce1df7502b2e47fb199511702074aaf",
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/trees/46b02c03bce1df7502b2e47fb199511702074aaf"
+    },
+    {
+      "path": "tests/test_browser_parity.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e95fe81297a37e2d63b3aeeb770f106486703ac6",
+      "size": 4881,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/e95fe81297a37e2d63b3aeeb770f106486703ac6"
+    },
+    {
+      "path": "tests/test_calibration.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89dd9235da44ac6bc13a525cc16afa26bc73fd2f",
+      "size": 3632,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/89dd9235da44ac6bc13a525cc16afa26bc73fd2f"
+    },
+    {
+      "path": "tests/test_dag.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79b9e68beb6b8dfdef7572f3c5550a911e2fa53b",
+      "size": 5546,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/79b9e68beb6b8dfdef7572f3c5550a911e2fa53b"
+    },
+    {
+      "path": "tests/test_docs_fresh.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae7f768513ce74c8c7526fe3297f03149fa8b286",
+      "size": 809,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/ae7f768513ce74c8c7526fe3297f03149fa8b286"
+    },
+    {
+      "path": "tests/test_engine_causal.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40f1dd6f3ea3d0d2c4bd162ebc446591b1521fbd",
+      "size": 5465,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/40f1dd6f3ea3d0d2c4bd162ebc446591b1521fbd"
+    },
+    {
+      "path": "tests/test_engine_encoder.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3664fc28a8245b195ff1d0b7c5f533164be29d83",
+      "size": 4547,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/3664fc28a8245b195ff1d0b7c5f533164be29d83"
+    },
+    {
+      "path": "tests/test_export_parity.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e7ac3e3c3e236f07ff66ebf61c3dd132ee2422d",
+      "size": 6292,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/7e7ac3e3c3e236f07ff66ebf61c3dd132ee2422d"
+    },
+    {
+      "path": "tests/test_formatting.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8977065cb1784f3e2bb32416ba8902a856542e5",
+      "size": 2239,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/a8977065cb1784f3e2bb32416ba8902a856542e5"
+    },
+    {
+      "path": "tests/test_primitives.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d30968c739b2f705268a51fa8c6f03bae9e09e1b",
+      "size": 4653,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/d30968c739b2f705268a51fa8c6f03bae9e09e1b"
+    },
+    {
+      "path": "tests/test_tabular.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7605210ba8dde089b676e48b064e61b43b95ac28",
+      "size": 3186,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/7605210ba8dde089b676e48b064e61b43b95ac28"
+    },
+    {
+      "path": "verdict2",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9a9a5fb7199e5a540de6873ebc078285bbf75c45",
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/trees/9a9a5fb7199e5a540de6873ebc078285bbf75c45"
+    },
+    {
+      "path": "verdict2/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a233cf8d3910d4b6693f8719181b99b260441eff",
+      "size": 104,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/a233cf8d3910d4b6693f8719181b99b260441eff"
+    },
+    {
+      "path": "verdict2/data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9dd9f6ae6f1b8913d27dadbd92dbc651156f6cb",
+      "size": 8503,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/a9dd9f6ae6f1b8913d27dadbd92dbc651156f6cb"
+    },
+    {
+      "path": "verdict2/evaluate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d9952210c3ad78012c3cda7ba5f280e4625ae48",
+      "size": 7810,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/2d9952210c3ad78012c3cda7ba5f280e4625ae48"
+    },
+    {
+      "path": "verdict2/losses.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e03350c17540aadb84492033c4ee1878be77422",
+      "size": 2954,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/8e03350c17540aadb84492033c4ee1878be77422"
+    },
+    {
+      "path": "verdict2/metrics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fa50db5fa82ef25f86d611cf06a2f120fddd2d8",
+      "size": 4921,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/5fa50db5fa82ef25f86d611cf06a2f120fddd2d8"
+    },
+    {
+      "path": "verdict2/model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "664dacd287d6b6f5dffe77fbfc5d3ba3b7be77cb",
+      "size": 4220,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/664dacd287d6b6f5dffe77fbfc5d3ba3b7be77cb"
+    },
+    {
+      "path": "verdict2/train.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fcee4db48ab7e6e093f02ae703673a745f7e59b4",
+      "size": 14104,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/fcee4db48ab7e6e093f02ae703673a745f7e59b4"
+    },
+    {
+      "path": "webgpu-demo",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dc0312b5e33d4b1b53f5febae576809d91372030",
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/trees/dc0312b5e33d4b1b53f5febae576809d91372030"
+    },
+    {
+      "path": "webgpu-demo/artifacts",
+      "mode": "120000",
+      "type": "blob",
+      "sha": "70f9aabc3117aaf97bdfadca59f98ab37c49365a",
+      "size": 12,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/70f9aabc3117aaf97bdfadca59f98ab37c49365a"
+    },
+    {
+      "path": "webgpu-demo/artifacts_v2",
+      "mode": "120000",
+      "type": "blob",
+      "sha": "c7599908cd3aee7ec2e9b2769a20ef1969872834",
+      "size": 15,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/c7599908cd3aee7ec2e9b2769a20ef1969872834"
+    },
+    {
+      "path": "webgpu-demo/evaluation_report_v2.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f337875f4a4d4a6bba68a26cfa070f165ae468d",
+      "size": 10206,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/4f337875f4a4d4a6bba68a26cfa070f165ae468d"
+    },
+    {
+      "path": "webgpu-demo/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4882e46847c8d0bb5facb6b0307d186aa161cd5b",
+      "size": 49405,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/4882e46847c8d0bb5facb6b0307d186aa161cd5b"
+    },
+    {
+      "path": "webgpu-demo/package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec89fd529d567947280836e7de6451753855c122",
+      "size": 28637,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/ec89fd529d567947280836e7de6451753855c122"
+    },
+    {
+      "path": "webgpu-demo/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "638c719fc6511cb5406c021a9af7ab946caa43f7",
+      "size": 377,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/638c719fc6511cb5406c021a9af7ab946caa43f7"
+    },
+    {
+      "path": "webgpu-demo/presets.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95b8115edc937079880afca8711588af2587ec98",
+      "size": 8877,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/95b8115edc937079880afca8711588af2587ec98"
+    },
+    {
+      "path": "webgpu-demo/prompt_contract.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "913f77913c5b7a6c6f185350bc546f739d6fe433",
+      "size": 334,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/913f77913c5b7a6c6f185350bc546f739d6fe433"
+    },
+    {
+      "path": "webgpu-demo/server.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e990baad9b4a6e320b846cd0ce81471431873e6f",
+      "size": 2259,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/e990baad9b4a6e320b846cd0ce81471431873e6f"
+    },
+    {
+      "path": "webgpu-demo/worker.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac4d222cae088cbbb677939136a41fa52d7bfd8d",
+      "size": 17033,
+      "url": "https://api.github.com/repos/Heman10x-NGU/openJev-verdict-2.0/git/blobs/ac4d222cae088cbbb677939136a41fa52d7bfd8d"
+    }
+  ],
+  "truncated": false
+}

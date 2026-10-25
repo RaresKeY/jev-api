@@ -1,0 +1,210 @@
+{
+  "_id": "625552d2b339bb03abe3432d",
+  "id": "openai/gsm8k",
+  "author": "openai",
+  "sha": "740312add88f781978c0658806c59bc2815b9866",
+  "lastModified": "2026-03-23T10:18:13.000Z",
+  "private": false,
+  "gated": false,
+  "disabled": false,
+  "tags": [
+    "benchmark:official",
+    "benchmark:eval-yaml",
+    "task_categories:text-generation",
+    "annotations_creators:crowdsourced",
+    "language_creators:crowdsourced",
+    "multilinguality:monolingual",
+    "source_datasets:original",
+    "language:en",
+    "license:mit",
+    "size_categories:10K<n<100K",
+    "format:parquet",
+    "modality:text",
+    "library:datasets",
+    "library:pandas",
+    "library:polars",
+    "library:mlcroissant",
+    "arxiv:2110.14168",
+    "region:us",
+    "math-word-problems"
+  ],
+  "description": "\n\t\n\t\t\n\t\n\t\n\t\tDataset Card for GSM8K\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Summary\n\t\n\nGSM8K (Grade School Math 8K) is a dataset of 8.5K high quality linguistically diverse grade school math word problems. The dataset was created to support the task of question answering on basic mathematical problems that require multi-step reasoning.\n\nThese problems take between 2 and 8 steps to solve.\nSolutions primarily involve performing a sequence of elementary calculations using basic arithmetic operations (+ − ×÷) to… See the full description on the dataset page: https://huggingface.co/datasets/openai/gsm8k.",
+  "paperswithcode_id": "gsm8k",
+  "downloads": 1106590,
+  "likes": 1916,
+  "cardData": {
+    "annotations_creators": [
+      "crowdsourced"
+    ],
+    "language_creators": [
+      "crowdsourced"
+    ],
+    "language": [
+      "en"
+    ],
+    "license": [
+      "mit"
+    ],
+    "multilinguality": [
+      "monolingual"
+    ],
+    "size_categories": [
+      "1K<n<10K"
+    ],
+    "source_datasets": [
+      "original"
+    ],
+    "task_categories": [
+      "text-generation"
+    ],
+    "task_ids": [],
+    "paperswithcode_id": "gsm8k",
+    "pretty_name": "Grade School Math 8K",
+    "tags": [
+      "math-word-problems"
+    ],
+    "dataset_info": [
+      {
+        "config_name": "main",
+        "features": [
+          {
+            "name": "question",
+            "dtype": "string"
+          },
+          {
+            "name": "answer",
+            "dtype": "string"
+          }
+        ],
+        "splits": [
+          {
+            "name": "train",
+            "num_bytes": 3963202,
+            "num_examples": 7473
+          },
+          {
+            "name": "test",
+            "num_bytes": 713732,
+            "num_examples": 1319
+          }
+        ],
+        "download_size": 2725633,
+        "dataset_size": 4676934
+      },
+      {
+        "config_name": "socratic",
+        "features": [
+          {
+            "name": "question",
+            "dtype": "string"
+          },
+          {
+            "name": "answer",
+            "dtype": "string"
+          }
+        ],
+        "splits": [
+          {
+            "name": "train",
+            "num_bytes": 5198108,
+            "num_examples": 7473
+          },
+          {
+            "name": "test",
+            "num_bytes": 936859,
+            "num_examples": 1319
+          }
+        ],
+        "download_size": 3164254,
+        "dataset_size": 6134967
+      }
+    ],
+    "configs": [
+      {
+        "config_name": "main",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "main/train-*"
+          },
+          {
+            "split": "test",
+            "path": "main/test-*"
+          }
+        ]
+      },
+      {
+        "config_name": "socratic",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "socratic/train-*"
+          },
+          {
+            "split": "test",
+            "path": "socratic/test-*"
+          }
+        ]
+      }
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "227449ad6054efe1ce07c6aa12090bc57103f85f",
+      "size": 1610
+    },
+    {
+      "rfilename": "README.md",
+      "blobId": "ad25b2c451d0fcd2793678b2baa917c962acf281",
+      "size": 7935
+    },
+    {
+      "rfilename": "eval.yaml",
+      "blobId": "b96125714e53f0d04fc3537b72d62e2b5d5a2311",
+      "size": 920
+    },
+    {
+      "rfilename": "main/test-00000-of-00001.parquet",
+      "blobId": "861005fb045993f46d198aa797440f4096f9aa17",
+      "size": 419088,
+      "lfs": {
+        "sha256": "ee7b8da9e381df27b9e3f7758a159ab2bdaa4dbaa910546cbbc47e0cb44e4f59",
+        "size": 419088,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "main/train-00000-of-00001.parquet",
+      "blobId": "61b47c916c27533feaa3763484ae0ea58f92b056",
+      "size": 2306545,
+      "lfs": {
+        "sha256": "ea82612ea9582142387730c793eb67d3b12849002bc0b7fa6f8efafa7351419d",
+        "size": 2306545,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "socratic/test-00000-of-00001.parquet",
+      "blobId": "a3283da59daba24a5a4b4e580535f0195abd313e",
+      "size": 486995,
+      "lfs": {
+        "sha256": "477dba7028204b465491b8f346ec774262ccd77147d942a0881e94cc6da7c99e",
+        "size": 486995,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "socratic/train-00000-of-00001.parquet",
+      "blobId": "439b1cef16517d9675efdfe3d6ab568863bec171",
+      "size": 2677259,
+      "lfs": {
+        "sha256": "54eb5fd2105a9126ac6410541b2e9dbe0199701258957c9af02d9ed675c90378",
+        "size": 2677259,
+        "pointerSize": 132
+      }
+    }
+  ],
+  "createdAt": "2022-04-12T10:22:10.000Z",
+  "usedStorage": 11758552
+}

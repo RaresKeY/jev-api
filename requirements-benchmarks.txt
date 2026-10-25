@@ -1,0 +1,17 @@
+# Optional benchmark and custom-head dependencies; use alongside the existing evaluation environment.
+pyarrow==25.0.1
+sentencepiece==0.2.2
+peft==0.21.2
+gliclass==0.1.20
+nltk==3.10.3
+langdetect==1.0.9
+absl-py==2.5.0
+immutabledict==4.3.1
+joblib==1.6.0
+six==1.17.0
+scikit-learn==1.9.1
+scipy==1.18.1
+threadpoolctl==3.7.0
+cloudpickle==3.1.2
+defusedxml==0.7.1
+narwhals==2.26.0

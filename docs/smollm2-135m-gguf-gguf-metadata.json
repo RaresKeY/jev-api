@@ -1,0 +1,26 @@
+{
+  "general.architecture": "llama",
+  "general.type": "model",
+  "general.name": "Smollm2 135M 8k Lc100K Mix1 Ep2",
+  "general.organization": "HuggingFaceTB",
+  "general.finetune": "8k-lc100k-mix1-ep2",
+  "general.basename": "smollm2",
+  "general.size_label": "135M",
+  "general.license": "apache-2.0",
+  "general.languages": {
+    "count": 1
+  },
+  "llama.block_count": 30,
+  "llama.context_length": 8192,
+  "llama.embedding_length": 576,
+  "general.file_type": 15,
+  "tokenizer.ggml.model": "gpt2",
+  "tokenizer.ggml.pre": "smollm",
+  "tokenizer.ggml.tokens": {
+    "count": 49152
+  },
+  "tokenizer.ggml.bos_token_id": 1,
+  "tokenizer.ggml.eos_token_id": 2,
+  "tokenizer.chat_template": "{% for message in messages %}{% if loop.first and messages[0]['role'] != 'system' %}{{ '<|im_start|>system\nYou are a helpful AI assistant named SmolLM, trained by Hugging Face<|im_end|>\n' }}{% endif %}{{'<|im_start|>' + message['role'] + '\n' + message['content'] + '<|im_end|>' + '\n'}}{% endfor %}{% if add_generation_prompt %}{{ '<|im_start|>assistant\n' }}{% endif %}",
+  "general.quantization_version": 2
+}

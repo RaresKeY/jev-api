@@ -1,0 +1,28 @@
+{
+  "status": "verified",
+  "bundle": {
+    "repository": "ggml-org/Kev-4B-GGUF",
+    "revision": "d924f2e2c3872da8b8aaf3eb4453b4126deceb79",
+    "declared_license": "apache-2.0",
+    "files": [
+      {
+        "path": "models/kev-4b-gguf/Kev-4B-Q8_0.gguf",
+        "url": "https://huggingface.co/ggml-org/Kev-4B-GGUF/resolve/d924f2e2c3872da8b8aaf3eb4453b4126deceb79/Kev-4B-Q8_0.gguf",
+        "bytes": 4483801504,
+        "expected_sha256": "7c2ebed90560522c2801389db482ac1dc4c36d828f201f6074c1d60e433948da",
+        "git_blob_sha1": null
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "models/kev-4b-gguf/Kev-4B-Q8_0.gguf",
+      "url": "https://huggingface.co/ggml-org/Kev-4B-GGUF/resolve/d924f2e2c3872da8b8aaf3eb4453b4126deceb79/Kev-4B-Q8_0.gguf",
+      "bytes": 4483801504,
+      "expected_sha256": "7c2ebed90560522c2801389db482ac1dc4c36d828f201f6074c1d60e433948da",
+      "git_blob_sha1": null,
+      "sha256": "7c2ebed90560522c2801389db482ac1dc4c36d828f201f6074c1d60e433948da",
+      "verified": true
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct/resolve/main/generation_config.json",
+  "data": {
+    "_from_model_config": true,
+    "bos_token_id": 1,
+    "eos_token_id": 2,
+    "pad_token_id": 2,
+    "transformers_version": "4.42.3"
+  }
+}

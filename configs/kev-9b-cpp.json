@@ -1,0 +1,37 @@
+{
+  "status": "historical-validated-profile",
+  "model_id": "9b-q4",
+  "model": {
+    "path": "models/kev-9b-gguf/Kev-9B-Q4_K_M.gguf",
+    "sha256": "86a6084984a6ef6818eb12c07cdc67ed3c47b00208d41a8816c64301bc6bcbda",
+    "bytes": 6358923744
+  },
+  "endpoint": "/v1/systemone",
+  "image": "localhost/jev-kev-server:llama-cpp-a4cb4c6-cuda12.6.0-ubuntu22.04",
+  "settings": {
+    "LLM_IMAGE": "localhost/jev-kev-server:llama-cpp-a4cb4c6-cuda12.6.0-ubuntu22.04",
+    "LLM_CTX": "4096",
+    "LLM_PARALLEL": "1",
+    "LLM_BATCH": "1024",
+    "LLM_CACHE_TYPE_K": "f16",
+    "LLM_CACHE_TYPE_V": "f16",
+    "LLM_N_GPU_LAYERS": "999",
+    "LLM_FLASH_ATTN": "on",
+    "LLM_CACHE_RAM": "0",
+    "LLM_REASONING": "off",
+    "LLM_BIND_ADDRESS": "127.0.0.1"
+  },
+  "source": "results/kev-9b-q4-v1",
+  "notes": [
+    "Same single-slot settings as the corrected 4B comparison.",
+    "No request errors across 292 frozen local cases.",
+    "One unsafe approval on the synthetic Odysseus set.",
+    "Existing default configurations remain unchanged."
+  ],
+  "runtime_source": {
+    "repository": "https://github.com/ggml-org/llama.cpp",
+    "revision": "a4cb4c61fd9d9c2066c7c1747821d3d65b8943bd",
+    "base_image": "docker.io/nvidia/cuda:12.6.0-runtime-ubuntu22.04",
+    "cuda_architecture": "75"
+  }
+}
