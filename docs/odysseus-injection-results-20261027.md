@@ -1,5 +1,7 @@
 # Injection suite, first run (27 October 2026)
 
+These measurements use the original fixture. Cases 22, 23 and 31 were clarified on 29 October; their revised inputs have not been rerun against this stand-in model.
+
 Stand-in judge, not one of the candidates from the model testing report:
 Qwen3.5-9B Q4_K_M on llama.cpp build 10520 (Metal, Apple M5, 16 GiB), chat
 completion with the plain split profile (one question per request, JSON schema
